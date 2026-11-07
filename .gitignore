@@ -1,0 +1,6 @@
+# Local-only files: not published
+scripts/
+assets/img/Cricket Analytics Professional Workspace.png
+__probe.html
+node_modules/
+.vercelignore

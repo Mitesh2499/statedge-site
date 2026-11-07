@@ -1,0 +1,10 @@
+{
+  "name": "statedge-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StatEdge public portfolio and case studies. Static site, no build step.",
+  "scripts": {
+    "start": "npx --yes serve . -l 4173",
+    "check": "node scripts/check.mjs"
+  }
+}

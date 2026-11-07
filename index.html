@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en" data-theme="edge">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StatEdge · IPL analytics and selection intelligence</title>
+  <meta name="description" content="StatEdge turns 295,732 IPL balls into playing-XI, impact-player and season-outlook intelligence. Portfolio and case studies of a cricket data analyst.">
+  <meta name="theme-color" content="#050a16">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="StatEdge · IPL analytics and selection intelligence">
+  <meta property="og:description" content="Ball-by-ball IPL data turned into selection decisions: the 2027 outlook, 19 seasons of findings and ten franchise case studies.">
+  <meta property="og:image" content="assets/img/logo.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Barlow+Semi+Condensed:ital,wght@0,600;0,700;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>try{var d=document.documentElement,t=localStorage.getItem("statedge-theme");if(["edge","classic","ember","light"].indexOf(t)>-1)d.dataset.theme=t;if(!matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("mo");}catch(e){}</script>
+  <noscript><style>.reveal, .hero-grid > div:first-child > *, .stat-strip > div, .pipeline > div { opacity: 1 !important; transform: none !important; }</style></noscript>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="StatEdge home">
+      <img class="brand-mark" src="assets/img/logo.jpg" alt="" width="38" height="38">
+      <b>StatEdge</b>
+    </a>
+    <ul id="nav-list">
+      <li><a class="link" href="#about">About</a></li>
+      <li><a class="link" href="#project">Project</a></li>
+      <li><a class="link" href="#outlook">2027 outlook</a></li>
+      <li><a class="link" href="players.html">Players</a></li>
+      <li><a class="link" href="#findings">Findings</a></li>
+      <li><a class="link" href="#cases">Case studies</a></li>
+      <li><a class="link" href="#work">Work with me</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="icon-btn" id="theme" type="button" aria-label="Choose a colour theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-list">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div id="top"></div>
+  <section class="hero">
+    <div class="orbs" aria-hidden="true"><span class="orb a"></span><span class="orb b"></span></div>
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">IPL analytics · selection intelligence</span>
+          <h1>I turn ball-by-ball data into <em>IPL selection</em> decisions.</h1>
+          <p class="lede">StatEdge answers the questions a selector actually asks: who plays, who bowls the last over, which overseas player makes way, and how much of a good season is luck.</p>
+          <div class="cta">
+            <a class="btn primary" href="#outlook">See the 2027 outlook</a>
+            <a class="btn" href="#cases">Read the case studies</a>
+          </div>
+          <div class="connect"><span>Connect</span><div class="socials" data-contacts="icons"></div></div>
+        </div>
+        <aside class="card snapshot reveal" id="snapshot" aria-label="Outlook snapshot"></aside>
+      </div>
+      <div class="stat-strip" role="list">
+        <div role="listitem"><b data-count="seasons">19</b><span>IPL seasons analysed</span></div>
+        <div role="listitem"><b data-count="matches">1,243</b><span>matches</span></div>
+        <div role="listitem"><b data-count="balls">295,732</b><span>balls, one by one</span></div>
+        <div role="listitem"><b data-count="measures">61</b><span>measures tested against winning</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <span class="eyebrow">About me</span>
+        <h2>Hi, I'm <span data-name>Mitesh Masurkar</span>.</h2>
+        <figure class="portrait" style="margin-top:28px">
+          <img src="assets/img/portrait.jpg" alt="Portrait of Mitesh Masurkar at his desk, with a cricket analytics dashboard behind him" width="960" height="960" loading="lazy">
+        </figure>
+      </div>
+      <div class="reveal">
+        <div id="about-copy"></div>
+        <div class="chips" id="skills"></div>
+        <p class="fineprint" style="margin-top:22px">Open to: <span id="available"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="project">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">The project</span>
+        <h2>StatEdge: from every ball to a selection call</h2>
+        <p>One platform covers the full week of a franchise analyst: pick the XI, plan the impact player, score each phase against the league, read the pitch, and size up the whole season.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature reveal"><span class="no">01</span><h3>Playing XI selection</h3><p>Chooses the eleven from a squad under the real rules: four overseas, a balanced attack, and a pace and spin mix that follows how the league bowls each phase. It shows the next-best alternatives and what each swap costs.</p></article>
+        <article class="feature reveal"><span class="no">02</span><h3>Impact-player planning</h3><p>Names the substitute and checks the swap is legal under the overseas limit. It also shows which match situations favour bringing him on.</p></article>
+        <article class="feature reveal"><span class="no">03</span><h3>Phase scorecards</h3><p>Scores a team's batting and bowling out of 10 in the powerplay, middle overs and death, against the other nine teams. Editing the XI re-scores it instantly.</p></article>
+        <article class="feature reveal"><span class="no">04</span><h3>Venues and pitches</h3><p>Projects the score range for the XI at its home ground and others, and reads which bowling style each pitch has actually rewarded.</p></article>
+        <article class="feature reveal"><span class="no">05</span><h3>Player matchups</h3><p>For every batter, how he fares against each type of bowler, and for every bowler, how he fares against each type of batter. Decisions come with the evidence behind them.</p></article>
+        <article class="feature reveal"><span class="no">06</span><h3>Season outlook</h3><p>Gives every team a playoff chance, a title chance and a range for the season, checked against 19 seasons of history.</p></article>
+      </div>
+      <div class="pipeline reveal" aria-label="How it works, at a high level">
+        <div><b>01 · DATA</b><span>Every ball of 19 IPL seasons</span></div>
+        <div><b>02 · INSIGHT</b><span>What each player adds in the moments that decide matches</span></div>
+        <div><b>03 · SELECTION</b><span>The best legal XI and the phase-by-phase plan</span></div>
+        <div><b>04 · OUTLOOK</b><span>Playoff and title chances for the whole league</span></div>
+        <div><b>05 · REVIEW</b><span>Every call checked against history, with honest limits</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="outlook">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">2027 outlook</span>
+        <h2>Ten squads, six phases, one season</h2>
+        <p>Ratings out of 10 compare each team's best XI with the other nine in each phase. Playoff and title chances are checked against how team strength has turned into results since 2008. Click a column to sort and "XI" to see the eleven.</p>
+      </div>
+      <div class="table-tools">
+        <div class="legend"><span>Weakest</span><span class="ramp" aria-hidden="true"><i style="background:hsl(0 58% 38% / .62)"></i><i style="background:hsl(32 58% 38% / .62)"></i><i style="background:hsl(64 58% 38% / .62)"></i><i style="background:hsl(96 58% 38% / .62)"></i><i style="background:hsl(128 58% 38% / .62)"></i></span><span>Strongest</span></div>
+        <label class="sort-mobile">Sort teams by
+          <select id="sort-select" aria-label="Sort teams by">
+            <option value="rank">Outlook rank</option><option value="overall">Overall rating</option><option value="playoff">Playoff chance</option><option value="title">Title chance</option>
+            <option value="batting_powerplay">Batting · powerplay</option><option value="batting_middle">Batting · middle</option><option value="batting_death">Batting · death</option>
+            <option value="bowling_powerplay">Bowling · powerplay</option><option value="bowling_middle">Bowling · middle</option><option value="bowling_death">Bowling · death</option>
+          </select>
+        </label>
+        <span class="fineprint">Updated <span id="built"></span> · men's IPL</span>
+      </div>
+      <div class="table-wrap reveal" tabindex="0" role="region" aria-label="2027 outlook table, scrolls sideways on small screens">
+        <table class="outlook">
+          <caption class="sr-only" style="position:absolute;left:-999px">2027 IPL outlook by team</caption>
+          <thead id="outlook-head">
+            <tr class="groups"><th class="l" style="border-left:0">Team</th><th>Rating</th><th colspan="2">Chances</th><th colspan="6">Phase ratings out of 10</th><th></th></tr>
+            <tr>
+              <th class="l" data-sort="rank" aria-sort="ascending"><button type="button">Team</button></th>
+              <th data-sort="overall"><button type="button">Overall</button></th>
+              <th data-sort="playoff"><button type="button">Playoffs</button></th>
+              <th data-sort="title"><button type="button">Title</button></th>
+              <th data-sort="batting_powerplay"><button type="button">Bat PP</button></th>
+              <th data-sort="batting_middle"><button type="button">Bat mid</button></th>
+              <th data-sort="batting_death"><button type="button">Bat death</button></th>
+              <th data-sort="bowling_powerplay"><button type="button">Bowl PP</button></th>
+              <th data-sort="bowling_middle"><button type="button">Bowl mid</button></th>
+              <th data-sort="bowling_death"><button type="button">Bowl death</button></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="outlook-body"></tbody>
+        </table>
+      </div>
+      <p class="fineprint" style="margin-top:14px">The StatEdge outlook for the 2027 squads as they stand, not a forecast. Injuries, the auction and in-season form are not included, and the numbers carry wide ranges: even the favourite misses the playoffs more than four times in ten.</p>
+    </div>
+  </section>
+
+  <section id="findings">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">What 19 seasons say</span>
+        <h2 id="findings-title"></h2>
+        <p id="findings-intro"></p>
+      </div>
+      <div class="big-grid" id="big-grid"></div>
+      <div class="split">
+        <div class="card chart-card reveal">
+          <h3>Does a great season repeat? Barely.</h3>
+          <p>Each dot is one team: its strength this season against its strength the next. If strength carried over, the dots would hug the dashed line. The solid trend line is almost flat.</p>
+          <div id="scatter"></div>
+        </div>
+        <div class="card reveal">
+          <h3 style="margin-bottom:18px">What I learned, and what I did not</h3>
+          <div class="learned" id="learned"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cases">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Case studies</span>
+        <h2>Ten franchises, ten questions</h2>
+        <p id="cases-intro"></p>
+      </div>
+      <div class="case-grid" id="case-grid"></div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Work with me</span>
+        <h2>What I can do for a franchise</h2>
+        <p>Every item below is something StatEdge already does. The case studies show the kind of write-up you would get.</p>
+      </div>
+      <div class="offer-grid">
+        <article class="offer reveal"><h3>Squad and auction audits</h3><p>Phase-by-phase strengths and gaps of a squad, with the overseas squeeze and the one signing that changes the shape most.</p><p class="eg">Example: <a href="case.html?c=gt">Gujarat Titans</a>, five overseas stars for four places.</p></article>
+        <article class="offer reveal"><h3>Match-day XI and impact-player plans</h3><p>The best legal XI against the conditions, the batting order, the bowling plan by phase, and who the substitute is for each match situation.</p><p class="eg">Example: <a href="case.html?c=mi">Mumbai Indians</a>, a deep squad whose edge lives in a few phases.</p></article>
+        <article class="offer reveal"><h3>Opposition and pitch reports</h3><p>Where a rival is strong and weak by phase, which bowling styles a ground has rewarded, and where extras and discipline leak runs.</p><p class="eg">Example: <a href="case.html?c=rr">Rajasthan Royals</a>, fast starts and loose finishes.</p></article>
+        <article class="offer reveal"><h3>Season outlooks with honest ranges</h3><p>Playoff and title chances for the whole league, checked against history, so a board sees how much is skill and how much is the draw.</p><p class="eg">Example: <a href="case.html?c=kkr">Kolkata Knight Riders</a>, a title season and what usually follows.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's talk about your next selection meeting.</h2>
+      <p class="lede" style="margin-inline:auto">I am looking for an analyst role where this kind of work informs real decisions.</p>
+      <div class="cta" id="contact-links" data-contacts="buttons"></div>
+      <p class="fineprint cta-fallback" hidden style="margin-top:20px">Contact details coming soon.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap cols">
+    <div>
+      <p><b>StatEdge</b> is an independent analytics project. It is not affiliated with, endorsed by or connected to the IPL, the BCCI or any franchise. Team names are used only to identify teams.</p>
+      <p>Built from public ball-by-ball match records. All ratings and chances are projections with real uncertainty, and nothing here is betting advice.</p>
+    </div>
+    <div class="foot-end"><div class="socials" data-contacts="icons"></div><p>© <span data-name>Mitesh Masurkar</span></p></div>
+  </div>
+</footer>
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

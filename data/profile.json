@@ -1,0 +1,28 @@
+{
+  "name": "Mitesh Masurkar",
+  "role": "Cricket data analyst and builder",
+  "tagline": "I turn ball-by-ball data into IPL selection decisions.",
+  "location": "",
+  "available_for": "Analyst roles with IPL franchises, cricket analytics teams and broadcasters",
+  "about": [
+    "I build decision tools out of cricket data. StatEdge, the project on this site, started with a simple frustration: most cricket numbers describe what happened, and a selector needs to know what to do next. Who opens, who bowls the last over, which overseas player makes way, and how much of a good season is luck.",
+    "I work end to end, from the raw match data to a finished application a selector can use. I care as much about what the numbers cannot tell you as what they can, and every figure on this site comes with that distinction."
+  ],
+  "skills": [
+    "Cricket analytics",
+    "Selection analytics",
+    "Performance analysis",
+    "Probability and risk",
+    "Python",
+    "SQL",
+    "Web applications",
+    "Data storytelling"
+  ],
+  "links": {
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/mitesh-masurkar/",
+    "x": "https://x.com/MasurkarMitesh",
+    "whatsapp": "918805271377",
+    "github": ""
+  }
+}

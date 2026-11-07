@@ -1,0 +1,103 @@
+/* Player rankings page: builds on the shared tokens in styles.css. */
+.players-hero { padding-top: clamp(40px, 6vw, 72px); border-top: 0; }
+.players-hero h1 { margin-bottom: 18px; }
+.pl-controls { margin: 32px 0 28px; display: grid; gap: 18px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; width: fit-content; max-width: 100%; }
+.seg button { all: unset; cursor: pointer; padding: 10px 18px; font-weight: 600; font-size: 14px; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--lime); color: var(--lime-ink); }
+.seg button:focus-visible { outline: 2px solid var(--lime); outline-offset: -2px; }
+.role-groups { display: grid; gap: 12px; }
+.role-group h3 { font: 600 11.5px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin: 0 0 8px; }
+.role-group .row { display: flex; flex-wrap: wrap; gap: 8px; }
+.role-chip { all: unset; cursor: pointer; font-size: 14px; font-weight: 500; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: var(--panel-2); }
+.role-chip:hover { color: var(--text); }
+.role-chip[aria-pressed="true"] { color: var(--lime); border-color: var(--lime); background: color-mix(in srgb, var(--lime) 12%, transparent); }
+.role-chip:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+.filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; align-items: end; }
+.filters label { display: grid; gap: 6px; font: 500 12px var(--mono); color: var(--faint); letter-spacing: .04em; }
+.filters select, .filters input[type="search"] { height: 42px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg-2); color: var(--text); padding: 0 12px; font: 500 14px var(--sans); width: 100%; }
+.filters .check { display: flex; align-items: center; gap: 8px; font: 500 14px var(--sans); color: var(--muted); letter-spacing: 0; padding-bottom: 10px; }
+@media (max-width: 900px) { .filters { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .filters { grid-template-columns: 1fr; } .seg { flex-direction: column; border-radius: 14px; } }
+.pl-head h2 { font-size: clamp(26px, 3.4vw, 38px); margin-bottom: 6px; }
+.pl-head p { margin: 0 0 10px; }
+.quality { padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+.quality.good { border-color: color-mix(in srgb, #3ddc84 45%, transparent); background: color-mix(in srgb, #3ddc84 9%, transparent); }
+.quality.weak { border-color: color-mix(in srgb, var(--amber) 50%, transparent); background: color-mix(in srgb, var(--amber) 9%, transparent); }
+.legend-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 6px 0 12px; }
+.legend-row .ramp { display: inline-flex; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); }
+.legend-row .ramp i { width: 26px; height: 14px; display: block; }
+table.players { width: 100%; min-width: 860px; border-collapse: collapse; font-size: 14.5px; }
+.players th, .players td { padding: 11px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.players th.l, .players td.l { text-align: left; }
+.players thead th { font: 600 11.5px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--faint); background: var(--panel-2); }
+.players tbody tr:hover { background: color-mix(in srgb, var(--lime) 5%, transparent); }
+.players tbody tr:last-child td { border-bottom: 0; }
+.players .rank { font: 700 14px var(--mono); }
+.players .who { font-weight: 600; }
+.players .who small { display: block; font: 400 12px var(--sans); color: var(--muted); margin-top: 1px; }
+.players .tm { font-size: 13px; }
+.players .tm small { display: block; color: var(--faint); font-size: 11.5px; }
+.players .val { font: 700 15px var(--mono); }
+.range { position: relative; width: 120px; height: 10px; border-radius: 999px; background: var(--bg-2); display: inline-block; vertical-align: middle; }
+.range i { position: absolute; top: 0; height: 10px; border-radius: 999px; background: color-mix(in srgb, var(--blue) 45%, transparent); }
+.range b { position: absolute; top: -2px; width: 3px; height: 14px; border-radius: 2px; background: var(--text); }
+.idx { text-align: center !important; font: 700 14px var(--mono); }
+.idx small { display: block; font: 600 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; opacity: .85; }
+.players .evd { font-size: 12.5px; color: var(--muted); text-transform: capitalize; }
+.empty-row td { text-align: center !important; padding: 36px 10px; color: var(--muted); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Phones: each ranked player becomes a card */
+@media (max-width: 760px) {
+  .role-chip { min-height: 44px; display: inline-flex; align-items: center; padding: 0 16px; }
+  .seg button { min-height: 44px; display: flex; align-items: center; justify-content: center; }
+  .table-wrap { overflow: visible; border: 0; background: none; border-radius: 0; }
+  table.players { min-width: 0; display: block; }
+  .players thead { display: none; }
+  .players tbody { display: grid; gap: 12px; }
+  .players tbody tr { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; align-items: center; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); overflow: hidden; }
+  .players td { display: block; border: 0; padding: 10px 12px; text-align: left; white-space: normal; min-width: 0; }
+  .players td[data-label]::before { content: attr(data-label); display: block; margin-bottom: 4px; font: 600 10px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
+  .players tbody tr { grid-template-columns: 40px minmax(0, 1fr) auto; align-items: center; }
+  .players td.rank { grid-column: 1; grid-row: 1 / span 2; padding-right: 0; text-align: center; }
+  .players td.who { grid-column: 2; grid-row: 1; padding-bottom: 0; }
+  .players td.tm { grid-column: 2; grid-row: 2; padding-top: 2px; }
+  .players td.val { grid-column: 3; grid-row: 1 / span 2; text-align: right; font-size: 18px; }
+  .players td.val::before, .players td.who::before, .players td.tm::before, .players td.rank::before { display: none; }
+  .players td.rng { grid-column: 1 / -1; border-top: 1px solid var(--line); }
+  .players td.idx { grid-column: 1 / 3; text-align: left !important; border-top: 1px solid var(--line); }
+  .players td.evd { grid-column: 3; border-top: 1px solid var(--line); text-align: right; }
+  .players td.idx small { display: inline; margin-left: 8px; }
+  .range { display: block; width: 100%; }
+  .players tbody tr.empty-row { display: block; }
+  .players tbody tr.empty-row td::before { display: none; }
+}
+
+/* ---- Glass panels: translucent, blurred, with a soft light edge. Falls back to the solid panel where backdrop-filter is missing. ---- */
+.players-hero { position: relative; isolation: isolate; }
+.players-hero::before, .players-hero::after { content: ""; position: absolute; z-index: -1; border-radius: 50%; filter: blur(70px); pointer-events: none; opacity: .5; }
+.players-hero::before { width: 460px; height: 460px; top: 140px; left: -120px; background: color-mix(in srgb, var(--lime) 55%, transparent); }
+.players-hero::after { width: 520px; height: 520px; top: 520px; right: -160px; background: color-mix(in srgb, var(--glow-2, var(--blue)) 45%, transparent); }
+:root[data-theme="light"] .players-hero::before, :root[data-theme="light"] .players-hero::after { opacity: .28; }
+.pl-controls.card, .players-hero .table-wrap { background: var(--panel); }
+@supports (backdrop-filter: blur(1px)) {
+  .pl-controls.card, .players-hero .table-wrap {
+    background: color-mix(in srgb, var(--panel) 58%, transparent);
+    -webkit-backdrop-filter: blur(20px) saturate(150%); backdrop-filter: blur(20px) saturate(150%);
+    border-color: color-mix(in srgb, var(--text) 14%, var(--line));
+    box-shadow: 0 1px 0 color-mix(in srgb, var(--text) 10%, transparent) inset, 0 24px 60px -34px rgba(0, 0, 0, .75);
+  }
+  .players thead th { background: color-mix(in srgb, var(--panel-2) 70%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+  .role-chip, .filters select, .filters input[type="search"] { background: color-mix(in srgb, var(--bg-2) 55%, transparent); }
+}
+
+/* ---- Team colour: a stripe, a soft wash fading to the right and the code chip. Never a full fill, so the index colours stay readable. ---- */
+.players tbody tr.team { background: linear-gradient(90deg, color-mix(in srgb, var(--tx) 15%, transparent), transparent 42%); }
+.players tbody tr.team > td:first-child { box-shadow: inset 4px 0 0 var(--tx); }
+.players tbody tr.team:hover { background: linear-gradient(90deg, color-mix(in srgb, var(--tx) 26%, transparent), color-mix(in srgb, var(--tx) 5%, transparent) 70%); }
+.players tbody tr.team .rank { color: var(--tx); }
+.players .tm-line { display: inline-flex; align-items: center; gap: 8px; }
+.players .tm .code-chip { font: 700 11px var(--mono); padding: 3px 7px; }
+.players tbody tr.prow { transition: background .18s; }
+@media (prefers-reduced-motion: reduce) { .players tbody tr.prow { transition: none; } }

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" data-theme="edge">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best IPL players by role · StatEdge</title>
+  <meta name="description" content="Who is best at each job in the IPL: finisher, middle-overs batter, death bowler and more. What happened in 2026 and what to expect in 2027, with ranges.">
+  <meta name="theme-color" content="#050a16">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Best IPL players by role · StatEdge">
+  <meta property="og:description" content="Finishers, middle-overs batters, death bowlers and more, ranked for 2026 and projected for 2027.">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Barlow+Semi+Condensed:ital,wght@0,600;0,700;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/players.css">
+  <script>try{var d=document.documentElement,t=localStorage.getItem("statedge-theme");if(["edge","classic","ember","light"].indexOf(t)>-1)d.dataset.theme=t;if(!matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("mo");}catch(e){}</script>
+  <noscript><style>.reveal, .hero-grid > div:first-child > *, .stat-strip > div, .pipeline > div { opacity: 1 !important; transform: none !important; }</style></noscript>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="StatEdge home">
+      <img class="brand-mark" src="assets/img/logo.jpg" alt="" width="38" height="38">
+      <b>StatEdge</b>
+    </a>
+    <ul id="nav-list">
+      <li><a class="link" href="index.html#about">About</a></li>
+      <li><a class="link" href="index.html#outlook">2027 outlook</a></li>
+      <li><a class="link" href="players.html" aria-current="true">Players</a></li>
+      <li><a class="link" href="index.html#findings">Findings</a></li>
+      <li><a class="link" href="index.html#cases">Case studies</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="icon-btn" id="theme" type="button" aria-label="Choose a colour theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-list">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="players-hero">
+    <div class="wrap">
+      <span class="eyebrow">Player rankings</span>
+      <h1>Best IPL players, by job.</h1>
+      <p class="lede">Pick a role, then choose what happened in <span data-last>2026</span> or what to expect in <span data-next>2027</span>. Every list shows a likely range and how much evidence sits behind it.</p>
+
+      <div class="pl-controls card">
+        <div class="seg" role="group" aria-label="Season view" id="view">
+          <button type="button" data-view="season" aria-pressed="false">2026 · what happened</button>
+          <button type="button" data-view="projection" aria-pressed="true">2027 · what to expect</button>
+        </div>
+        <div id="roles" class="role-groups"></div>
+        <div class="filters">
+          <label>Team <select id="f-team"><option value="">All teams</option></select></label>
+          <label>Nationality <select id="f-origin"><option value="any">Indian and overseas</option><option value="domestic">Indian only</option><option value="overseas">Overseas only</option></select></label>
+          <label>Find a player <input id="f-q" type="search" placeholder="Name" autocomplete="off"></label>
+          <label class="check"><input id="f-squad" type="checkbox"> Only players in a <span data-next>2027</span> squad</label>
+        </div>
+      </div>
+
+      <div class="pl-head">
+        <h2 id="role-title"></h2>
+        <p id="role-desc" class="muted"></p>
+        <p id="quality" class="quality" role="note" hidden></p>
+      </div>
+      <div class="legend-row"><span class="fineprint">Index colour</span><span class="ramp" aria-hidden="true"></span><span class="fineprint">top of the list to bottom. The bar shows the likely range, the line the best estimate.</span></div>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Player rankings table, scrolls sideways on small screens">
+        <table class="players">
+          <caption class="sr-only">Ranked players</caption>
+          <thead><tr><th>#</th><th class="l">Player</th><th class="l">Team</th><th id="unit-head">Runs a match</th><th>Likely range</th><th>Index</th><th>Evidence</th></tr></thead>
+          <tbody id="pl-body"></tbody>
+        </table>
+      </div>
+      <p class="fineprint" id="pl-foot"></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap cols">
+    <div>
+      <p><b>StatEdge</b> is an independent analytics project. It is not affiliated with, endorsed by or connected to the IPL, the BCCI or any franchise. Team and player names are used only to identify them.</p>
+      <p>Values are runs above what an average player would add from the same balls. Projections carry real uncertainty, leave out fielding, fitness and role changes, and are not betting advice.</p>
+    </div>
+    <div class="foot-end"><div class="socials" data-contacts="icons"></div><p>© <span data-name>Mitesh Masurkar</span></p></div>
+  </div>
+</footer>
+<script type="module" src="assets/js/players.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "headline": "What 19 IPL seasons say about who qualifies and who wins",
+  "intro": "I tested 61 measures across batting, bowling and squad shape against three outcomes: league win rate, a playoff place and the title. These are the results that held up, and the ones that did not.",
+  "items": [
+    {
+      "kind": "bignumber",
+      "value": "0.08",
+      "label": "How much a team's strength repeats from one season to the next",
+      "body": "Across 145 pairs of consecutive seasons, a great year says almost nothing about the next one. Records are context, not forecasts. That is why StatEdge reports ranges and chances, never certainties."
+    },
+    {
+      "kind": "bignumber",
+      "value": "78%",
+      "label": "Wickets are the strongest single marker of a playoff team",
+      "body": "Pick one playoff team and one non-playoff team at random: 78% of the time the playoff team took wickets faster. Losing wickets slowly with the bat points the same way (77%)."
+    },
+    {
+      "kind": "bignumber",
+      "value": "13 of 19",
+      "label": "Champions that also finished top two on league win rate",
+      "body": "Six did not. The title adds real luck on top of strength, so even the best squad should be priced as a favourite, not a certainty."
+    },
+    {
+      "kind": "bignumber",
+      "value": "76%",
+      "label": "A settled XI goes with qualifying",
+      "body": "Teams that used fewer players across a season qualified more often (76% in the same pairwise sense). Part of that is cause and part is effect, since winning sides rotate less, so it is a risk flag and not a lever."
+    },
+    {
+      "kind": "bignumber",
+      "value": "+0.12",
+      "label": "The toss and season success",
+      "body": "A weak link between winning more tosses and winning more games. The toss shapes single matches, but it does not decide seasons."
+    },
+    {
+      "kind": "bignumber",
+      "value": "76%",
+      "label": "Qualifiers lean on their top three batters",
+      "body": "Playoff teams gave more of their balls to their top three than non-qualifiers did (76% pairwise). Concentration helps, until one early wicket decides the innings."
+    }
+  ],
+  "learned": [
+    {
+      "title": "Strike rate and dot balls matter, but they are not extra signals",
+      "body": "Runs per over, boundary rate and dot-ball rate each track winning. Once you account for runs scored and wickets lost in each phase, they add almost nothing. Counting them again would double-count the same performance."
+    },
+    {
+      "title": "Death-over extras are a hidden cost",
+      "body": "Wides and no-balls in overs 16 to 20 cost teams more than their run value. It is one of the few things that cost winning beyond what runs and wickets already show."
+    },
+    {
+      "title": "All-rounders, bowling depth and star reliance did not stand out",
+      "body": "None showed a reliable link to success beyond runs and wickets. That does not make them useless; it means this data cannot prove it."
+    },
+    {
+      "title": "With 61 measures, a few look important by chance",
+      "body": "About three would pass a 95% test by luck alone. I treat single passes as leads and look for the same direction in the early and recent years before trusting one."
+    }
+  ]
+}
