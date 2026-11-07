@@ -138,6 +138,12 @@ function render(study, team, studies, index) {
   document.title = `${team.name}: ${study.headline} · StatEdge`;
   document.querySelector('meta[name="description"]')?.setAttribute("content", study.dek);
   document.querySelector('meta[property="og:title"]')?.setAttribute("content", `${team.name}: ${study.headline}`);
+  const pageUrl = `${location.origin}${location.pathname}?c=${study.slug}`;
+  document.querySelector('link[rel="canonical"]')?.setAttribute("href", pageUrl);
+  document.querySelector('meta[property="og:url"]')?.setAttribute("content", pageUrl);
+  document.querySelector('meta[property="og:description"]')?.setAttribute("content", study.dek);
+  document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", `${team.name}: ${study.headline}`);
+  document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", study.dek);
 
   const prev = studies.cases[(index + studies.cases.length - 1) % studies.cases.length];
   const next = studies.cases[(index + 1) % studies.cases.length];

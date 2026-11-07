@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://mitesh2499.github.io/statedge-site/sitemap.xml
