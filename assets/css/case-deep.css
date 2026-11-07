@@ -65,6 +65,29 @@ table.deep caption { caption-side: top; text-align: left; padding: 10px 12px; fo
 .glossary dd { margin: 0; color: var(--muted); font-size: 14px; }
 @media print { .deep-section { break-inside: avoid-page; } .chart-card, .match-card, .analysis article { break-inside: avoid; } }
 
+/* Phones: let deep-dive tables wrap to fit instead of scrolling sideways */
+@media (max-width: 760px) {
+  .deep-section { margin-top: 40px; padding-top: 22px; }
+  .analysis article, .match-card, .glossary, .chart-card { padding: 16px; }
+  /* Wide tables scroll sideways with the first column pinned; the caption stays the width of the screen */
+  table.deep { min-width: 0; font-size: 13px; }
+  table.deep th, table.deep td { padding: 9px 10px; }
+  table.deep thead th { font-size: 10px; letter-spacing: .05em; }
+  table.deep caption { display: block; width: calc(100vw - 34px); white-space: normal; box-sizing: border-box; }
+  table.deep th:first-child, table.deep td:first-child { position: sticky; left: 0; z-index: 1; background: var(--panel); white-space: normal; min-width: 96px; max-width: 128px; box-shadow: 1px 0 0 var(--line); }
+  table.deep thead th:first-child { background: var(--panel-2); }
+  .table-scroll { background: var(--panel); }
+  .table-scroll { margin-inline: 0; }
+  .key-stats { grid-template-columns: 1fr 1fr; }
+  .key-stats div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .key-stats div:nth-child(2n) { border-right: 0; }
+  .key-stats div:last-child { border-bottom: 0; }
+  .hook { padding-left: 14px; }
+  .match-card .score { font-size: 12.5px; }
+  .pair { grid-template-columns: 1fr; }
+  .glossary dl { grid-template-columns: 1fr; }
+}
+
 /* Story elements (optional per case study) */
 .hook-block { margin: 0 0 40px; }
 .hook { font: 600 clamp(21px, 2.6vw, 30px)/1.4 var(--display); color: var(--text); margin: 0 0 24px; max-width: 34em; }

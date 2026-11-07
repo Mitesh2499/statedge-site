@@ -1,5 +1,5 @@
 // Three small charts for the deeper case studies. Plain SVG, no dependencies; every chart answers one question.
-import { s } from "./common.js";
+import { s, chartWidth } from "./common.js";
 
 const f1 = (v) => (Math.round(v * 10) / 10).toFixed(1);
 const sg = (v) => `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toFixed(1)}`;
@@ -10,7 +10,7 @@ function frame(width, height, label) {
 
 /** Question: did the team win more or fewer games than its runs scored and conceded say it should? */
 export function luckChart(seasons) {
-  const w = 640, h = 250, m = { t: 22, r: 10, b: 36, l: 34 };
+  const w = chartWidth(), h = 250, m = { t: 22, r: 10, b: 36, l: 34 };
   const svg = frame(w, h, "Wins against expected wins, by season");
   const winsOf = (d) => parseInt(d.record, 10);
   const max = Math.max(14, ...seasons.map((d) => Math.max(winsOf(d), d.expected_wins)));
@@ -41,7 +41,7 @@ export function luckChart(seasons) {
 
 /** Question: in which phases does the team score or save more runs than an average team, per match? Positive is always better. */
 export function phaseChart(phases) {
-  const w = 640, rowH = 34, m = { t: 8, r: 54, b: 8, l: 168 };
+  const w = chartWidth(), narrow = w < 480, rowH = 34, m = { t: 8, r: narrow ? 46 : 54, b: 8, l: narrow ? 124 : 168 };
   const h = m.t + m.b + rowH * phases.length;
   const svg = frame(w, h, "Runs a match above or below the league, by phase");
   const max = Math.max(8, ...phases.map((p) => Math.abs(p.runs_per_innings)));
@@ -49,7 +49,7 @@ export function phaseChart(phases) {
   svg.append(s("line", { x1: mid, x2: mid, y1: m.t, y2: h - m.b, stroke: "var(--muted)" }));
   phases.forEach((p, i) => {
     const y = m.t + i * rowH + 5, len = (Math.abs(p.runs_per_innings) / max) * half, pos = p.runs_per_innings >= 0;
-    svg.append(s("text", { x: m.l - 10, y: y + 15, "text-anchor": "end", class: "row-label" }, `${p.side}, ${p.phase.split(" (")[0].toLowerCase()}`));
+    svg.append(s("text", { x: m.l - 10, y: y + 15, "text-anchor": "end", class: "row-label" }, narrow ? `${p.side === "Batting" ? "Bat" : "Bowl"} · ${p.phase.split(" (")[0].toLowerCase()}` : `${p.side}, ${p.phase.split(" (")[0].toLowerCase()}`));
     const bar = s("rect", { x: pos ? mid : mid - len, y, width: Math.max(len, 2), height: 22, rx: 3, fill: pos ? "var(--good)" : "var(--bad)", opacity: Math.abs(p.runs_per_innings) < 1 ? 0.55 : 1 });
     bar.append(s("title", {}, `${p.side} ${p.phase}: ${sg(p.runs_per_innings)} runs a match against the league; ${p.rr} an over against ${p.league_rr}`));
     svg.append(bar);
@@ -60,7 +60,7 @@ export function phaseChart(phases) {
 
 /** Question: how much of the batting comes from the top three, and is that more than a typical team? */
 export function relianceChart(rows) {
-  const w = 640, h = 220, m = { t: 22, r: 10, b: 30, l: 36 };
+  const w = chartWidth(), h = 220, m = { t: 22, r: 10, b: 30, l: 36 };
   const svg = frame(w, h, "Top-three run share by season against the league average");
   const iw = w - m.l - m.r, ih = h - m.t - m.b, step = iw / rows.length, bw = Math.min(44, step - 18);
   const lo = 30, hi = 80, y = (v) => m.t + ih - ((v - lo) / (hi - lo)) * ih;

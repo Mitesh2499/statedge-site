@@ -244,8 +244,11 @@ export function fillBars(root = document) {
 /* ---------- Charts ---------- */
 
 /** One bar per season: strength vs the league average that year. Dot = playoffs, star = champions. */
+/** Width (in SVG units) for a chart inside a card: 640 on desktop, narrower on phones so text stays at its real size. */
+export const chartWidth = () => Math.max(300, Math.min(640, Math.round(window.innerWidth - 32 - 40)));
+
 export function seasonChart(seasons, { height = 220 } = {}) {
-  const width = 640, m = { t: 20, r: 8, b: 34, l: 38 };
+  const width = chartWidth(), m = { t: 20, r: 8, b: 34, l: 38 };
   const vals = seasons.map((x) => x.strength);
   const max = Math.max(20, ...vals.map(Math.abs));
   const lim = Math.ceil(max / 10) * 10;
