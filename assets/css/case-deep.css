@@ -9,7 +9,9 @@
 .deep-section > h2 { font-size: clamp(26px, 3vw, 36px); margin-bottom: 8px; }
 .deep-section > .sub { color: var(--muted); margin: 0 0 22px; max-width: 62ch; }
 .data-note { font-size: 14px; color: var(--muted); padding: 14px 16px; border: 1px dashed var(--line); border-radius: 12px; }
-.analysis { display: grid; gap: 22px; }
+.analysis { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; }
+.analysis > *, .match-grid > *, .deep-section > *, .deep-intro > *, .counter dl > * { min-width: 0; }
+.match-grid { grid-template-columns: minmax(0, 1fr); }
 .analysis article { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
 .analysis h3 { font-family: var(--sans); font-size: 19px; margin: 0 0 8px; text-transform: none; letter-spacing: 0; }
 .analysis .simple { font-size: 14px; color: var(--faint); margin: 0 0 12px; padding-left: 12px; border-left: 2px solid var(--line); }
