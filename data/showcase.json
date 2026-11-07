@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T05:46:32+00:00",
+ "generated_at": "2026-11-07T08:36:07+00:00",
  "scope": {
   "competition": "Indian Premier League (men)",
   "seasons": 19,
@@ -603,56 +603,56 @@
    "name": "Mumbai Indians",
    "code": "MI",
    "rank": 1,
-   "expected_rank": 4.1,
-   "playoff_pct": 56.6,
-   "title_pct": 16.0,
-   "top3_pct": 49.1,
-   "overall_rating": 6.5,
+   "expected_rank": 3.5,
+   "playoff_pct": 64.8,
+   "title_pct": 19.7,
+   "top3_pct": 58.9,
+   "overall_rating": 7.2,
    "phases": [
     {
      "key": "batting_powerplay",
      "label": "Batting, powerplay",
-     "rating": 5.4,
+     "rating": 5.5,
      "rank": 5.1
     },
     {
      "key": "batting_middle",
      "label": "Batting, middle overs",
-     "rating": 6.3,
-     "rank": 4.3
+     "rating": 6.1,
+     "rank": 4.5
     },
     {
      "key": "batting_death",
      "label": "Batting, death overs",
      "rating": 6.5,
-     "rank": 4.1
+     "rank": 4.2
     },
     {
      "key": "bowling_powerplay",
      "label": "Bowling, powerplay",
-     "rating": 5.0,
-     "rank": 5.5
+     "rating": 5.6,
+     "rank": 4.9
     },
     {
      "key": "bowling_middle",
      "label": "Bowling, middle overs",
-     "rating": 5.9,
-     "rank": 4.7
+     "rating": 6.8,
+     "rank": 3.8
     },
     {
      "key": "bowling_death",
      "label": "Bowling, death overs",
-     "rating": 4.2,
-     "rank": 6.2
+     "rating": 4.4,
+     "rank": 6.0
     }
    ],
    "strengths": [
-    "Batting, death overs",
-    "Batting, middle overs"
+    "Bowling, middle overs",
+    "Batting, death overs"
    ],
    "weaknesses": [
     "Bowling, death overs",
-    "Bowling, powerplay"
+    "Batting, powerplay"
    ],
    "xi": [
     "RD Rickelton",
@@ -663,8 +663,8 @@
     "HH Pandya",
     "MJ Santner",
     "C Bosch",
-    "SN Thakur",
     "JJ Bumrah",
+    "DL Chahar",
     "Ashwani Kumar"
    ],
    "seasons": [
@@ -845,46 +845,46 @@
    "name": "Punjab Kings",
    "code": "PBKS",
    "rank": 2,
-   "expected_rank": 4.9,
-   "playoff_pct": 47.4,
-   "title_pct": 12.2,
-   "top3_pct": 37.8,
-   "overall_rating": 5.7,
+   "expected_rank": 4.4,
+   "playoff_pct": 52.7,
+   "title_pct": 13.9,
+   "top3_pct": 43.8,
+   "overall_rating": 6.2,
    "phases": [
     {
      "key": "batting_powerplay",
      "label": "Batting, powerplay",
-     "rating": 4.6,
-     "rank": 5.9
+     "rating": 5.2,
+     "rank": 5.3
     },
     {
      "key": "batting_middle",
      "label": "Batting, middle overs",
-     "rating": 4.6,
-     "rank": 5.8
+     "rating": 4.2,
+     "rank": 6.2
     },
     {
      "key": "batting_death",
      "label": "Batting, death overs",
-     "rating": 7.3,
-     "rank": 3.4
+     "rating": 6.6,
+     "rank": 4.0
     },
     {
      "key": "bowling_powerplay",
      "label": "Bowling, powerplay",
-     "rating": 5.6,
-     "rank": 5.0
+     "rating": 6.1,
+     "rank": 4.5
     },
     {
      "key": "bowling_middle",
      "label": "Bowling, middle overs",
-     "rating": 4.9,
-     "rank": 5.6
+     "rating": 5.9,
+     "rank": 4.7
     },
     {
      "key": "bowling_death",
      "label": "Bowling, death overs",
-     "rating": 4.7,
+     "rating": 4.6,
      "rank": 5.8
     }
    ],
@@ -893,8 +893,8 @@
     "Bowling, powerplay"
    ],
    "weaknesses": [
-    "Batting, powerplay",
-    "Batting, middle overs"
+    "Batting, middle overs",
+    "Bowling, death overs"
    ],
    "xi": [
     "Priyansh Arya",
@@ -902,9 +902,9 @@
     "SS Iyer",
     "C Connolly",
     "MP Stoinis",
-    "Azmatullah Omarzai",
     "Shashank Singh",
     "Suryansh Shedge",
+    "M Jansen",
     "BJ Dwarshuis",
     "Harpreet Brar",
     "Arshdeep Singh"
@@ -1084,50 +1084,274 @@
    ]
   },
   {
+   "name": "Rajasthan Royals",
+   "code": "RR",
+   "rank": 3,
+   "expected_rank": 4.9,
+   "playoff_pct": 47.3,
+   "title_pct": 11.7,
+   "top3_pct": 37.2,
+   "overall_rating": 5.7,
+   "phases": [
+    {
+     "key": "batting_powerplay",
+     "label": "Batting, powerplay",
+     "rating": 7.7,
+     "rank": 3.0
+    },
+    {
+     "key": "batting_middle",
+     "label": "Batting, middle overs",
+     "rating": 4.8,
+     "rank": 5.7
+    },
+    {
+     "key": "batting_death",
+     "label": "Batting, death overs",
+     "rating": 5.1,
+     "rank": 5.4
+    },
+    {
+     "key": "bowling_powerplay",
+     "label": "Bowling, powerplay",
+     "rating": 5.6,
+     "rank": 4.9
+    },
+    {
+     "key": "bowling_middle",
+     "label": "Bowling, middle overs",
+     "rating": 5.4,
+     "rank": 5.2
+    },
+    {
+     "key": "bowling_death",
+     "label": "Bowling, death overs",
+     "rating": 2.7,
+     "rank": 7.6
+    }
+   ],
+   "strengths": [
+    "Batting, powerplay",
+    "Bowling, powerplay"
+   ],
+   "weaknesses": [
+    "Bowling, death overs",
+    "Batting, middle overs"
+   ],
+   "xi": [
+    "YBK Jaiswal",
+    "V Suryavanshi",
+    "R Parag",
+    "Dhruv Jurel",
+    "SO Hetmyer",
+    "RA Jadeja",
+    "D Ferreira",
+    "JC Archer",
+    "Brijesh Sharma",
+    "Ravi Bishnoi",
+    "AF Milne"
+   ],
+   "seasons": [
+    {
+     "season": "2007/08",
+     "year": 2008,
+     "matches": 14,
+     "win_share": 0.786,
+     "qualified": true,
+     "champion": true,
+     "strength": 23.2
+    },
+    {
+     "season": "2009",
+     "year": 2009,
+     "matches": 12,
+     "win_share": 0.417,
+     "qualified": false,
+     "champion": false,
+     "strength": -15.6
+    },
+    {
+     "season": "2009/10",
+     "year": 2010,
+     "matches": 14,
+     "win_share": 0.429,
+     "qualified": false,
+     "champion": false,
+     "strength": -19.8
+    },
+    {
+     "season": "2011",
+     "year": 2011,
+     "matches": 13,
+     "win_share": 0.462,
+     "qualified": false,
+     "champion": false,
+     "strength": -17.3
+    },
+    {
+     "season": "2012",
+     "year": 2012,
+     "matches": 16,
+     "win_share": 0.438,
+     "qualified": false,
+     "champion": false,
+     "strength": 12.0
+    },
+    {
+     "season": "2013",
+     "year": 2013,
+     "matches": 16,
+     "win_share": 0.625,
+     "qualified": true,
+     "champion": false,
+     "strength": 15.6
+    },
+    {
+     "season": "2014",
+     "year": 2014,
+     "matches": 13,
+     "win_share": 0.462,
+     "qualified": false,
+     "champion": false,
+     "strength": -4.3
+    },
+    {
+     "season": "2015",
+     "year": 2015,
+     "matches": 11,
+     "win_share": 0.636,
+     "qualified": true,
+     "champion": false,
+     "strength": -5.0
+    },
+    {
+     "season": "2018",
+     "year": 2018,
+     "matches": 14,
+     "win_share": 0.5,
+     "qualified": true,
+     "champion": false,
+     "strength": -10.8
+    },
+    {
+     "season": "2019",
+     "year": 2019,
+     "matches": 13,
+     "win_share": 0.385,
+     "qualified": false,
+     "champion": false,
+     "strength": -13.1
+    },
+    {
+     "season": "2020/21",
+     "year": 2020,
+     "matches": 14,
+     "win_share": 0.429,
+     "qualified": false,
+     "champion": false,
+     "strength": -26.8
+    },
+    {
+     "season": "2021",
+     "year": 2021,
+     "matches": 14,
+     "win_share": 0.357,
+     "qualified": false,
+     "champion": false,
+     "strength": -41.5
+    },
+    {
+     "season": "2022",
+     "year": 2022,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 12.4
+    },
+    {
+     "season": "2023",
+     "year": 2023,
+     "matches": 14,
+     "win_share": 0.5,
+     "qualified": false,
+     "champion": false,
+     "strength": 2.6
+    },
+    {
+     "season": "2024",
+     "year": 2024,
+     "matches": 13,
+     "win_share": 0.615,
+     "qualified": true,
+     "champion": false,
+     "strength": 8.4
+    },
+    {
+     "season": "2025",
+     "year": 2025,
+     "matches": 13,
+     "win_share": 0.308,
+     "qualified": false,
+     "champion": false,
+     "strength": -33.4
+    },
+    {
+     "season": "2026",
+     "year": 2026,
+     "matches": 14,
+     "win_share": 0.571,
+     "qualified": true,
+     "champion": false,
+     "strength": 5.2
+    }
+   ]
+  },
+  {
    "name": "Royal Challengers Bengaluru",
    "code": "RCB",
-   "rank": 3,
+   "rank": 4,
    "expected_rank": 5.2,
-   "playoff_pct": 44.0,
-   "title_pct": 10.9,
-   "top3_pct": 33.9,
+   "playoff_pct": 43.7,
+   "title_pct": 10.6,
+   "top3_pct": 33.2,
    "overall_rating": 5.4,
    "phases": [
     {
      "key": "batting_powerplay",
      "label": "Batting, powerplay",
-     "rating": 4.6,
-     "rank": 5.9
+     "rating": 4.5,
+     "rank": 6.0
     },
     {
      "key": "batting_middle",
      "label": "Batting, middle overs",
-     "rating": 5.7,
-     "rank": 4.9
-    },
-    {
-     "key": "batting_death",
-     "label": "Batting, death overs",
      "rating": 5.9,
      "rank": 4.7
     },
     {
+     "key": "batting_death",
+     "label": "Batting, death overs",
+     "rating": 6.5,
+     "rank": 4.1
+    },
+    {
      "key": "bowling_powerplay",
      "label": "Bowling, powerplay",
-     "rating": 6.5,
-     "rank": 4.2
+     "rating": 7.2,
+     "rank": 3.5
     },
     {
      "key": "bowling_middle",
      "label": "Bowling, middle overs",
-     "rating": 3.0,
-     "rank": 7.3
+     "rating": 1.7,
+     "rank": 8.5
     },
     {
      "key": "bowling_death",
      "label": "Bowling, death overs",
      "rating": 5.4,
-     "rank": 5.2
+     "rank": 5.1
     }
    ],
    "strengths": [
@@ -1141,14 +1365,14 @@
    "xi": [
     "PD Salt",
     "V Kohli",
-    "VR Iyer",
     "RM Patidar",
     "TH David",
     "KH Pandya",
     "Suyash Sharma",
+    "JM Sharma",
+    "R Shepherd",
     "JR Hazlewood",
     "B Kumar",
-    "JA Duffy",
     "Rasikh Salam"
    ],
    "seasons": [
@@ -1328,18 +1552,18 @@
   {
    "name": "Sunrisers Hyderabad",
    "code": "SRH",
-   "rank": 4,
-   "expected_rank": 5.2,
-   "playoff_pct": 43.2,
-   "title_pct": 10.9,
-   "top3_pct": 33.4,
-   "overall_rating": 5.3,
+   "rank": 5,
+   "expected_rank": 5.5,
+   "playoff_pct": 39.7,
+   "title_pct": 9.4,
+   "top3_pct": 29.1,
+   "overall_rating": 5.0,
    "phases": [
     {
      "key": "batting_powerplay",
      "label": "Batting, powerplay",
-     "rating": 4.7,
-     "rank": 5.7
+     "rating": 5.7,
+     "rank": 4.9
     },
     {
      "key": "batting_middle",
@@ -1350,47 +1574,47 @@
     {
      "key": "batting_death",
      "label": "Batting, death overs",
-     "rating": 3.0,
-     "rank": 7.3
+     "rating": 3.3,
+     "rank": 7.1
     },
     {
      "key": "bowling_powerplay",
      "label": "Bowling, powerplay",
-     "rating": 8.3,
-     "rank": 2.5
+     "rating": 7.4,
+     "rank": 3.4
     },
     {
      "key": "bowling_middle",
      "label": "Bowling, middle overs",
-     "rating": 3.9,
-     "rank": 6.5
+     "rating": 3.0,
+     "rank": 7.3
     },
     {
      "key": "bowling_death",
      "label": "Bowling, death overs",
-     "rating": 5.1,
-     "rank": 5.4
+     "rating": 5.4,
+     "rank": 5.2
     }
    ],
    "strengths": [
     "Bowling, powerplay",
-    "Batting, middle overs"
+    "Batting, powerplay"
    ],
    "weaknesses": [
-    "Batting, death overs",
-    "Bowling, middle overs"
+    "Bowling, middle overs",
+    "Batting, death overs"
    ],
    "xi": [
+    "TM Head",
     "Abhishek Sharma",
     "Ishan Kishan",
     "H Klaasen",
     "Nithish Kumar Reddy",
     "Aniket Verma",
-    "S Arora",
     "NT Ellis",
     "E Malinga",
-    "DA Payne",
     "Sakib Hussain",
+    "KK Ahmed",
     "JD Unadkat"
    ],
    "seasons": [
@@ -1523,50 +1747,390 @@
    ]
   },
   {
-   "name": "Kolkata Knight Riders",
-   "code": "KKR",
-   "rank": 5,
-   "expected_rank": 5.5,
-   "playoff_pct": 40.0,
-   "title_pct": 9.8,
-   "top3_pct": 29.5,
-   "overall_rating": 5.0,
+   "name": "Gujarat Titans",
+   "code": "GT",
+   "rank": 6,
+   "expected_rank": 5.7,
+   "playoff_pct": 36.7,
+   "title_pct": 8.6,
+   "top3_pct": 25.7,
+   "overall_rating": 4.7,
    "phases": [
     {
      "key": "batting_powerplay",
      "label": "Batting, powerplay",
-     "rating": 5.3,
-     "rank": 5.2
+     "rating": 5.1,
+     "rank": 5.4
     },
     {
      "key": "batting_middle",
      "label": "Batting, middle overs",
-     "rating": 3.4,
-     "rank": 6.9
+     "rating": 5.9,
+     "rank": 4.7
     },
     {
      "key": "batting_death",
      "label": "Batting, death overs",
-     "rating": 3.5,
-     "rank": 6.9
+     "rating": 4.2,
+     "rank": 6.3
     },
     {
      "key": "bowling_powerplay",
      "label": "Bowling, powerplay",
-     "rating": 6.4,
-     "rank": 4.2
+     "rating": 4.6,
+     "rank": 5.8
     },
     {
      "key": "bowling_middle",
      "label": "Bowling, middle overs",
-     "rating": 3.5,
-     "rank": 6.9
+     "rating": 4.4,
+     "rank": 6.1
+    },
+    {
+     "key": "bowling_death",
+     "label": "Bowling, death overs",
+     "rating": 5.3,
+     "rank": 5.3
+    }
+   ],
+   "strengths": [
+    "Batting, middle overs",
+    "Bowling, death overs"
+   ],
+   "weaknesses": [
+    "Batting, death overs",
+    "Bowling, middle overs"
+   ],
+   "xi": [
+    "B Sai Sudharsan",
+    "Shubman Gill",
+    "JC Buttler",
+    "GD Phillips",
+    "Washington Sundar",
+    "JO Holder",
+    "Mohammed Siraj",
+    "R Tewatia",
+    "Rashid Khan",
+    "R Sai Kishore",
+    "M Prasidh Krishna"
+   ],
+   "seasons": [
+    {
+     "season": "2022",
+     "year": 2022,
+     "matches": 14,
+     "win_share": 0.714,
+     "qualified": true,
+     "champion": true,
+     "strength": 6.2
+    },
+    {
+     "season": "2023",
+     "year": 2023,
+     "matches": 14,
+     "win_share": 0.714,
+     "qualified": true,
+     "champion": false,
+     "strength": 36.2
+    },
+    {
+     "season": "2024",
+     "year": 2024,
+     "matches": 12,
+     "win_share": 0.417,
+     "qualified": false,
+     "champion": false,
+     "strength": -25.0
+    },
+    {
+     "season": "2025",
+     "year": 2025,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 17.1
+    },
+    {
+     "season": "2026",
+     "year": 2026,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 35.1
+    }
+   ]
+  },
+  {
+   "name": "Chennai Super Kings",
+   "code": "CSK",
+   "rank": 7,
+   "expected_rank": 6.0,
+   "playoff_pct": 33.8,
+   "title_pct": 7.7,
+   "top3_pct": 22.6,
+   "overall_rating": 4.4,
+   "phases": [
+    {
+     "key": "batting_powerplay",
+     "label": "Batting, powerplay",
+     "rating": 3.6,
+     "rank": 6.7
+    },
+    {
+     "key": "batting_middle",
+     "label": "Batting, middle overs",
+     "rating": 6.3,
+     "rank": 4.3
+    },
+    {
+     "key": "batting_death",
+     "label": "Batting, death overs",
+     "rating": 4.3,
+     "rank": 6.2
+    },
+    {
+     "key": "bowling_powerplay",
+     "label": "Bowling, powerplay",
+     "rating": 1.8,
+     "rank": 8.3
+    },
+    {
+     "key": "bowling_middle",
+     "label": "Bowling, middle overs",
+     "rating": 8.0,
+     "rank": 2.8
+    },
+    {
+     "key": "bowling_death",
+     "label": "Bowling, death overs",
+     "rating": 4.2,
+     "rank": 6.2
+    }
+   ],
+   "strengths": [
+    "Bowling, middle overs",
+    "Batting, middle overs"
+   ],
+   "weaknesses": [
+    "Bowling, powerplay",
+    "Batting, powerplay"
+   ],
+   "xi": [
+    "RD Gaikwad",
+    "SV Samson",
+    "A Mhatre",
+    "MW Short",
+    "Urvil Patel",
+    "D Brevis",
+    "S Dube",
+    "J Overton",
+    "PR Veer",
+    "A Kamboj",
+    "Noor Ahmad"
+   ],
+   "seasons": [
+    {
+     "season": "2007/08",
+     "year": 2008,
+     "matches": 14,
+     "win_share": 0.571,
+     "qualified": true,
+     "champion": false,
+     "strength": 3.3
+    },
+    {
+     "season": "2009",
+     "year": 2009,
+     "matches": 13,
+     "win_share": 0.615,
+     "qualified": true,
+     "champion": false,
+     "strength": 27.1
+    },
+    {
+     "season": "2009/10",
+     "year": 2010,
+     "matches": 13,
+     "win_share": 0.538,
+     "qualified": true,
+     "champion": true,
+     "strength": 6.8
+    },
+    {
+     "season": "2011",
+     "year": 2011,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": true,
+     "strength": 21.4
+    },
+    {
+     "season": "2012",
+     "year": 2012,
+     "matches": 15,
+     "win_share": 0.533,
+     "qualified": true,
+     "champion": false,
+     "strength": 0.6
+    },
+    {
+     "season": "2013",
+     "year": 2013,
+     "matches": 16,
+     "win_share": 0.688,
+     "qualified": true,
+     "champion": false,
+     "strength": 22.5
+    },
+    {
+     "season": "2014",
+     "year": 2014,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 24.0
+    },
+    {
+     "season": "2015",
+     "year": 2015,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 26.3
+    },
+    {
+     "season": "2018",
+     "year": 2018,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": true,
+     "strength": 16.8
+    },
+    {
+     "season": "2019",
+     "year": 2019,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 16.2
+    },
+    {
+     "season": "2020/21",
+     "year": 2020,
+     "matches": 14,
+     "win_share": 0.429,
+     "qualified": false,
+     "champion": false,
+     "strength": -1.3
+    },
+    {
+     "season": "2021",
+     "year": 2021,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": true,
+     "strength": 19.7
+    },
+    {
+     "season": "2022",
+     "year": 2022,
+     "matches": 14,
+     "win_share": 0.286,
+     "qualified": false,
+     "champion": false,
+     "strength": -3.8
+    },
+    {
+     "season": "2023",
+     "year": 2023,
+     "matches": 13,
+     "win_share": 0.615,
+     "qualified": true,
+     "champion": true,
+     "strength": 27.5
+    },
+    {
+     "season": "2024",
+     "year": 2024,
+     "matches": 14,
+     "win_share": 0.5,
+     "qualified": false,
+     "champion": false,
+     "strength": 8.5
+    },
+    {
+     "season": "2025",
+     "year": 2025,
+     "matches": 14,
+     "win_share": 0.286,
+     "qualified": false,
+     "champion": false,
+     "strength": -12.3
+    },
+    {
+     "season": "2026",
+     "year": 2026,
+     "matches": 14,
+     "win_share": 0.429,
+     "qualified": false,
+     "champion": false,
+     "strength": -4.2
+    }
+   ]
+  },
+  {
+   "name": "Kolkata Knight Riders",
+   "code": "KKR",
+   "rank": 8,
+   "expected_rank": 6.3,
+   "playoff_pct": 30.1,
+   "title_pct": 6.9,
+   "top3_pct": 19.3,
+   "overall_rating": 4.1,
+   "phases": [
+    {
+     "key": "batting_powerplay",
+     "label": "Batting, powerplay",
+     "rating": 4.0,
+     "rank": 6.4
+    },
+    {
+     "key": "batting_middle",
+     "label": "Batting, middle overs",
+     "rating": 2.7,
+     "rank": 7.6
+    },
+    {
+     "key": "batting_death",
+     "label": "Batting, death overs",
+     "rating": 3.3,
+     "rank": 7.1
+    },
+    {
+     "key": "bowling_powerplay",
+     "label": "Bowling, powerplay",
+     "rating": 6.8,
+     "rank": 3.9
+    },
+    {
+     "key": "bowling_middle",
+     "label": "Bowling, middle overs",
+     "rating": 3.1,
+     "rank": 7.2
     },
     {
      "key": "bowling_death",
      "label": "Bowling, death overs",
      "rating": 8.4,
-     "rank": 2.5
+     "rank": 2.4
     }
    ],
    "strengths": [
@@ -1579,14 +2143,14 @@
    ],
    "xi": [
     "FH Allen",
-    "TL Seifert",
     "AM Rahane",
+    "C Green",
     "A Raghuvanshi",
-    "MK Pandey",
     "SP Narine",
     "RK Singh",
+    "Ramandeep Singh",
     "B Muzarabani",
-    "Kartik Tyagi",
+    "VG Arora",
     "CV Varun",
     "SR Dubey"
    ],
@@ -1765,55 +2329,171 @@
    ]
   },
   {
-   "name": "Delhi Capitals",
-   "code": "DC",
-   "rank": 6,
-   "expected_rank": 5.5,
-   "playoff_pct": 40.0,
-   "title_pct": 9.7,
-   "top3_pct": 29.1,
-   "overall_rating": 5.0,
+   "name": "Lucknow Super Giants",
+   "code": "LSG",
+   "rank": 9,
+   "expected_rank": 6.6,
+   "playoff_pct": 27.1,
+   "title_pct": 6.1,
+   "top3_pct": 16.6,
+   "overall_rating": 3.8,
    "phases": [
     {
      "key": "batting_powerplay",
      "label": "Batting, powerplay",
-     "rating": 3.9,
-     "rank": 6.5
+     "rating": 5.2,
+     "rank": 5.3
     },
     {
      "key": "batting_middle",
      "label": "Batting, middle overs",
-     "rating": 4.8,
-     "rank": 5.7
+     "rating": 3.9,
+     "rank": 6.5
     },
     {
      "key": "batting_death",
      "label": "Batting, death overs",
-     "rating": 5.0,
-     "rank": 5.5
+     "rating": 4.0,
+     "rank": 6.4
     },
     {
      "key": "bowling_powerplay",
      "label": "Bowling, powerplay",
-     "rating": 3.6,
-     "rank": 6.8
+     "rating": 2.2,
+     "rank": 8.0
     },
     {
      "key": "bowling_middle",
      "label": "Bowling, middle overs",
-     "rating": 7.7,
-     "rank": 3.1
+     "rating": 7.2,
+     "rank": 3.5
     },
     {
      "key": "bowling_death",
      "label": "Bowling, death overs",
-     "rating": 4.7,
-     "rank": 5.8
+     "rating": 5.1,
+     "rank": 5.5
     }
    ],
    "strengths": [
     "Bowling, middle overs",
-    "Batting, death overs"
+    "Batting, powerplay"
+   ],
+   "weaknesses": [
+    "Bowling, powerplay",
+    "Batting, middle overs"
+   ],
+   "xi": [
+    "MR Marsh",
+    "AK Markram",
+    "N Pooran",
+    "A Badoni",
+    "GF Linde",
+    "Abdul Samad",
+    "Mohsin Khan",
+    "Prince Yadav",
+    "Mohammed Shami",
+    "Kuldeep Yadav",
+    "Avesh Khan"
+   ],
+   "seasons": [
+    {
+     "season": "2022",
+     "year": 2022,
+     "matches": 14,
+     "win_share": 0.643,
+     "qualified": true,
+     "champion": false,
+     "strength": 12.9
+    },
+    {
+     "season": "2023",
+     "year": 2023,
+     "matches": 13,
+     "win_share": 0.615,
+     "qualified": true,
+     "champion": false,
+     "strength": 6.0
+    },
+    {
+     "season": "2024",
+     "year": 2024,
+     "matches": 14,
+     "win_share": 0.5,
+     "qualified": false,
+     "champion": false,
+     "strength": -20.1
+    },
+    {
+     "season": "2025",
+     "year": 2025,
+     "matches": 14,
+     "win_share": 0.429,
+     "qualified": false,
+     "champion": false,
+     "strength": -10.1
+    },
+    {
+     "season": "2026",
+     "year": 2026,
+     "matches": 13,
+     "win_share": 0.308,
+     "qualified": false,
+     "champion": false,
+     "strength": -25.7
+    }
+   ]
+  },
+  {
+   "name": "Delhi Capitals",
+   "code": "DC",
+   "rank": 10,
+   "expected_rank": 6.9,
+   "playoff_pct": 24.2,
+   "title_pct": 5.4,
+   "top3_pct": 13.6,
+   "overall_rating": 3.5,
+   "phases": [
+    {
+     "key": "batting_powerplay",
+     "label": "Batting, powerplay",
+     "rating": 3.5,
+     "rank": 6.8
+    },
+    {
+     "key": "batting_middle",
+     "label": "Batting, middle overs",
+     "rating": 5.1,
+     "rank": 5.5
+    },
+    {
+     "key": "batting_death",
+     "label": "Batting, death overs",
+     "rating": 6.4,
+     "rank": 4.3
+    },
+    {
+     "key": "bowling_powerplay",
+     "label": "Bowling, powerplay",
+     "rating": 2.7,
+     "rank": 7.6
+    },
+    {
+     "key": "bowling_middle",
+     "label": "Bowling, middle overs",
+     "rating": 4.4,
+     "rank": 6.0
+    },
+    {
+     "key": "bowling_death",
+     "label": "Bowling, death overs",
+     "rating": 4.6,
+     "rank": 5.9
+    }
+   ],
+   "strengths": [
+    "Batting, death overs",
+    "Batting, middle overs"
    ],
    "weaknesses": [
     "Bowling, powerplay",
@@ -1825,10 +2505,10 @@
     "N Rana",
     "Sameer Rizvi",
     "RR Pant",
+    "T Stubbs",
     "AR Patel",
     "Ashutosh Sharma",
     "M Tiwari",
-    "PVD Chameera",
     "MA Starc",
     "L Ngidi"
    ],
@@ -2003,686 +2683,6 @@
      "qualified": false,
      "champion": false,
      "strength": -10.6
-    }
-   ]
-  },
-  {
-   "name": "Chennai Super Kings",
-   "code": "CSK",
-   "rank": 7,
-   "expected_rank": 5.6,
-   "playoff_pct": 39.1,
-   "title_pct": 9.4,
-   "top3_pct": 28.5,
-   "overall_rating": 4.9,
-   "phases": [
-    {
-     "key": "batting_powerplay",
-     "label": "Batting, powerplay",
-     "rating": 4.0,
-     "rank": 6.4
-    },
-    {
-     "key": "batting_middle",
-     "label": "Batting, middle overs",
-     "rating": 6.1,
-     "rank": 4.5
-    },
-    {
-     "key": "batting_death",
-     "label": "Batting, death overs",
-     "rating": 4.6,
-     "rank": 5.9
-    },
-    {
-     "key": "bowling_powerplay",
-     "label": "Bowling, powerplay",
-     "rating": 3.3,
-     "rank": 7.0
-    },
-    {
-     "key": "bowling_middle",
-     "label": "Bowling, middle overs",
-     "rating": 7.5,
-     "rank": 3.3
-    },
-    {
-     "key": "bowling_death",
-     "label": "Bowling, death overs",
-     "rating": 3.9,
-     "rank": 6.5
-    }
-   ],
-   "strengths": [
-    "Bowling, middle overs",
-    "Batting, middle overs"
-   ],
-   "weaknesses": [
-    "Bowling, powerplay",
-    "Bowling, death overs"
-   ],
-   "xi": [
-    "SV Samson",
-    "A Mhatre",
-    "MW Short",
-    "Kartik Sharma",
-    "D Brevis",
-    "S Dube",
-    "Mukesh Choudhary",
-    "J Overton",
-    "PR Veer",
-    "A Kamboj",
-    "Noor Ahmad"
-   ],
-   "seasons": [
-    {
-     "season": "2007/08",
-     "year": 2008,
-     "matches": 14,
-     "win_share": 0.571,
-     "qualified": true,
-     "champion": false,
-     "strength": 3.3
-    },
-    {
-     "season": "2009",
-     "year": 2009,
-     "matches": 13,
-     "win_share": 0.615,
-     "qualified": true,
-     "champion": false,
-     "strength": 27.1
-    },
-    {
-     "season": "2009/10",
-     "year": 2010,
-     "matches": 13,
-     "win_share": 0.538,
-     "qualified": true,
-     "champion": true,
-     "strength": 6.8
-    },
-    {
-     "season": "2011",
-     "year": 2011,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": true,
-     "strength": 21.4
-    },
-    {
-     "season": "2012",
-     "year": 2012,
-     "matches": 15,
-     "win_share": 0.533,
-     "qualified": true,
-     "champion": false,
-     "strength": 0.6
-    },
-    {
-     "season": "2013",
-     "year": 2013,
-     "matches": 16,
-     "win_share": 0.688,
-     "qualified": true,
-     "champion": false,
-     "strength": 22.5
-    },
-    {
-     "season": "2014",
-     "year": 2014,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 24.0
-    },
-    {
-     "season": "2015",
-     "year": 2015,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 26.3
-    },
-    {
-     "season": "2018",
-     "year": 2018,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": true,
-     "strength": 16.8
-    },
-    {
-     "season": "2019",
-     "year": 2019,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 16.2
-    },
-    {
-     "season": "2020/21",
-     "year": 2020,
-     "matches": 14,
-     "win_share": 0.429,
-     "qualified": false,
-     "champion": false,
-     "strength": -1.3
-    },
-    {
-     "season": "2021",
-     "year": 2021,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": true,
-     "strength": 19.7
-    },
-    {
-     "season": "2022",
-     "year": 2022,
-     "matches": 14,
-     "win_share": 0.286,
-     "qualified": false,
-     "champion": false,
-     "strength": -3.8
-    },
-    {
-     "season": "2023",
-     "year": 2023,
-     "matches": 13,
-     "win_share": 0.615,
-     "qualified": true,
-     "champion": true,
-     "strength": 27.5
-    },
-    {
-     "season": "2024",
-     "year": 2024,
-     "matches": 14,
-     "win_share": 0.5,
-     "qualified": false,
-     "champion": false,
-     "strength": 8.5
-    },
-    {
-     "season": "2025",
-     "year": 2025,
-     "matches": 14,
-     "win_share": 0.286,
-     "qualified": false,
-     "champion": false,
-     "strength": -12.3
-    },
-    {
-     "season": "2026",
-     "year": 2026,
-     "matches": 14,
-     "win_share": 0.429,
-     "qualified": false,
-     "champion": false,
-     "strength": -4.2
-    }
-   ]
-  },
-  {
-   "name": "Gujarat Titans",
-   "code": "GT",
-   "rank": 8,
-   "expected_rank": 5.8,
-   "playoff_pct": 35.5,
-   "title_pct": 8.5,
-   "top3_pct": 24.7,
-   "overall_rating": 4.6,
-   "phases": [
-    {
-     "key": "batting_powerplay",
-     "label": "Batting, powerplay",
-     "rating": 6.0,
-     "rank": 4.6
-    },
-    {
-     "key": "batting_middle",
-     "label": "Batting, middle overs",
-     "rating": 6.2,
-     "rank": 4.4
-    },
-    {
-     "key": "batting_death",
-     "label": "Batting, death overs",
-     "rating": 4.7,
-     "rank": 5.8
-    },
-    {
-     "key": "bowling_powerplay",
-     "label": "Bowling, powerplay",
-     "rating": 4.8,
-     "rank": 5.7
-    },
-    {
-     "key": "bowling_middle",
-     "label": "Bowling, middle overs",
-     "rating": 3.3,
-     "rank": 7.0
-    },
-    {
-     "key": "bowling_death",
-     "label": "Bowling, death overs",
-     "rating": 4.1,
-     "rank": 6.3
-    }
-   ],
-   "strengths": [
-    "Batting, middle overs",
-    "Batting, powerplay"
-   ],
-   "weaknesses": [
-    "Bowling, middle overs",
-    "Bowling, death overs"
-   ],
-   "xi": [
-    "B Sai Sudharsan",
-    "Shubman Gill",
-    "JC Buttler",
-    "GD Phillips",
-    "Washington Sundar",
-    "JO Holder",
-    "M Shahrukh Khan",
-    "Mohammed Siraj",
-    "K Rabada",
-    "R Sai Kishore",
-    "M Prasidh Krishna"
-   ],
-   "seasons": [
-    {
-     "season": "2022",
-     "year": 2022,
-     "matches": 14,
-     "win_share": 0.714,
-     "qualified": true,
-     "champion": true,
-     "strength": 6.2
-    },
-    {
-     "season": "2023",
-     "year": 2023,
-     "matches": 14,
-     "win_share": 0.714,
-     "qualified": true,
-     "champion": false,
-     "strength": 36.2
-    },
-    {
-     "season": "2024",
-     "year": 2024,
-     "matches": 12,
-     "win_share": 0.417,
-     "qualified": false,
-     "champion": false,
-     "strength": -25.0
-    },
-    {
-     "season": "2025",
-     "year": 2025,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 17.1
-    },
-    {
-     "season": "2026",
-     "year": 2026,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 35.1
-    }
-   ]
-  },
-  {
-   "name": "Lucknow Super Giants",
-   "code": "LSG",
-   "rank": 9,
-   "expected_rank": 6.5,
-   "playoff_pct": 27.7,
-   "title_pct": 6.5,
-   "top3_pct": 17.5,
-   "overall_rating": 3.8,
-   "phases": [
-    {
-     "key": "batting_powerplay",
-     "label": "Batting, powerplay",
-     "rating": 4.6,
-     "rank": 5.9
-    },
-    {
-     "key": "batting_middle",
-     "label": "Batting, middle overs",
-     "rating": 3.1,
-     "rank": 7.2
-    },
-    {
-     "key": "batting_death",
-     "label": "Batting, death overs",
-     "rating": 4.2,
-     "rank": 6.2
-    },
-    {
-     "key": "bowling_powerplay",
-     "label": "Bowling, powerplay",
-     "rating": 2.7,
-     "rank": 7.6
-    },
-    {
-     "key": "bowling_middle",
-     "label": "Bowling, middle overs",
-     "rating": 6.3,
-     "rank": 4.4
-    },
-    {
-     "key": "bowling_death",
-     "label": "Bowling, death overs",
-     "rating": 7.1,
-     "rank": 3.6
-    }
-   ],
-   "strengths": [
-    "Bowling, death overs",
-    "Bowling, middle overs"
-   ],
-   "weaknesses": [
-    "Bowling, powerplay",
-    "Batting, middle overs"
-   ],
-   "xi": [
-    "MR Marsh",
-    "AK Markram",
-    "A Badoni",
-    "GF Linde",
-    "Himmat Singh",
-    "MD Choudhary",
-    "A Nortje",
-    "Mohsin Khan",
-    "Prince Yadav",
-    "Mohammed Shami",
-    "Kuldeep Yadav"
-   ],
-   "seasons": [
-    {
-     "season": "2022",
-     "year": 2022,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 12.9
-    },
-    {
-     "season": "2023",
-     "year": 2023,
-     "matches": 13,
-     "win_share": 0.615,
-     "qualified": true,
-     "champion": false,
-     "strength": 6.0
-    },
-    {
-     "season": "2024",
-     "year": 2024,
-     "matches": 14,
-     "win_share": 0.5,
-     "qualified": false,
-     "champion": false,
-     "strength": -20.1
-    },
-    {
-     "season": "2025",
-     "year": 2025,
-     "matches": 14,
-     "win_share": 0.429,
-     "qualified": false,
-     "champion": false,
-     "strength": -10.1
-    },
-    {
-     "season": "2026",
-     "year": 2026,
-     "matches": 13,
-     "win_share": 0.308,
-     "qualified": false,
-     "champion": false,
-     "strength": -25.7
-    }
-   ]
-  },
-  {
-   "name": "Rajasthan Royals",
-   "code": "RR",
-   "rank": 10,
-   "expected_rank": 6.7,
-   "playoff_pct": 26.5,
-   "title_pct": 6.1,
-   "top3_pct": 16.4,
-   "overall_rating": 3.7,
-   "phases": [
-    {
-     "key": "batting_powerplay",
-     "label": "Batting, powerplay",
-     "rating": 6.9,
-     "rank": 3.8
-    },
-    {
-     "key": "batting_middle",
-     "label": "Batting, middle overs",
-     "rating": 4.6,
-     "rank": 5.9
-    },
-    {
-     "key": "batting_death",
-     "label": "Batting, death overs",
-     "rating": 5.2,
-     "rank": 5.4
-    },
-    {
-     "key": "bowling_powerplay",
-     "label": "Bowling, powerplay",
-     "rating": 3.9,
-     "rank": 6.5
-    },
-    {
-     "key": "bowling_middle",
-     "label": "Bowling, middle overs",
-     "rating": 4.1,
-     "rank": 6.3
-    },
-    {
-     "key": "bowling_death",
-     "label": "Bowling, death overs",
-     "rating": 2.5,
-     "rank": 7.7
-    }
-   ],
-   "strengths": [
-    "Batting, powerplay",
-    "Batting, death overs"
-   ],
-   "weaknesses": [
-    "Bowling, death overs",
-    "Bowling, powerplay"
-   ],
-   "xi": [
-    "V Suryavanshi",
-    "R Parag",
-    "SO Hetmyer",
-    "RA Jadeja",
-    "D Ferreira",
-    "MD Shanaka",
-    "SB Dubey",
-    "Sandeep Sharma",
-    "Brijesh Sharma",
-    "Ravi Bishnoi",
-    "AF Milne"
-   ],
-   "seasons": [
-    {
-     "season": "2007/08",
-     "year": 2008,
-     "matches": 14,
-     "win_share": 0.786,
-     "qualified": true,
-     "champion": true,
-     "strength": 23.2
-    },
-    {
-     "season": "2009",
-     "year": 2009,
-     "matches": 12,
-     "win_share": 0.417,
-     "qualified": false,
-     "champion": false,
-     "strength": -15.6
-    },
-    {
-     "season": "2009/10",
-     "year": 2010,
-     "matches": 14,
-     "win_share": 0.429,
-     "qualified": false,
-     "champion": false,
-     "strength": -19.8
-    },
-    {
-     "season": "2011",
-     "year": 2011,
-     "matches": 13,
-     "win_share": 0.462,
-     "qualified": false,
-     "champion": false,
-     "strength": -17.3
-    },
-    {
-     "season": "2012",
-     "year": 2012,
-     "matches": 16,
-     "win_share": 0.438,
-     "qualified": false,
-     "champion": false,
-     "strength": 12.0
-    },
-    {
-     "season": "2013",
-     "year": 2013,
-     "matches": 16,
-     "win_share": 0.625,
-     "qualified": true,
-     "champion": false,
-     "strength": 15.6
-    },
-    {
-     "season": "2014",
-     "year": 2014,
-     "matches": 13,
-     "win_share": 0.462,
-     "qualified": false,
-     "champion": false,
-     "strength": -4.3
-    },
-    {
-     "season": "2015",
-     "year": 2015,
-     "matches": 11,
-     "win_share": 0.636,
-     "qualified": true,
-     "champion": false,
-     "strength": -5.0
-    },
-    {
-     "season": "2018",
-     "year": 2018,
-     "matches": 14,
-     "win_share": 0.5,
-     "qualified": true,
-     "champion": false,
-     "strength": -10.8
-    },
-    {
-     "season": "2019",
-     "year": 2019,
-     "matches": 13,
-     "win_share": 0.385,
-     "qualified": false,
-     "champion": false,
-     "strength": -13.1
-    },
-    {
-     "season": "2020/21",
-     "year": 2020,
-     "matches": 14,
-     "win_share": 0.429,
-     "qualified": false,
-     "champion": false,
-     "strength": -26.8
-    },
-    {
-     "season": "2021",
-     "year": 2021,
-     "matches": 14,
-     "win_share": 0.357,
-     "qualified": false,
-     "champion": false,
-     "strength": -41.5
-    },
-    {
-     "season": "2022",
-     "year": 2022,
-     "matches": 14,
-     "win_share": 0.643,
-     "qualified": true,
-     "champion": false,
-     "strength": 12.4
-    },
-    {
-     "season": "2023",
-     "year": 2023,
-     "matches": 14,
-     "win_share": 0.5,
-     "qualified": false,
-     "champion": false,
-     "strength": 2.6
-    },
-    {
-     "season": "2024",
-     "year": 2024,
-     "matches": 13,
-     "win_share": 0.615,
-     "qualified": true,
-     "champion": false,
-     "strength": 8.4
-    },
-    {
-     "season": "2025",
-     "year": 2025,
-     "matches": 13,
-     "win_share": 0.308,
-     "qualified": false,
-     "champion": false,
-     "strength": -33.4
-    },
-    {
-     "season": "2026",
-     "year": 2026,
-     "matches": 14,
-     "win_share": 0.571,
-     "qualified": true,
-     "champion": false,
-     "strength": 5.2
     }
    ]
   }
