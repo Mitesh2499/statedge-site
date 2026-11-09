@@ -158,7 +158,7 @@ export function initTheme() {
 
 /* ---------- Visitor analytics (off until an ID is set in data/profile.json) ---------- */
 
-/** Loads GoatCounter or Google Analytics when configured. Skips local development and visitors who send Do Not Track. */
+/** Loads Google Tag Manager, GoatCounter or Google Analytics when configured. Skips local development and visitors who send Do Not Track. */
 export async function initAnalytics() {
   // Real sites have a dotted domain name; a bare name or an IP address means a development machine.
   const local = !location.hostname.includes(".") || /^d+.d+.d+.d+$/.test(location.hostname);
@@ -171,6 +171,12 @@ export async function initAnalytics() {
     window.goatcounter = { path: (p) => p + location.search };
     const el = add({ async: true, src: "https://gc.zgo.at/count.js" });
     el.dataset.goatcounter = `https://${cfg.goatcounter}.goatcounter.com/count`;
+  }
+  if (/^GTM-[A-Z0-9]+$/.test(cfg.gtm || "")) {
+    // Google Tag Manager: the standard container loader.
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
+    add({ async: true, src: `https://www.googletagmanager.com/gtm.js?id=${cfg.gtm}` });
   }
   if (/^G-[A-Z0-9]+$/.test(cfg.ga4 || "")) {
     add({ async: true, src: `https://www.googletagmanager.com/gtag/js?id=${cfg.ga4}` });

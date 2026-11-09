@@ -21,6 +21,14 @@ npm run refresh
 
 It runs the internal tool (`C:\Projects\IPL`) in order: rebuild the team table, export the showcase and players, rebuild the case-study evidence and copy, then run the leak check. It stops at the first failure and takes about 10 minutes. Preview afterwards with `npm start` (http://localhost:4173).
 
+### After changing a player's batting or bowling style
+
+```
+npm run refresh:styles
+```
+
+Rebuilds everything that depends on styles: roles and class, style tables, player abilities, the next-ball model, every team's strength, the left-right research and the site data, then runs the checks and a browser smoke test. It skips every stage that is already up to date, and does nothing if no style changed. `npm run refresh` also catches up on a style change. Details: `C:\Projects\IPL\project_requirements\STYLE_CHANGE_REFRESH.md`.
+
 Run these first, only when match data or player history changed (from `C:\Projects\IPL`):
 
 ```
