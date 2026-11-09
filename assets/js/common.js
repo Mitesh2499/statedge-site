@@ -156,6 +156,31 @@ export function initTheme() {
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && open) { setOpen(false); btn.focus(); } });
 }
 
+/* ---------- Visitor analytics (off until an ID is set in data/profile.json) ---------- */
+
+/** Loads GoatCounter or Google Analytics when configured. Skips local development and visitors who send Do Not Track. */
+export async function initAnalytics() {
+  // Real sites have a dotted domain name; a bare name or an IP address means a development machine.
+  const local = !location.hostname.includes(".") || /^d+.d+.d+.d+$/.test(location.hostname);
+  if (local || navigator.doNotTrack === "1") return;
+  let cfg = {};
+  try { cfg = (await loadJSON("data/profile.json")).analytics || {}; } catch { return; }
+  const add = (attrs) => { const el = document.createElement("script"); Object.assign(el, attrs); document.head.append(el); return el; };
+  if (cfg.goatcounter) {
+    // Count the case study each visitor opened (?c=mi), not just "case.html".
+    window.goatcounter = { path: (p) => p + location.search };
+    const el = add({ async: true, src: "https://gc.zgo.at/count.js" });
+    el.dataset.goatcounter = `https://${cfg.goatcounter}.goatcounter.com/count`;
+  }
+  if (/^G-[A-Z0-9]+$/.test(cfg.ga4 || "")) {
+    add({ async: true, src: `https://www.googletagmanager.com/gtag/js?id=${cfg.ga4}` });
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    window.gtag("config", cfg.ga4, { anonymize_ip: true });
+  }
+}
+
 /* ---------- Contact links ---------- */
 
 const ICON = {
@@ -198,6 +223,7 @@ export async function initContacts() {
 
 export function initNav() {
   initContacts();
+  initAnalytics();
   const btn = document.getElementById("menu");
   const list = document.getElementById("nav-list");
   if (btn && list) {

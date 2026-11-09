@@ -1,0 +1,54 @@
+/* Long-form research article: reads in one column, charts are inline SVG that follow the active theme. */
+.article { padding: 56px 0 96px; }
+.a-head, .chapter { max-width: 780px; margin-inline: auto; }
+.a-head h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.06; margin: 6px 0 18px; }
+.a-head .lede { max-width: none; }
+.answer { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0 8px; }
+.answer > div { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.answer b { display: block; font: 700 clamp(26px, 4vw, 38px)/1 var(--display); color: var(--lime); margin-bottom: 8px; }
+.answer span { color: var(--muted); font-size: 14px; line-height: 1.4; display: block; }
+.verdict { font-size: 18px; border-left: 4px solid var(--amber); padding: 4px 0 4px 16px; margin: 22px 0 0; }
+.chapter { margin-top: 56px; }
+.chapter h2 { font-size: clamp(26px, 3.2vw, 36px); margin: 4px 0 18px; }
+.chapter p { font-size: 17.5px; line-height: 1.7; margin: 0 0 16px; color: var(--text); }
+.chapter h3 { margin: 28px 0 12px; }
+.chapter ul, .chapter ol { padding-left: 22px; line-height: 1.7; font-size: 16.5px; }
+.chapter li { margin-bottom: 10px; }
+.takeaways { counter-reset: tk; list-style: none; padding: 0; }
+.takeaways li { counter-increment: tk; position: relative; padding: 14px 16px 14px 56px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
+.takeaways li::before { content: counter(tk); position: absolute; left: 14px; top: 10px; font: 700 28px/1 var(--display); color: var(--lime); }
+.verdict-card { border-color: var(--lime); }
+.verdict-card p:first-child { font: 600 24px/1.25 var(--display); }
+.fig { margin: 26px 0; padding: 18px 18px 14px; }
+.fig figcaption { display: grid; gap: 4px; margin-bottom: 8px; }
+.fig figcaption b { font: 600 17px var(--display); }
+.fig figcaption span { color: var(--muted); font-size: 14px; }
+.fineprint { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.chart { width: 100%; height: auto; display: block; overflow: visible; }
+.chart text { fill: var(--muted); font: 12px var(--sans); }
+.chart .lab { fill: var(--text); font-size: 12.5px; }
+.chart .val { fill: var(--text); font-weight: 700; font-size: 13px; }
+.chart .axis { font-size: 11px; }
+.chart .zero, .chart .refline, .chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .zero { stroke: var(--faint); stroke-dasharray: 4 4; }
+.chart .refline { stroke: var(--amber); stroke-dasharray: 3 3; }
+.chart .rng { stroke-width: 2.5; stroke-linecap: round; stroke: var(--faint); }
+.chart .dot { fill: var(--faint); }
+.chart .rg.up .rng { stroke: #34d399; } .chart .rg.up .dot { fill: #34d399; }
+.chart .rg.down .rng { stroke: #fb7185; } .chart .rg.down .dot { fill: #fb7185; }
+.chart .rg.pooled .rng { stroke: var(--lime); stroke-width: 3.5; } .chart .rg.pooled .dot { fill: var(--lime); }
+.chart .rg.pooled .lab { font-weight: 700; }
+.chart .bar { fill: var(--lime); opacity: .85; } .chart .bar.neg { fill: #fb7185; } .chart .bar.gold { fill: var(--amber); }
+.chart .band { fill: var(--lime); opacity: .18; } .chart .line { fill: none; stroke: var(--lime); stroke-width: 2.5; } .chart .pt { fill: var(--lime); }
+.tbl { overflow-x: auto; margin: 18px 0; border: 1px solid var(--line); border-radius: var(--radius); }
+.tbl table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 520px; }
+.tbl th, .tbl td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tbl th { color: var(--muted); font: 600 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; background: var(--panel); }
+.tbl tr:last-child td { border-bottom: 0; }
+.tbl td b { display: block; } .tbl td small { display: block; color: var(--muted); font-size: 12px; }
+.season-table { margin: 22px 0; border: 1px solid var(--line); border-radius: var(--radius); padding: 4px 14px 12px; background: var(--panel); }
+.season-table summary { cursor: pointer; font-weight: 600; padding: 12px 0; }
+.limits { padding: 20px 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
+@media (max-width: 720px) { .answer { grid-template-columns: 1fr; } .chapter p { font-size: 16.5px; } }
+@media print { .answer > div, .fig, .tbl { break-inside: avoid; } }
+.chapter .fineprint, .fig .fineprint { font-size: 13px; line-height: 1.55; color: var(--muted); margin: 10px 0 0; }

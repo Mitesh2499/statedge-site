@@ -1,0 +1,2565 @@
+{
+ "totals": {
+  "competitions": 10,
+  "matches": 9661,
+  "balls": 2133408
+ },
+ "balls_per_innings": 114.9,
+ "runs_per_win_point": 0.92,
+ "win_points_per_run": 1.091,
+ "headline": {
+  "v": 1.61,
+  "lo": 0.21,
+  "hi": 3.0,
+  "per_innings": 1.85,
+  "win_points_per_innings": 2.02,
+  "agree": 7,
+  "of": 10
+ },
+ "competitions": [
+  {
+   "name": "Big Bash",
+   "v": 5.95,
+   "lo": 1.86,
+   "hi": 10.04,
+   "coverage": 49,
+   "matches": 662,
+   "mixed_share": 41
+  },
+  {
+   "name": "BPL",
+   "v": 3.51,
+   "lo": -0.12,
+   "hi": 7.14,
+   "coverage": 53,
+   "matches": 469,
+   "mixed_share": 57
+  },
+  {
+   "name": "PSL",
+   "v": 3.05,
+   "lo": -0.98,
+   "hi": 7.07,
+   "coverage": 71,
+   "matches": 357,
+   "mixed_share": 51
+  },
+  {
+   "name": "Syed Mushtaq Ali",
+   "v": 2.05,
+   "lo": -3.72,
+   "hi": 7.82,
+   "coverage": 33,
+   "matches": 695,
+   "mixed_share": 45
+  },
+  {
+   "name": "IPL",
+   "v": 1.71,
+   "lo": -0.37,
+   "hi": 3.79,
+   "coverage": 65,
+   "matches": 1243,
+   "mixed_share": 52
+  },
+  {
+   "name": "International",
+   "v": 0.81,
+   "lo": -1.56,
+   "hi": 3.19,
+   "coverage": 43,
+   "matches": 3889,
+   "mixed_share": 41
+  },
+  {
+   "name": "T20 Blast",
+   "v": 0.41,
+   "lo": -3.49,
+   "hi": 4.3,
+   "coverage": 22,
+   "matches": 1570,
+   "mixed_share": 46
+  },
+  {
+   "name": "CPL",
+   "v": -1.3,
+   "lo": -5.38,
+   "hi": 2.77,
+   "coverage": 63,
+   "matches": 445,
+   "mixed_share": 52
+  },
+  {
+   "name": "SA20",
+   "v": -1.75,
+   "lo": -10.06,
+   "hi": 6.56,
+   "coverage": 57,
+   "matches": 130,
+   "mixed_share": 47
+  },
+  {
+   "name": "The Hundred",
+   "v": -6.38,
+   "lo": -16.04,
+   "hi": 3.29,
+   "coverage": 51,
+   "matches": 201,
+   "mixed_share": 51
+  }
+ ],
+ "effects": [
+  {
+   "label": "Runs",
+   "unit": "per 100 balls",
+   "v": 1.61,
+   "lo": 0.21,
+   "hi": 3.0
+  },
+  {
+   "label": "Boundary balls",
+   "unit": "per 100 balls",
+   "v": 0.26,
+   "lo": -0.14,
+   "hi": 0.66
+  },
+  {
+   "label": "Dot balls",
+   "unit": "per 100 balls",
+   "v": -0.47,
+   "lo": -1.03,
+   "hi": 0.09
+  },
+  {
+   "label": "Dismissals",
+   "unit": "per 100 balls",
+   "v": 0.07,
+   "lo": -0.12,
+   "hi": 0.26
+  },
+  {
+   "label": "Wides and no-balls",
+   "unit": "per 100 deliveries",
+   "v": 0.13,
+   "lo": 0.01,
+   "hi": 0.26
+  }
+ ],
+ "phases": [
+  {
+   "label": "Powerplay",
+   "v": 0.59,
+   "lo": -3.38,
+   "hi": 4.55
+  },
+  {
+   "label": "Middle overs",
+   "v": 1.5,
+   "lo": -0.81,
+   "hi": 3.81
+  },
+  {
+   "label": "Death overs",
+   "v": -1.72,
+   "lo": -6.55,
+   "hi": 3.11
+  }
+ ],
+ "bowlers": [
+  {
+   "label": "Against spin",
+   "v": 7.44,
+   "lo": 3.68,
+   "hi": 11.21
+  },
+  {
+   "label": "Against pace",
+   "v": -0.34,
+   "lo": -2.45,
+   "hi": 1.77
+  },
+  {
+   "label": "Against left-arm bowlers",
+   "v": 0.13,
+   "lo": -2.86,
+   "hi": 3.12
+  },
+  {
+   "label": "Against right-arm bowlers",
+   "v": 0.91,
+   "lo": -0.99,
+   "hi": 2.81
+  }
+ ],
+ "team_level": {
+  "win_points_per_10": {
+   "estimate": 0.245,
+   "se": 0.771,
+   "ci": [
+    -1.267,
+    1.757
+   ],
+   "i2": 70.0,
+   "competitions": 8
+  },
+  "ipl_split": {
+   "all": {
+    "innings": 616,
+    "win_pts_per_10pts": 0.647,
+    "se": 0.751
+   },
+   "batting_first": {
+    "innings": 308,
+    "win_pts_per_10pts": -0.484,
+    "se": 1.169
+   },
+   "chasing": {
+    "innings": 308,
+    "win_pts_per_10pts": 1.97,
+    "se": 1.18
+   }
+  },
+  "ipl_opening": [
+   {
+    "label": "Left + right openers",
+    "innings": 281,
+    "win": 52.31
+   },
+   {
+    "label": "Two right-handers",
+    "innings": 174,
+    "win": 48.85
+   },
+   {
+    "label": "Two left-handers",
+    "innings": 67,
+    "win": 53.73
+   }
+  ],
+  "ipl_opening_gap": {
+   "points": 6.517,
+   "lo": -8.154,
+   "hi": 21.187
+  }
+ },
+ "seasons": [
+  {
+   "year": 2008,
+   "champion": {
+    "team": "Rajasthan Royals",
+    "win": 79,
+    "rank": 1,
+    "tied": false,
+    "sr": 134,
+    "boundary": 19.1,
+    "dot": 39.4,
+    "mixed": 67,
+    "mixed_note": "thin",
+    "rel": 15.0,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Chennai Super Kings",
+    "win": 57,
+    "rank": 3,
+    "tied": false,
+    "sr": 132,
+    "boundary": 18.7,
+    "dot": 40.5,
+    "mixed": 34,
+    "mixed_note": null,
+    "rel": -17.6,
+    "opening": "Two left-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 63,
+    "sr": 140,
+    "boundary": 19.3,
+    "dot": 35.7,
+    "mixed": 53,
+    "mixed_teams": 2,
+    "open_mixed": 2
+   },
+   "missed": {
+    "n": 4,
+    "win": 35,
+    "sr": 123,
+    "boundary": 16.9,
+    "dot": 42.9,
+    "mixed": 52,
+    "mixed_teams": 3,
+    "open_mixed": 4
+   },
+   "other_qualifier_teams": [
+    "Kings XI Punjab",
+    "Delhi Daredevils"
+   ]
+  },
+  {
+   "year": 2009,
+   "champion": {
+    "team": "Deccan Chargers",
+    "win": 50,
+    "rank": 5,
+    "tied": true,
+    "sr": 124,
+    "boundary": 14.8,
+    "dot": 40.5,
+    "mixed": null,
+    "mixed_note": null,
+    "rel": null,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Royal Challengers Bangalore",
+    "win": 57,
+    "rank": 3,
+    "tied": true,
+    "sr": 116,
+    "boundary": 13.7,
+    "dot": 42.0,
+    "mixed": 18,
+    "mixed_note": null,
+    "rel": -34.0,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 66,
+    "sr": 124,
+    "boundary": 15.3,
+    "dot": 37.9,
+    "mixed": 71,
+    "mixed_teams": 1,
+    "open_mixed": 2
+   },
+   "missed": {
+    "n": 4,
+    "win": 39,
+    "sr": 111,
+    "boundary": 12.9,
+    "dot": 42.8,
+    "mixed": 58,
+    "mixed_teams": 3,
+    "open_mixed": 4
+   },
+   "other_qualifier_teams": [
+    "Delhi Daredevils",
+    "Chennai Super Kings"
+   ]
+  },
+  {
+   "year": 2010,
+   "champion": {
+    "team": "Chennai Super Kings",
+    "win": 54,
+    "rank": 3,
+    "tied": true,
+    "sr": 131,
+    "boundary": 16.8,
+    "dot": 36.9,
+    "mixed": 65,
+    "mixed_note": null,
+    "rel": 21.2,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Mumbai Indians",
+    "win": 71,
+    "rank": 1,
+    "tied": false,
+    "sr": 134,
+    "boundary": 17.8,
+    "dot": 35.4,
+    "mixed": 70,
+    "mixed_note": null,
+    "rel": 26.1,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 54,
+    "sr": 128,
+    "boundary": 16.3,
+    "dot": 37.5,
+    "mixed": 6,
+    "mixed_teams": 1,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 41,
+    "sr": 126,
+    "boundary": 16.4,
+    "dot": 38.3,
+    "mixed": 41,
+    "mixed_teams": 3,
+    "open_mixed": 2
+   },
+   "other_qualifier_teams": [
+    "Deccan Chargers",
+    "Royal Challengers Bangalore"
+   ]
+  },
+  {
+   "year": 2011,
+   "champion": {
+    "team": "Chennai Super Kings",
+    "win": 64,
+    "rank": 3,
+    "tied": true,
+    "sr": 126,
+    "boundary": 15.1,
+    "dot": 35.4,
+    "mixed": 56,
+    "mixed_note": null,
+    "rel": 2.1,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Royal Challengers Bangalore",
+    "win": 69,
+    "rank": 1,
+    "tied": true,
+    "sr": 131,
+    "boundary": 18.7,
+    "dot": 40.5,
+    "mixed": 53,
+    "mixed_note": null,
+    "rel": -0.9,
+    "opening": "Two left-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 116,
+    "boundary": 14.7,
+    "dot": 40.0,
+    "mixed": 38,
+    "mixed_teams": 2,
+    "open_mixed": 2
+   },
+   "missed": {
+    "n": 6,
+    "win": 41,
+    "sr": 118,
+    "boundary": 15.2,
+    "dot": 41.9,
+    "mixed": 60,
+    "mixed_teams": 5,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Mumbai Indians",
+    "Kolkata Knight Riders"
+   ]
+  },
+  {
+   "year": 2012,
+   "champion": {
+    "team": "Kolkata Knight Riders",
+    "win": 67,
+    "rank": 2,
+    "tied": true,
+    "sr": 117,
+    "boundary": 13.7,
+    "dot": 37.7,
+    "mixed": 61,
+    "mixed_note": null,
+    "rel": 7.0,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Chennai Super Kings",
+    "win": 53,
+    "rank": 5,
+    "tied": true,
+    "sr": 121,
+    "boundary": 13.7,
+    "dot": 38.5,
+    "mixed": 61,
+    "mixed_note": null,
+    "rel": 6.9,
+    "opening": "Two right-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 66,
+    "sr": 125,
+    "boundary": 16.2,
+    "dot": 39.6,
+    "mixed": 49,
+    "mixed_teams": 1,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 5,
+    "win": 40,
+    "sr": 123,
+    "boundary": 15.3,
+    "dot": 38.1,
+    "mixed": 53,
+    "mixed_teams": 5,
+    "open_mixed": 2
+   },
+   "other_qualifier_teams": [
+    "Delhi Daredevils",
+    "Mumbai Indians"
+   ]
+  },
+  {
+   "year": 2013,
+   "champion": {
+    "team": "Mumbai Indians",
+    "win": 69,
+    "rank": 1,
+    "tied": true,
+    "sr": 126,
+    "boundary": 16.4,
+    "dot": 39.5,
+    "mixed": null,
+    "mixed_note": null,
+    "rel": null,
+    "opening": "Two right-handers"
+   },
+   "runner_up": {
+    "team": "Chennai Super Kings",
+    "win": 69,
+    "rank": 2,
+    "tied": true,
+    "sr": 131,
+    "boundary": 15.9,
+    "dot": 35.0,
+    "mixed": 72,
+    "mixed_note": null,
+    "rel": 26.2,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 117,
+    "boundary": 14.2,
+    "dot": 39.6,
+    "mixed": 8,
+    "mixed_teams": 1,
+    "open_mixed": 0
+   },
+   "missed": {
+    "n": 5,
+    "win": 38,
+    "sr": 120,
+    "boundary": 15.6,
+    "dot": 41.6,
+    "mixed": 48,
+    "mixed_teams": 5,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Rajasthan Royals",
+    "Sunrisers Hyderabad"
+   ]
+  },
+  {
+   "year": 2014,
+   "champion": {
+    "team": "Kolkata Knight Riders",
+    "win": 69,
+    "rank": 2,
+    "tied": true,
+    "sr": 128,
+    "boundary": 15.8,
+    "dot": 36.0,
+    "mixed": 54,
+    "mixed_note": null,
+    "rel": 1.9,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Kings XI Punjab",
+    "win": 79,
+    "rank": 1,
+    "tied": false,
+    "sr": 141,
+    "boundary": 19.6,
+    "dot": 38.2,
+    "mixed": 53,
+    "mixed_note": null,
+    "rel": 1.3,
+    "opening": "Two right-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 57,
+    "sr": 129,
+    "boundary": 16.1,
+    "dot": 37.7,
+    "mixed": 52,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 35,
+    "sr": 123,
+    "boundary": 15.3,
+    "dot": 40.1,
+    "mixed": 51,
+    "mixed_teams": 4,
+    "open_mixed": 2
+   },
+   "other_qualifier_teams": [
+    "Chennai Super Kings",
+    "Mumbai Indians"
+   ]
+  },
+  {
+   "year": 2015,
+   "champion": {
+    "team": "Mumbai Indians",
+    "win": 57,
+    "rank": 2,
+    "tied": false,
+    "sr": 136,
+    "boundary": 18.9,
+    "dot": 39.3,
+    "mixed": 61,
+    "mixed_note": null,
+    "rel": 12.0,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Chennai Super Kings",
+    "win": 64,
+    "rank": 1,
+    "tied": false,
+    "sr": 129,
+    "boundary": 17.8,
+    "dot": 41.5,
+    "mixed": 66,
+    "mixed_note": "thin",
+    "rel": 17.1,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 141,
+    "boundary": 19.0,
+    "dot": 35.7,
+    "mixed": 32,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 39,
+    "sr": 129,
+    "boundary": 16.6,
+    "dot": 38.0,
+    "mixed": 50,
+    "mixed_teams": 4,
+    "open_mixed": 1
+   },
+   "other_qualifier_teams": [
+    "Rajasthan Royals",
+    "Royal Challengers Bangalore"
+   ]
+  },
+  {
+   "year": 2016,
+   "champion": {
+    "team": "Sunrisers Hyderabad",
+    "win": 57,
+    "rank": 2,
+    "tied": true,
+    "sr": 126,
+    "boundary": 15.2,
+    "dot": 37.6,
+    "mixed": 50,
+    "mixed_note": null,
+    "rel": -0.9,
+    "opening": "Two left-handers"
+   },
+   "runner_up": {
+    "team": "Royal Challengers Bangalore",
+    "win": 57,
+    "rank": 3,
+    "tied": true,
+    "sr": 154,
+    "boundary": 20.6,
+    "dot": 30.4,
+    "mixed": 31,
+    "mixed_note": null,
+    "rel": -20.7,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 130,
+    "boundary": 16.4,
+    "dot": 34.7,
+    "mixed": 68,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 41,
+    "sr": 127,
+    "boundary": 15.8,
+    "dot": 37.2,
+    "mixed": 48,
+    "mixed_teams": 4,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Gujarat Lions",
+    "Kolkata Knight Riders"
+   ]
+  },
+  {
+   "year": 2017,
+   "champion": {
+    "team": "Mumbai Indians",
+    "win": 69,
+    "rank": 1,
+    "tied": true,
+    "sr": 139,
+    "boundary": 18.3,
+    "dot": 36.3,
+    "mixed": 72,
+    "mixed_note": null,
+    "rel": 18.8,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Rising Pune Supergiant",
+    "win": 64,
+    "rank": 2,
+    "tied": true,
+    "sr": 131,
+    "boundary": 16.1,
+    "dot": 34.5,
+    "mixed": 38,
+    "mixed_note": "thin",
+    "rel": -15.7,
+    "opening": "Two right-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 59,
+    "sr": 141,
+    "boundary": 18.6,
+    "dot": 32.5,
+    "mixed": 53,
+    "mixed_teams": 2,
+    "open_mixed": 0
+   },
+   "missed": {
+    "n": 4,
+    "win": 37,
+    "sr": 132,
+    "boundary": 17.2,
+    "dot": 37.1,
+    "mixed": 53,
+    "mixed_teams": 4,
+    "open_mixed": 1
+   },
+   "other_qualifier_teams": [
+    "Sunrisers Hyderabad",
+    "Kolkata Knight Riders"
+   ]
+  },
+  {
+   "year": 2018,
+   "champion": {
+    "team": "Chennai Super Kings",
+    "win": 64,
+    "rank": 2,
+    "tied": true,
+    "sr": 144,
+    "boundary": 18.8,
+    "dot": 34.0,
+    "mixed": 48,
+    "mixed_note": null,
+    "rel": -5.2,
+    "opening": "Two right-handers"
+   },
+   "runner_up": {
+    "team": "Sunrisers Hyderabad",
+    "win": 64,
+    "rank": 1,
+    "tied": true,
+    "sr": 130,
+    "boundary": 16.3,
+    "dot": 34.8,
+    "mixed": 56,
+    "mixed_note": null,
+    "rel": 2.0,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 54,
+    "sr": 139,
+    "boundary": 18.5,
+    "dot": 35.5,
+    "mixed": 45,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 41,
+    "sr": 139,
+    "boundary": 18.6,
+    "dot": 36.6,
+    "mixed": 64,
+    "mixed_teams": 2,
+    "open_mixed": 2
+   },
+   "other_qualifier_teams": [
+    "Kolkata Knight Riders",
+    "Rajasthan Royals"
+   ]
+  },
+  {
+   "year": 2019,
+   "champion": {
+    "team": "Mumbai Indians",
+    "win": 62,
+    "rank": 2,
+    "tied": true,
+    "sr": 138,
+    "boundary": 18.8,
+    "dot": 37.0,
+    "mixed": null,
+    "mixed_note": null,
+    "rel": null,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Chennai Super Kings",
+    "win": 64,
+    "rank": 1,
+    "tied": false,
+    "sr": 118,
+    "boundary": 14.9,
+    "dot": 41.2,
+    "mixed": 44,
+    "mixed_note": null,
+    "rel": -5.0,
+    "opening": "Two right-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 54,
+    "sr": 134,
+    "boundary": 16.9,
+    "dot": 34.3,
+    "mixed": 63,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 41,
+    "sr": 138,
+    "boundary": 18.6,
+    "dot": 36.9,
+    "mixed": 41,
+    "mixed_teams": 3,
+    "open_mixed": 2
+   },
+   "other_qualifier_teams": [
+    "Delhi Capitals",
+    "Sunrisers Hyderabad"
+   ]
+  },
+  {
+   "year": 2020,
+   "champion": {
+    "team": "Mumbai Indians",
+    "win": 75,
+    "rank": 1,
+    "tied": false,
+    "sr": 145,
+    "boundary": 19.7,
+    "dot": 35.4,
+    "mixed": null,
+    "mixed_note": null,
+    "rel": null,
+    "opening": "Two left-handers"
+   },
+   "runner_up": {
+    "team": "Delhi Capitals",
+    "win": 54,
+    "rank": 3,
+    "tied": true,
+    "sr": 130,
+    "boundary": 15.9,
+    "dot": 34.0,
+    "mixed": 78,
+    "mixed_note": null,
+    "rel": 17.1,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 50,
+    "sr": 128,
+    "boundary": 15.1,
+    "dot": 35.4,
+    "mixed": 63,
+    "mixed_teams": 2,
+    "open_mixed": 2
+   },
+   "missed": {
+    "n": 4,
+    "win": 43,
+    "sr": 131,
+    "boundary": 16.6,
+    "dot": 37.4,
+    "mixed": 55,
+    "mixed_teams": 3,
+    "open_mixed": 2
+   },
+   "other_qualifier_teams": [
+    "Sunrisers Hyderabad",
+    "Royal Challengers Bangalore"
+   ]
+  },
+  {
+   "year": 2021,
+   "champion": {
+    "team": "Chennai Super Kings",
+    "win": 64,
+    "rank": 3,
+    "tied": true,
+    "sr": 137,
+    "boundary": 18.4,
+    "dot": 36.9,
+    "mixed": 46,
+    "mixed_note": null,
+    "rel": -9.8,
+    "opening": "Two right-handers"
+   },
+   "runner_up": {
+    "team": "Kolkata Knight Riders",
+    "win": 50,
+    "rank": 5,
+    "tied": true,
+    "sr": 129,
+    "boundary": 17.6,
+    "dot": 39.9,
+    "mixed": 72,
+    "mixed_note": "thin",
+    "rel": 16.2,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 67,
+    "sr": 127,
+    "boundary": 16.1,
+    "dot": 36.6,
+    "mixed": 61,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 4,
+    "win": 38,
+    "sr": 124,
+    "boundary": 15.4,
+    "dot": 38.5,
+    "mixed": 47,
+    "mixed_teams": 2,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Delhi Capitals",
+    "Royal Challengers Bangalore"
+   ]
+  },
+  {
+   "year": 2022,
+   "champion": {
+    "team": "Gujarat Titans",
+    "win": 71,
+    "rank": 1,
+    "tied": false,
+    "sr": 132,
+    "boundary": 17.3,
+    "dot": 34.3,
+    "mixed": 41,
+    "mixed_note": null,
+    "rel": -19.3,
+    "opening": "Two right-handers"
+   },
+   "runner_up": {
+    "team": "Rajasthan Royals",
+    "win": 64,
+    "rank": 2,
+    "tied": true,
+    "sr": 139,
+    "boundary": 19.3,
+    "dot": 38.8,
+    "mixed": 66,
+    "mixed_note": null,
+    "rel": 6.2,
+    "opening": "Left + right"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 133,
+    "boundary": 17.1,
+    "dot": 37.6,
+    "mixed": 39,
+    "mixed_teams": 1,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 6,
+    "win": 40,
+    "sr": 134,
+    "boundary": 18.0,
+    "dot": 40.0,
+    "mixed": 66,
+    "mixed_teams": 6,
+    "open_mixed": 4
+   },
+   "other_qualifier_teams": [
+    "Lucknow Super Giants",
+    "Royal Challengers Bangalore"
+   ]
+  },
+  {
+   "year": 2023,
+   "champion": {
+    "team": "Chennai Super Kings",
+    "win": 62,
+    "rank": 2,
+    "tied": true,
+    "sr": 147,
+    "boundary": 18.9,
+    "dot": 31.9,
+    "mixed": 68,
+    "mixed_note": null,
+    "rel": 14.4,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Gujarat Titans",
+    "win": 71,
+    "rank": 1,
+    "tied": false,
+    "sr": 144,
+    "boundary": 18.8,
+    "dot": 32.3,
+    "mixed": 28,
+    "mixed_note": null,
+    "rel": -26.1,
+    "opening": "Two right-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 59,
+    "sr": 144,
+    "boundary": 19.6,
+    "dot": 36.6,
+    "mixed": 65,
+    "mixed_teams": 1,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 6,
+    "win": 42,
+    "sr": 139,
+    "boundary": 19.1,
+    "dot": 36.7,
+    "mixed": 54,
+    "mixed_teams": 5,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Lucknow Super Giants",
+    "Mumbai Indians"
+   ]
+  },
+  {
+   "year": 2024,
+   "champion": {
+    "team": "Kolkata Knight Riders",
+    "win": 75,
+    "rank": 1,
+    "tied": false,
+    "sr": 163,
+    "boundary": 24.7,
+    "dot": 35.5,
+    "mixed": 63,
+    "mixed_note": "thin",
+    "rel": 12.4,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Sunrisers Hyderabad",
+    "win": 62,
+    "rank": 2,
+    "tied": true,
+    "sr": 167,
+    "boundary": 23.2,
+    "dot": 31.2,
+    "mixed": 48,
+    "mixed_note": null,
+    "rel": -2.4,
+    "opening": "Two left-handers"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 56,
+    "sr": 155,
+    "boundary": 21.6,
+    "dot": 33.6,
+    "mixed": 23,
+    "mixed_teams": 2,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 6,
+    "win": 43,
+    "sr": 146,
+    "boundary": 20.1,
+    "dot": 35.0,
+    "mixed": 62,
+    "mixed_teams": 4,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru"
+   ]
+  },
+  {
+   "year": 2025,
+   "champion": {
+    "team": "Royal Challengers Bengaluru",
+    "win": 69,
+    "rank": 2,
+    "tied": true,
+    "sr": 153,
+    "boundary": 22.3,
+    "dot": 34.4,
+    "mixed": 31,
+    "mixed_note": null,
+    "rel": -18.4,
+    "opening": "Two right-handers"
+   },
+   "runner_up": {
+    "team": "Punjab Kings",
+    "win": 69,
+    "rank": 1,
+    "tied": true,
+    "sr": 162,
+    "boundary": 23.4,
+    "dot": 32.4,
+    "mixed": 43,
+    "mixed_note": "thin",
+    "rel": -6.4,
+    "opening": "unknown"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 155,
+    "boundary": 21.7,
+    "dot": 31.9,
+    "mixed": null,
+    "mixed_teams": 0,
+    "open_mixed": 1
+   },
+   "missed": {
+    "n": 6,
+    "win": 40,
+    "sr": 150,
+    "boundary": 21.0,
+    "dot": 34.9,
+    "mixed": 56,
+    "mixed_teams": 4,
+    "open_mixed": 3
+   },
+   "other_qualifier_teams": [
+    "Gujarat Titans",
+    "Mumbai Indians"
+   ]
+  },
+  {
+   "year": 2026,
+   "champion": {
+    "team": "Royal Challengers Bengaluru",
+    "win": 64,
+    "rank": 3,
+    "tied": true,
+    "sr": 164,
+    "boundary": 23.7,
+    "dot": 31.3,
+    "mixed": 55,
+    "mixed_note": null,
+    "rel": 7.2,
+    "opening": "Left + right"
+   },
+   "runner_up": {
+    "team": "Gujarat Titans",
+    "win": 64,
+    "rank": 2,
+    "tied": true,
+    "sr": 151,
+    "boundary": 21.0,
+    "dot": 32.3,
+    "mixed": null,
+    "mixed_note": null,
+    "rel": null,
+    "opening": "unknown"
+   },
+   "other_qualifiers": {
+    "n": 2,
+    "win": 61,
+    "sr": 166,
+    "boundary": 24.4,
+    "dot": 34.0,
+    "mixed": 50,
+    "mixed_teams": 2,
+    "open_mixed": 0
+   },
+   "missed": {
+    "n": 6,
+    "win": 41,
+    "sr": 152,
+    "boundary": 21.6,
+    "dot": 34.9,
+    "mixed": 44,
+    "mixed_teams": 3,
+    "open_mixed": 1
+   },
+   "other_qualifier_teams": [
+    "Sunrisers Hyderabad",
+    "Rajasthan Royals"
+   ]
+  }
+ ],
+ "groups": {
+  "champions": {
+   "n": 15,
+   "mean": 3.9,
+   "sd": 12.24
+  },
+  "runners_up": {
+   "n": 18,
+   "mean": -0.54,
+   "sd": 16.98
+  },
+  "other_qualifiers": {
+   "n": 30,
+   "mean": -4.36,
+   "sd": 20.76
+  },
+  "missed_out": {
+   "n": 72,
+   "mean": 1.14,
+   "sd": 16.91
+  },
+  "champions_vs_missed": {
+   "n_a": 15,
+   "n_b": 72,
+   "mean_a": 3.9,
+   "mean_b": 1.14,
+   "diff": 2.76,
+   "ci": [
+    -4.77,
+    10.28
+   ],
+   "p": 0.479
+  },
+  "qualifiers_vs_missed": {
+   "n_a": 63,
+   "n_b": 72,
+   "mean_a": -1.31,
+   "mean_b": 1.14,
+   "diff": -2.45,
+   "ci": [
+    -8.46,
+    3.57
+   ],
+   "p": 0.427
+  },
+  "eras": {
+   "2008-2015": {
+    "n_a": 26,
+    "n_b": 32,
+    "mean_a": -1.61,
+    "mean_b": 1.31,
+    "diff": -2.91,
+    "ci": [
+     -13.63,
+     7.8
+    ],
+    "p": 0.597
+   },
+   "2016-2020": {
+    "n_a": 18,
+    "n_b": 16,
+    "mean_a": 1.94,
+    "mean_b": -2.19,
+    "diff": 4.13,
+    "ci": [
+     -5.74,
+     14.01
+    ],
+    "p": 0.418
+   },
+   "2021-2026": {
+    "n_a": 19,
+    "n_b": 24,
+    "mean_a": -3.97,
+    "mean_b": 3.14,
+    "diff": -7.11,
+    "ci": [
+     -16.99,
+     2.77
+    ],
+    "p": 0.166
+   }
+  }
+ },
+ "qualification": {
+  "bands": [
+   {
+    "label": "Low mixed-pair usage",
+    "team_seasons": 49,
+    "qualified": 26,
+    "qualification_rate": 53.1,
+    "mean_relative_share": -19.0
+   },
+   {
+    "label": "Medium mixed-pair usage",
+    "team_seasons": 47,
+    "qualified": 19,
+    "qualification_rate": 40.4,
+    "mean_relative_share": 6.0
+   },
+   {
+    "label": "High mixed-pair usage",
+    "team_seasons": 39,
+    "qualified": 18,
+    "qualification_rate": 46.2,
+    "mean_relative_share": 16.6
+   }
+  ],
+  "adjusted": {
+   "team_seasons": 120,
+   "odds_ratio_per_10pts": 0.94,
+   "ci": [
+    0.76,
+    1.16
+   ],
+   "strength_odds_ratio_per_10pts_prior_winrate": 1.35,
+   "low_adjusted_qualification": 45.6,
+   "medium_adjusted_qualification": 44.2,
+   "high_adjusted_qualification": 42.8,
+   "average_team": 44.2
+  }
+ },
+ "exposure": [
+  {
+   "band": "0-30%",
+   "innings": 2049,
+   "runs_vs_reference": 0.02,
+   "se": 1.55
+  },
+  {
+   "band": "30-40%",
+   "innings": 520,
+   "runs_vs_reference": -1.62,
+   "se": 1.8
+  },
+  {
+   "band": "40-50%",
+   "innings": 558,
+   "runs_vs_reference": -5.86,
+   "se": 1.8
+  },
+  {
+   "band": "50-60%",
+   "innings": 522,
+   "runs_vs_reference": 0.0,
+   "se": 0.0
+  },
+  {
+   "band": "60-70%",
+   "innings": 508,
+   "runs_vs_reference": -1.53,
+   "se": 1.89
+  },
+  {
+   "band": "70-80%",
+   "innings": 504,
+   "runs_vs_reference": 0.31,
+   "se": 1.8
+  },
+  {
+   "band": "80-100%",
+   "innings": 1078,
+   "runs_vs_reference": 5.56,
+   "se": 1.63
+  }
+ ],
+ "scenarios": [
+  {
+   "mixed_share": 30,
+   "central": {
+    "expected_wins": 6.94,
+    "playoff_pct": 38.68,
+    "final_pct": 19.2,
+    "title_pct": 9.57,
+    "runs_per_innings": -0.4,
+    "win_points": -0.44
+   },
+   "low": {
+    "expected_wins": 6.99,
+    "playoff_pct": 39.81,
+    "final_pct": 19.97,
+    "title_pct": 10.01,
+    "runs_per_innings": -0.05,
+    "win_points": -0.06
+   },
+   "high": {
+    "expected_wins": 6.88,
+    "playoff_pct": 37.68,
+    "final_pct": 18.49,
+    "title_pct": 9.16,
+    "runs_per_innings": -0.75,
+    "win_points": -0.82
+   }
+  },
+  {
+   "mixed_share": 35,
+   "central": {
+    "expected_wins": 6.95,
+    "playoff_pct": 38.96,
+    "final_pct": 19.39,
+    "title_pct": 9.67,
+    "runs_per_innings": -0.31,
+    "win_points": -0.34
+   },
+   "low": {
+    "expected_wins": 6.99,
+    "playoff_pct": 39.86,
+    "final_pct": 20.0,
+    "title_pct": 10.02,
+    "runs_per_innings": -0.04,
+    "win_points": -0.04
+   },
+   "high": {
+    "expected_wins": 6.91,
+    "playoff_pct": 38.19,
+    "final_pct": 18.86,
+    "title_pct": 9.34,
+    "runs_per_innings": -0.58,
+    "win_points": -0.63
+   }
+  },
+  {
+   "mixed_share": 40,
+   "central": {
+    "expected_wins": 6.97,
+    "playoff_pct": 39.25,
+    "final_pct": 19.63,
+    "title_pct": 9.82,
+    "runs_per_innings": -0.22,
+    "win_points": -0.24
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 39.89,
+    "final_pct": 20.04,
+    "title_pct": 10.05,
+    "runs_per_innings": -0.03,
+    "win_points": -0.03
+   },
+   "high": {
+    "expected_wins": 6.94,
+    "playoff_pct": 38.65,
+    "final_pct": 19.19,
+    "title_pct": 9.56,
+    "runs_per_innings": -0.41,
+    "win_points": -0.45
+   }
+  },
+  {
+   "mixed_share": 45,
+   "central": {
+    "expected_wins": 6.98,
+    "playoff_pct": 39.56,
+    "final_pct": 19.82,
+    "title_pct": 9.91,
+    "runs_per_innings": -0.13,
+    "win_points": -0.14
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 39.93,
+    "final_pct": 20.08,
+    "title_pct": 10.07,
+    "runs_per_innings": -0.02,
+    "win_points": -0.02
+   },
+   "high": {
+    "expected_wins": 6.96,
+    "playoff_pct": 39.19,
+    "final_pct": 19.59,
+    "title_pct": 9.79,
+    "runs_per_innings": -0.24,
+    "win_points": -0.26
+   }
+  },
+  {
+   "mixed_share": 50,
+   "central": {
+    "expected_wins": 7.0,
+    "playoff_pct": 39.87,
+    "final_pct": 20.02,
+    "title_pct": 10.04,
+    "runs_per_innings": -0.03,
+    "win_points": -0.04
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 39.96,
+    "final_pct": 20.09,
+    "title_pct": 10.08,
+    "runs_per_innings": -0.0,
+    "win_points": -0.0
+   },
+   "high": {
+    "expected_wins": 6.99,
+    "playoff_pct": 39.77,
+    "final_pct": 19.93,
+    "title_pct": 9.98,
+    "runs_per_innings": -0.06,
+    "win_points": -0.07
+   }
+  },
+  {
+   "mixed_share": 55,
+   "central": {
+    "expected_wins": 7.01,
+    "playoff_pct": 40.14,
+    "final_pct": 20.25,
+    "title_pct": 10.16,
+    "runs_per_innings": 0.06,
+    "win_points": 0.06
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 39.99,
+    "final_pct": 20.11,
+    "title_pct": 10.09,
+    "runs_per_innings": 0.01,
+    "win_points": 0.01
+   },
+   "high": {
+    "expected_wins": 7.02,
+    "playoff_pct": 40.26,
+    "final_pct": 20.35,
+    "title_pct": 10.22,
+    "runs_per_innings": 0.11,
+    "win_points": 0.12
+   }
+  },
+  {
+   "mixed_share": 60,
+   "central": {
+    "expected_wins": 7.02,
+    "playoff_pct": 40.4,
+    "final_pct": 20.45,
+    "title_pct": 10.26,
+    "runs_per_innings": 0.15,
+    "win_points": 0.16
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 40.03,
+    "final_pct": 20.17,
+    "title_pct": 10.12,
+    "runs_per_innings": 0.02,
+    "win_points": 0.02
+   },
+   "high": {
+    "expected_wins": 7.04,
+    "playoff_pct": 40.77,
+    "final_pct": 20.72,
+    "title_pct": 10.43,
+    "runs_per_innings": 0.28,
+    "win_points": 0.31
+   }
+  },
+  {
+   "mixed_share": 65,
+   "central": {
+    "expected_wins": 7.04,
+    "playoff_pct": 40.65,
+    "final_pct": 20.61,
+    "title_pct": 10.37,
+    "runs_per_innings": 0.24,
+    "win_points": 0.27
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 40.07,
+    "final_pct": 20.19,
+    "title_pct": 10.14,
+    "runs_per_innings": 0.03,
+    "win_points": 0.03
+   },
+   "high": {
+    "expected_wins": 7.07,
+    "playoff_pct": 41.33,
+    "final_pct": 21.08,
+    "title_pct": 10.64,
+    "runs_per_innings": 0.45,
+    "win_points": 0.5
+   }
+  }
+ ],
+ "scenario_notes": {
+  "runs": 50000,
+  "baseline_share": 51.8,
+  "team_spread": 5.0
+ },
+ "openers": {
+  "overall": {
+   "name": "All tournaments",
+   "team_seasons": 597,
+   "champions": 78,
+   "open": {
+    "champions_with": 50,
+    "champions_n": 78,
+    "champions_pct": 64.1,
+    "ci": [
+     53.0,
+     73.9
+    ],
+    "base_pct": 58.8,
+    "p": 0.326,
+    "qualified_with": 52.7,
+    "qualified_without": 54.9,
+    "n_with": 351,
+    "n_without": 246,
+    "qual_p": 0.618,
+    "qualifiers_pct": 57.8,
+    "missed_pct": 59.9,
+    "finalists_pct": 57.8
+   },
+   "top3": {
+    "champions_with": 68,
+    "champions_n": 74,
+    "champions_pct": 91.9,
+    "ci": [
+     83.4,
+     96.2
+    ],
+    "base_pct": 84.8,
+    "p": 0.081,
+    "qualified_with": 53.4,
+    "qualified_without": 54.8,
+    "n_with": 470,
+    "n_without": 84,
+    "qual_p": 0.906,
+    "qualifiers_pct": 84.5,
+    "missed_pct": 85.2,
+    "finalists_pct": 84.5
+   }
+  },
+  "club": {
+   "name": "Club tournaments only",
+   "team_seasons": 504,
+   "champions": 70,
+   "open": {
+    "champions_with": 48,
+    "champions_n": 70,
+    "champions_pct": 68.6,
+    "ci": [
+     57.0,
+     78.2
+    ],
+    "base_pct": 60.9,
+    "p": 0.187,
+    "qualified_with": 54.7,
+    "qualified_without": 55.3,
+    "n_with": 307,
+    "n_without": 197,
+    "qual_p": 0.927,
+    "qualifiers_pct": 60.6,
+    "missed_pct": 61.2,
+    "finalists_pct": 60.4
+   },
+   "top3": {
+    "champions_with": 64,
+    "champions_n": 67,
+    "champions_pct": 95.5,
+    "ci": [
+     87.6,
+     98.5
+    ],
+    "base_pct": 87.1,
+    "p": 0.029,
+    "qualified_with": 55.1,
+    "qualified_without": 55.0,
+    "n_with": 405,
+    "n_without": 60,
+    "qual_p": 1.0,
+    "qualifiers_pct": 87.1,
+    "missed_pct": 87.1,
+    "finalists_pct": 86.7
+   }
+  },
+  "tournaments": [
+   {
+    "name": "IPL",
+    "team_seasons": 129,
+    "champions": 18,
+    "open": {
+     "champions_with": 11,
+     "champions_n": 18,
+     "champions_pct": 61.1,
+     "ci": [
+      38.6,
+      79.7
+     ],
+     "base_pct": 60.5,
+     "p": 1.0,
+     "qualified_with": 44.9,
+     "qualified_without": 49.0,
+     "n_with": 78,
+     "n_without": 51,
+     "qual_p": 0.719,
+     "qualifiers_pct": 58.3,
+     "missed_pct": 62.3,
+     "finalists_pct": 56.2
+    },
+    "top3": {
+     "champions_with": 17,
+     "champions_n": 17,
+     "champions_pct": 100.0,
+     "ci": [
+      81.6,
+      100.0
+     ],
+     "base_pct": 87.1,
+     "p": 0.125,
+     "qualified_with": 47.2,
+     "qualified_without": 37.5,
+     "n_with": 108,
+     "n_without": 16,
+     "qual_p": 0.594,
+     "qualifiers_pct": 89.5,
+     "missed_pct": 85.1,
+     "finalists_pct": 93.3
+    }
+   },
+   {
+    "name": "SA20",
+    "team_seasons": 16,
+    "champions": 2,
+    "open": {
+     "champions_with": 2,
+     "champions_n": 2,
+     "champions_pct": 100.0,
+     "ci": [
+      34.2,
+      100.0
+     ],
+     "base_pct": 50.0,
+     "p": 0.467,
+     "qualified_with": 50.0,
+     "qualified_without": 87.5,
+     "n_with": 8,
+     "n_without": 8,
+     "qual_p": 0.282,
+     "qualifiers_pct": 36.4,
+     "missed_pct": 80.0,
+     "finalists_pct": 50.0
+    },
+    "top3": {
+     "champions_with": 2,
+     "champions_n": 2,
+     "champions_pct": 100.0,
+     "ci": [
+      34.2,
+      100.0
+     ],
+     "base_pct": 78.6,
+     "p": 1.0,
+     "qualified_with": 63.6,
+     "qualified_without": 66.7,
+     "n_with": 11,
+     "n_without": 3,
+     "qual_p": 1.0,
+     "qualifiers_pct": 77.8,
+     "missed_pct": 80.0,
+     "finalists_pct": 80.0
+    }
+   },
+   {
+    "name": "The Hundred",
+    "team_seasons": 22,
+    "champions": 5,
+    "open": {
+     "champions_with": 3,
+     "champions_n": 5,
+     "champions_pct": 60.0,
+     "ci": [
+      23.1,
+      88.2
+     ],
+     "base_pct": 63.6,
+     "p": 1.0,
+     "qualified_with": 57.1,
+     "qualified_without": 62.5,
+     "n_with": 14,
+     "n_without": 8,
+     "qual_p": 1.0,
+     "qualifiers_pct": 61.5,
+     "missed_pct": 66.7,
+     "finalists_pct": 44.4
+    },
+    "top3": {
+     "champions_with": 3,
+     "champions_n": 5,
+     "champions_pct": 60.0,
+     "ci": [
+      23.1,
+      88.2
+     ],
+     "base_pct": 85.0,
+     "p": 0.14,
+     "qualified_with": 47.1,
+     "qualified_without": 100.0,
+     "n_with": 17,
+     "n_without": 3,
+     "qual_p": 0.218,
+     "qualifiers_pct": 72.7,
+     "missed_pct": 100.0,
+     "finalists_pct": 57.1
+    }
+   },
+   {
+    "name": "Big Bash",
+    "team_seasons": 66,
+    "champions": 10,
+    "open": {
+     "champions_with": 6,
+     "champions_n": 10,
+     "champions_pct": 60.0,
+     "ci": [
+      31.3,
+      83.2
+     ],
+     "base_pct": 63.6,
+     "p": 1.0,
+     "qualified_with": 61.9,
+     "qualified_without": 50.0,
+     "n_with": 42,
+     "n_without": 24,
+     "qual_p": 0.439,
+     "qualifiers_pct": 68.4,
+     "missed_pct": 57.1,
+     "finalists_pct": 60.0
+    },
+    "top3": {
+     "champions_with": 9,
+     "champions_n": 10,
+     "champions_pct": 90.0,
+     "ci": [
+      59.6,
+      98.2
+     ],
+     "base_pct": 87.1,
+     "p": 1.0,
+     "qualified_with": 59.3,
+     "qualified_without": 50.0,
+     "n_with": 54,
+     "n_without": 8,
+     "qual_p": 0.71,
+     "qualifiers_pct": 88.9,
+     "missed_pct": 84.6,
+     "finalists_pct": 84.2
+    }
+   },
+   {
+    "name": "PSL",
+    "team_seasons": 49,
+    "champions": 10,
+    "open": {
+     "champions_with": 8,
+     "champions_n": 10,
+     "champions_pct": 80.0,
+     "ci": [
+      49.0,
+      94.3
+     ],
+     "base_pct": 65.3,
+     "p": 0.459,
+     "qualified_with": 71.9,
+     "qualified_without": 76.5,
+     "n_with": 32,
+     "n_without": 17,
+     "qual_p": 1.0,
+     "qualifiers_pct": 63.9,
+     "missed_pct": 69.2,
+     "finalists_pct": 73.7
+    },
+    "top3": {
+     "champions_with": 9,
+     "champions_n": 9,
+     "champions_pct": 100.0,
+     "ci": [
+      70.1,
+      100.0
+     ],
+     "base_pct": 87.2,
+     "p": 0.579,
+     "qualified_with": 73.2,
+     "qualified_without": 83.3,
+     "n_with": 41,
+     "n_without": 6,
+     "qual_p": 1.0,
+     "qualifiers_pct": 85.7,
+     "missed_pct": 91.7,
+     "finalists_pct": 88.9
+    }
+   },
+   {
+    "name": "CPL",
+    "team_seasons": 63,
+    "champions": 11,
+    "open": {
+     "champions_with": 8,
+     "champions_n": 11,
+     "champions_pct": 72.7,
+     "ci": [
+      43.4,
+      90.3
+     ],
+     "base_pct": 63.5,
+     "p": 0.732,
+     "qualified_with": 60.0,
+     "qualified_without": 69.6,
+     "n_with": 40,
+     "n_without": 23,
+     "qual_p": 0.588,
+     "qualifiers_pct": 60.0,
+     "missed_pct": 69.6,
+     "finalists_pct": 54.5
+    },
+    "top3": {
+     "champions_with": 11,
+     "champions_n": 11,
+     "champions_pct": 100.0,
+     "ci": [
+      74.1,
+      100.0
+     ],
+     "base_pct": 85.5,
+     "p": 0.341,
+     "qualified_with": 62.3,
+     "qualified_without": 66.7,
+     "n_with": 53,
+     "n_without": 9,
+     "qual_p": 1.0,
+     "qualifiers_pct": 84.6,
+     "missed_pct": 87.0,
+     "finalists_pct": 81.0
+    }
+   },
+   {
+    "name": "T20 Blast",
+    "team_seasons": 72,
+    "champions": 2,
+    "open": {
+     "champions_with": 1,
+     "champions_n": 2,
+     "champions_pct": 50.0,
+     "ci": [
+      9.5,
+      90.5
+     ],
+     "base_pct": 51.4,
+     "p": 1.0,
+     "qualified_with": 48.6,
+     "qualified_without": 57.1,
+     "n_with": 37,
+     "n_without": 35,
+     "qual_p": 0.49,
+     "qualifiers_pct": 47.4,
+     "missed_pct": 55.9,
+     "finalists_pct": 44.4
+    },
+    "top3": {
+     "champions_with": 1,
+     "champions_n": 1,
+     "champions_pct": 100.0,
+     "ci": [
+      20.7,
+      100.0
+     ],
+     "base_pct": 96.4,
+     "p": 1.0,
+     "qualified_with": 48.1,
+     "qualified_without": 100.0,
+     "n_with": 54,
+     "n_without": 2,
+     "qual_p": 0.491,
+     "qualifiers_pct": 92.9,
+     "missed_pct": 100.0,
+     "finalists_pct": 100.0
+    }
+   },
+   {
+    "name": "Syed Mushtaq Ali",
+    "team_seasons": 38,
+    "champions": 3,
+    "open": {
+     "champions_with": 3,
+     "champions_n": 3,
+     "champions_pct": 100.0,
+     "ci": [
+      43.8,
+      100.0
+     ],
+     "base_pct": 44.7,
+     "p": 0.081,
+     "qualified_with": 41.2,
+     "qualified_without": 19.0,
+     "n_with": 17,
+     "n_without": 21,
+     "qual_p": 0.167,
+     "qualifiers_pct": 63.6,
+     "missed_pct": 37.0,
+     "finalists_pct": 83.3
+    },
+    "top3": {
+     "champions_with": 3,
+     "champions_n": 3,
+     "champions_pct": 100.0,
+     "ci": [
+      43.8,
+      100.0
+     ],
+     "base_pct": 64.5,
+     "p": 0.535,
+     "qualified_with": 35.0,
+     "qualified_without": 36.4,
+     "n_with": 20,
+     "n_without": 11,
+     "qual_p": 1.0,
+     "qualifiers_pct": 63.6,
+     "missed_pct": 65.0,
+     "finalists_pct": 83.3
+    }
+   },
+   {
+    "name": "BPL",
+    "team_seasons": 49,
+    "champions": 9,
+    "open": {
+     "champions_with": 6,
+     "champions_n": 9,
+     "champions_pct": 66.7,
+     "ci": [
+      35.4,
+      87.9
+     ],
+     "base_pct": 79.6,
+     "p": 0.364,
+     "qualified_with": 59.0,
+     "qualified_without": 70.0,
+     "n_with": 39,
+     "n_without": 10,
+     "qual_p": 0.72,
+     "qualifiers_pct": 76.7,
+     "missed_pct": 84.2,
+     "finalists_pct": 75.0
+    },
+    "top3": {
+     "champions_with": 9,
+     "champions_n": 9,
+     "champions_pct": 100.0,
+     "ci": [
+      70.1,
+      100.0
+     ],
+     "base_pct": 95.9,
+     "p": 1.0,
+     "qualified_with": 61.7,
+     "qualified_without": 50.0,
+     "n_with": 47,
+     "n_without": 2,
+     "qual_p": 1.0,
+     "qualifiers_pct": 96.7,
+     "missed_pct": 94.7,
+     "finalists_pct": 93.8
+    }
+   },
+   {
+    "name": "International",
+    "team_seasons": 93,
+    "champions": 8,
+    "open": {
+     "champions_with": 2,
+     "champions_n": 8,
+     "champions_pct": 25.0,
+     "ci": [
+      7.1,
+      59.1
+     ],
+     "base_pct": 47.3,
+     "p": 0.273,
+     "qualified_with": 38.6,
+     "qualified_without": 53.1,
+     "n_with": 44,
+     "n_without": 49,
+     "qual_p": 0.212,
+     "qualifiers_pct": 39.5,
+     "missed_pct": 54.0,
+     "finalists_pct": 33.3
+    },
+    "top3": {
+     "champions_with": 4,
+     "champions_n": 7,
+     "champions_pct": 57.1,
+     "ci": [
+      25.0,
+      84.2
+     ],
+     "base_pct": 73.0,
+     "p": 0.381,
+     "qualified_with": 43.1,
+     "qualified_without": 54.2,
+     "n_with": 65,
+     "n_without": 24,
+     "qual_p": 0.473,
+     "qualifiers_pct": 68.3,
+     "missed_pct": 77.1,
+     "finalists_pct": 64.3
+    }
+   }
+  ],
+  "setups": {
+   "raw_overall": {
+    "left_right_opening": {
+     "innings": 4115,
+     "win_pts": 51.81,
+     "runs": 153.1,
+     "powerplay_runs": 47.11,
+     "first_stand_runs": 29.49
+    },
+    "left_hander_in_top3": {
+     "innings": 1627,
+     "win_pts": 51.63,
+     "runs": 155.86,
+     "powerplay_runs": 47.89,
+     "first_stand_runs": 31.13
+    },
+    "no_left_hander": {
+     "innings": 1634,
+     "win_pts": 51.96,
+     "runs": 149.37,
+     "powerplay_runs": 46.03,
+     "first_stand_runs": 28.88
+    }
+   },
+   "raw_ipl": {
+    "left_right_opening": {
+     "innings": 852,
+     "win_pts": 50.59,
+     "runs": 159.58,
+     "powerplay_runs": 47.89,
+     "first_stand_runs": 32.86
+    },
+    "left_hander_in_top3": {
+     "innings": 410,
+     "win_pts": 50.49,
+     "runs": 163.84,
+     "powerplay_runs": 49.23,
+     "first_stand_runs": 34.09
+    },
+    "no_left_hander": {
+     "innings": 257,
+     "win_pts": 45.91,
+     "runs": 159.47,
+     "powerplay_runs": 47.22,
+     "first_stand_runs": 32.24
+    }
+   },
+   "innings": 7376,
+   "tournaments": 8,
+   "adjusted": {
+    "win_pts": {
+     "left_right_opening": {
+      "v": -3.58,
+      "lo": -12.39,
+      "hi": 5.22
+     },
+     "left_hander_in_top3": {
+      "v": -4.18,
+      "lo": -13.01,
+      "hi": 4.66
+     },
+     "any_left_hander": {
+      "v": -3.88,
+      "lo": -12.19,
+      "hi": 4.43
+     }
+    },
+    "runs": {
+     "left_right_opening": {
+      "v": -1.22,
+      "lo": -5.24,
+      "hi": 2.8
+     },
+     "left_hander_in_top3": {
+      "v": -0.67,
+      "lo": -5.65,
+      "hi": 4.31
+     },
+     "any_left_hander": {
+      "v": -1.16,
+      "lo": -4.69,
+      "hi": 2.38
+     }
+    },
+    "powerplay_runs": {
+     "left_right_opening": {
+      "v": 0.51,
+      "lo": -0.79,
+      "hi": 1.82
+     },
+     "left_hander_in_top3": {
+      "v": 0.1,
+      "lo": -1.22,
+      "hi": 1.43
+     },
+     "any_left_hander": {
+      "v": 0.31,
+      "lo": -0.88,
+      "hi": 1.5
+     }
+    },
+    "first_stand_runs": {
+     "left_right_opening": {
+      "v": 1.17,
+      "lo": -3.83,
+      "hi": 6.16
+     },
+     "left_hander_in_top3": {
+      "v": 0.29,
+      "lo": -4.83,
+      "hi": 5.41
+     },
+     "any_left_hander": {
+      "v": 0.87,
+      "lo": -3.8,
+      "hi": 5.54
+     }
+    }
+   }
+  },
+  "ipl_cards": [
+   {
+    "year": 2008,
+    "team": "Rajasthan Royals",
+    "final": "NK Patel (hand not recorded) + SA Asnodkar (hand not recorded)",
+    "usual": "Left + right",
+    "lr_share": 80.0,
+    "top3_left": 90.9
+   },
+   {
+    "year": 2009,
+    "team": "Deccan Chargers",
+    "final": "AC Gilchrist (L) + HH Gibbs (R)",
+    "usual": "Left + right",
+    "lr_share": 100.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2010,
+    "team": "Chennai Super Kings",
+    "final": "M Vijay (R) + ML Hayden (L)",
+    "usual": "Left + right",
+    "lr_share": 71.4,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2011,
+    "team": "Chennai Super Kings",
+    "final": "MEK Hussey (L) + M Vijay (R)",
+    "usual": "Left + right",
+    "lr_share": 85.7,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2012,
+    "team": "Kolkata Knight Riders",
+    "final": "MS Bisla (hand not recorded) + G Gambhir (L)",
+    "usual": "Left + right",
+    "lr_share": 85.7,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2013,
+    "team": "Mumbai Indians",
+    "final": "DR Smith (hand not recorded) + AP Tare (R)",
+    "usual": "Two right-handers",
+    "lr_share": 0.0,
+    "top3_left": null
+   },
+   {
+    "year": 2014,
+    "team": "Kolkata Knight Riders",
+    "final": "RV Uthappa (R) + G Gambhir (L)",
+    "usual": "Left + right",
+    "lr_share": 92.3,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2015,
+    "team": "Mumbai Indians",
+    "final": "LMP Simmons (R) + PA Patel (L)",
+    "usual": "Left + right",
+    "lr_share": 100.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2016,
+    "team": "Sunrisers Hyderabad",
+    "final": "DA Warner (L) + S Dhawan (L)",
+    "usual": "Two left-handers",
+    "lr_share": 0.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2017,
+    "team": "Mumbai Indians",
+    "final": "LMP Simmons (R) + PA Patel (L)",
+    "usual": "Left + right",
+    "lr_share": 100.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2018,
+    "team": "Chennai Super Kings",
+    "final": "SR Watson (R) + F du Plessis (R)",
+    "usual": "Two right-handers",
+    "lr_share": 0.0,
+    "top3_left": 92.9
+   },
+   {
+    "year": 2020,
+    "team": "Mumbai Indians",
+    "final": "RG Sharma (hand not recorded) + Q de Kock (L)",
+    "usual": "Two left-handers",
+    "lr_share": 0.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2021,
+    "team": "Chennai Super Kings",
+    "final": "RD Gaikwad (R) + F du Plessis (R)",
+    "usual": "Two right-handers",
+    "lr_share": 0.0,
+    "top3_left": 92.9
+   },
+   {
+    "year": 2022,
+    "team": "Gujarat Titans",
+    "final": "WP Saha (R) + Shubman Gill (R)",
+    "usual": "Two right-handers",
+    "lr_share": 35.7,
+    "top3_left": 66.7
+   },
+   {
+    "year": 2023,
+    "team": "Chennai Super Kings",
+    "final": "RD Gaikwad (R) + DP Conway (L)",
+    "usual": "Left + right",
+    "lr_share": 100.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2024,
+    "team": "Kolkata Knight Riders",
+    "final": "Rahmanullah Gurbaz (hand not recorded) + SP Narine (L)",
+    "usual": "Left + right",
+    "lr_share": 100.0,
+    "top3_left": 100.0
+   },
+   {
+    "year": 2025,
+    "team": "Royal Challengers Bengaluru",
+    "final": "PD Salt (R) + V Kohli (R)",
+    "usual": "Two right-handers",
+    "lr_share": 15.4,
+    "top3_left": 76.9
+   },
+   {
+    "year": 2026,
+    "team": "Royal Challengers Bengaluru",
+    "final": "VR Iyer (hand not recorded) + V Kohli (R)",
+    "usual": "Left + right",
+    "lr_share": 53.8,
+    "top3_left": 92.9
+   }
+  ],
+  "world_cups": [
+   {
+    "year": 2007,
+    "event": "ICC World Twenty20 2007/08",
+    "team": "India",
+    "final": "G Gambhir (L) + YK Pathan (R)",
+    "usual": "Left + right"
+   },
+   {
+    "year": 2009,
+    "event": "ICC World Twenty20 2009",
+    "team": "Pakistan",
+    "final": "Kamran Akmal (R) + Shahzaib Hasan (R)",
+    "usual": "Two right-handers"
+   },
+   {
+    "year": 2010,
+    "event": "ICC World Twenty20 2010",
+    "team": "England",
+    "final": "MJ Lumb (R) + C Kieswetter (R)",
+    "usual": "Two right-handers"
+   },
+   {
+    "year": 2021,
+    "event": "ICC Men's T20 World Cup 2021/22",
+    "team": "Australia",
+    "final": "DA Warner (L) + AJ Finch (R)",
+    "usual": "Left + right"
+   },
+   {
+    "year": 2026,
+    "event": "ICC Men's T20 World Cup 2025/26",
+    "team": "India",
+    "final": "SV Samson (R) + Abhishek Sharma (L)",
+    "usual": "Two left-handers"
+   }
+  ],
+  "ipl_match": {
+   "left_right": {
+    "innings": 852,
+    "win_pct": 50.6,
+    "pp_runs": 47.9,
+    "first_stand": 32.9,
+    "runs": 159.6
+   },
+   "right_right": {
+    "innings": 561,
+    "win_pct": 48.3,
+    "pp_runs": 47.5,
+    "first_stand": 32.4,
+    "runs": 160.8
+   },
+   "left_left": {
+    "innings": 215,
+    "win_pct": 51.6,
+    "pp_runs": 50.4,
+    "first_stand": 36.0,
+    "runs": 163.6
+   }
+  },
+  "pooled": {
+   "win_points": {
+    "estimate": -1.254,
+    "se": 2.774,
+    "ci": [
+     -6.691,
+     4.183
+    ],
+    "i2": 41.0,
+    "competitions": 8
+   },
+   "powerplay_runs": {
+    "estimate": 0.361,
+    "se": 0.491,
+    "ci": [
+     -0.601,
+     1.323
+    ],
+    "i2": 0.0,
+    "competitions": 8
+   },
+   "first_stand": {
+    "estimate": 1.352,
+    "se": 1.205,
+    "ci": [
+     -1.009,
+     3.713
+    ],
+    "i2": 0.0,
+    "competitions": 8
+   },
+   "runs": {
+    "estimate": 0.051,
+    "se": 1.269,
+    "ci": [
+     -2.435,
+     2.538
+    ],
+    "i2": 0.0,
+    "competitions": 8
+   }
+  }
+ },
+ "forecast_check": {
+  "matches": 341,
+  "seasons": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "rows": [
+   {
+    "label": "Coin flip",
+    "matches": 341,
+    "brier": 0.25,
+    "log_loss": 0.6931,
+    "accuracy": 0.54
+   },
+   {
+    "label": "Team record only",
+    "matches": 341,
+    "brier": 0.2502,
+    "log_loss": 0.6935,
+    "accuracy": 0.434
+   },
+   {
+    "label": "Team record plus batting hands",
+    "matches": 341,
+    "brier": 0.2485,
+    "log_loss": 0.6902,
+    "accuracy": 0.51
+   }
+  ]
+ }
+}

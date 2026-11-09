@@ -6,6 +6,8 @@
   "scripts": {
     "start": "npx --yes serve . -l 4173",
     "check": "node scripts/check.mjs",
-    "refresh": "node scripts/refresh.mjs"
+    "refresh": "node scripts/refresh.mjs",
+    "refresh:styles": "node scripts/refresh.mjs --styles",
+    "smoke": "node scripts/smoke.mjs"
   }
 }
