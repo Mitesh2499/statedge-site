@@ -52,3 +52,27 @@
 @media (max-width: 720px) { .answer { grid-template-columns: 1fr; } .chapter p { font-size: 16.5px; } }
 @media print { .answer > div, .fig, .tbl { break-inside: avoid; } }
 .chapter .fineprint, .fig .fineprint { font-size: 13px; line-height: 1.55; color: var(--muted); margin: 10px 0 0; }
+
+/* Beginner basics, three-way verdict, FAQ */
+.basics { margin: 22px 0; padding: 20px 22px; }
+.basics h3 { margin: 0 0 12px; font-size: 20px; }
+.basics dl { margin: 0; display: grid; gap: 14px; }
+.basics dt { font: 700 12px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--lime); margin-bottom: 4px; }
+.basics dd { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
+.three-col { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 24px 0; max-width: none; }
+.tc { padding: 16px 18px; }
+.tc h4 { margin: 0 0 10px; font: 700 13px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.tc ul { margin: 0; padding-left: 18px; font-size: 14.5px; line-height: 1.55; color: var(--muted); }
+.tc li { margin-bottom: 8px; }
+.tc.good { border-top: 3px solid #34d399; } .tc.good h4 { color: #34d399; }
+.tc.warn { border-top: 3px solid var(--amber); } .tc.warn h4 { color: var(--amber); }
+.tc.bad { border-top: 3px solid #fb7185; } .tc.bad h4 { color: #fb7185; }
+:root[data-theme="light"] .tc.good h4 { color: #0a8f4f; } :root[data-theme="light"] .tc.bad h4 { color: #c9372c; } :root[data-theme="light"] .tc.warn h4 { color: #a86a00; }
+@media (max-width: 860px) { .three-col { grid-template-columns: 1fr; } }
+.chapter.faq .faq-item { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 2px 16px; margin-bottom: 10px; }
+.faq-item summary { cursor: pointer; font-weight: 600; padding: 14px 0; font-size: 17px; }
+.faq-item p { color: var(--muted); font-size: 16px; margin: 0 0 14px; }
+.related ul { list-style: none; padding: 0; }
+.related li { padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--muted); }
+.related a { color: var(--lime); font-weight: 600; }
+.a-head .lede + .lede { margin-top: 14px; }

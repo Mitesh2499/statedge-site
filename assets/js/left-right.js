@@ -116,21 +116,31 @@ function build(D) {
   const root = document.getElementById("article-root");
   root.replaceChildren();
 
+  const iplTop = D.openers.tournaments.find((t) => t.name === "IPL");
+  const rrChamps = D.openers.ipl_cards.filter((c) => c.usual === "Two right-handers");
   root.append(h("header", { class: "a-head" },
-    h("span", { class: "eyebrow" }, "StatEdge · Research"),
-    h("h1", {}, "The Left-Right Theory: Can One Batting Combination Really Change Who Wins the IPL Trophy?"),
-    h("p", { class: "lede" }, `Every captain has heard it: keep a left-hander and a right-hander together and the bowler never settles. We tested it on ${nf(T.balls)} balls from ${nf(T.matches)} matches in ${T.competitions} competitions, then asked the question fans actually care about: does it win trophies?`),
+    h("span", { class: "eyebrow" }, "StatEdge Research · The Left-Right Theory"),
+    h("h1", {}, "Left-Right Batting Combination in Cricket: Does It Really Help You Win the IPL?"),
+    h("p", { class: "lede" }, "Watch any IPL innings and, within two overs, someone in the commentary box will say it: \"Good, a left-right combination.\" The idea is that a bowler never settles when the batter on strike keeps switching hands: a new angle, a new field, a new plan every other ball. Captains build batting orders around it, and selectors have picked a weaker batter for it."),
+    h("p", { class: "lede" }, `Here is the awkward part. Chennai Super Kings won trophies with a left-hander and a right-hander at the top, and also with two right-handers. Gujarat Titans lifted the 2022 trophy with two right-handed openers. So does the combination really matter? We went looking in ${nf(T.balls)} balls from ${nf(T.matches)} matches in ${T.competitions} competitions, and tested four things: does it score more, win more, qualify more, and win trophies? One result surprised us.`),
     h("div", { class: "answer" },
       h("div", {}, h("b", {}, sg(H.v)), h("span", {}, "runs per 100 balls: what a left-right pair scores over a same-hand pair")),
       h("div", {}, h("b", {}, `≈ ${f1(H.per_innings)}`), h("span", {}, "runs an innings if every ball were faced by mixed pairs")),
       h("div", {}, h("b", {}, `${sg(sc65.central.title_pct - sc30.central.title_pct, 1)} pts`), h("span", {}, "change in an average team's title chance from the least to the most left-right batting we tested"))),
-    h("p", { class: "verdict" }, h("b", {}, "The short answer: "), (fragile ? "a small scoring edge that only just clears zero, " : "a real but small scoring edge, ") + "concentrated against spin, that does not show up in qualification or championships. Champions did not open left-right more often than other teams, though almost all had a left-hander in their top three.")));
+    h("p", { class: "verdict" }, h("b", {}, "The short answer: "), (fragile ? "a small scoring edge that only just clears zero, " : "a real but small scoring edge, ") + "concentrated against spin, that does not show up in qualification or championships. Champions did not open left-right much more often than other teams. The one pattern worth watching: " + `${iplTop.top3.champions_with} of ${iplTop.top3.champions_n} IPL champions had a left-hander in their top three. But so did ${Math.round(iplTop.top3.base_pct)}% of all IPL teams, so it is a pattern to note, not proof of a winning recipe.`)));
 
   root.append(chapter(1, "The belief",
-    p("\"Good, a left-right combination.\" You will hear it within two overs of almost any T20 innings. The logic is easy to picture. A bowler has to move his line and length for each new batter on strike, the captain keeps resetting the field, and the pair, the story goes, feels more comfortable."),
-    p("It is one of cricket's most repeated beliefs, and it has a natural cost: batting orders get shuffled, and sometimes a weaker batter is picked because he bats with the other hand. Whether that cost is worth paying depends on one thing, how much the pairing is really worth. So we measured it.")));
+    p("A left-right combination simply means two batters at the crease together, one left-handed and one right-handed. The logic behind it is easy to picture. Every time the batter on strike changes, the bowler has to adjust his angle, his line and his length, and the captain has to reset the field. The story goes that bowlers lose their rhythm and the pair feels more comfortable."),
+    h("div", { class: "card basics" },
+      h("h3", {}, "First, the basics"),
+      h("dl", {},
+        h("dt", {}, "What counts as left-right?"), h("dd", {}, "Matthew Hayden (left) with Murali Vijay (right) at Chennai in 2010 is the textbook case. Faf du Plessis and Ruturaj Gaikwad (both right-handers, Chennai 2021) are not. Neither are David Warner and Shikhar Dhawan (both left-handers, Hyderabad 2016)."),
+        h("dt", {}, "Why would it change the bowling?"), h("dd", {}, "Imagine a right-arm off-spinner bowling to a right-hander. His stock delivery turns into the batter. Now the next batter is a left-hander, and the same delivery turns away from him. The bowler needs a different angle, the fielders need to move, and a plan that worked for one over no longer fits. That adjustment is called a matchup: how one batter fares against one type of bowler."),
+        h("dt", {}, "Three stages of a T20 innings"), h("dd", {}, "The powerplay is the first six overs, when fielding restrictions make boundaries easier. The middle overs are 7 to 15. The death overs are the last five, 16 to 20, when teams go all out for runs."))),
+    p("It is one of cricket's most repeated beliefs, and it has a natural cost: batting orders get shuffled, and sometimes a weaker batter is picked because he bats with the other hand. Whether that cost is worth paying depends on one thing, how much the pairing is really worth. So we measured it, and we set out to test the belief, not to prove it.")));
 
   root.append(chapter(2, "The evidence: what 2.13 million balls show",
+    p("It is easy to find famous partnerships that worked, and just as easy to find ones that did not. Picking examples proves nothing, so we looked at every ball instead."),
     p(`For every ball a batter faced, we recorded who was on strike, who was at the other end, whether each bats left- or right-handed, who was bowling, and what happened. A pair is mixed (one of each) or same-hand (two right-handers or two left-handers). We then compared each batter with himself, with the bowler and the stage of the innings kept the same, so that stronger batters, particular bowlers or a particular stage of the game could not fake the result.`),
     p(`The answer: a left-right pair scores ${sg(H.v)} runs per 100 balls more than a same-hand pair, and the range the data allows runs from ${sg(H.lo)} to ${sg(H.hi)}. ${fragile ? `That clears zero, but only just: the lower end of the range is ${sg(H.lo)}, so treat it as small and fragile.` : "That is real, since the range stays above zero, but small."} ${H.agree} of the ${H.of} competitions point the same way.`),
     fig("The left-right edge, competition by competition", "Runs per 100 balls a left-right pair scores over a same-hand pair. Green: the range stays above zero. Grey: it includes zero. The diamond is all competitions together.",
@@ -138,9 +148,12 @@ function build(D) {
       "Competitions where batting hands are recorded for fewer balls (T20 Blast, Syed Mushtaq Ali, internationals) have wider ranges. Big Bash is the clearest single competition; The Hundred and SA20 are too small to call."),
     fig("What a left-right pair does differently", "Per 100 balls, left-right pair minus same-hand pair, all competitions together. Whisker: the range the data allows.",
       rangeChart(D.effects.map((e) => ({ label: `${e.label}`, v: e.v, lo: e.lo, hi: e.hi, note: e.unit })), { label: "Effects of a left-right pair", zeroNote: ["fewer", "more"], labelW: 150 }),
-      "Wickets: no measurable difference. Left-right pairs score faster, hit slightly more boundaries and play slightly fewer dot balls, but they are not safer.")));
+      "Wickets: no measurable difference. Left-right pairs score faster, hit slightly more boundaries and play slightly fewer dot balls (balls with no run scored), but they are not safer.")));
 
-  root.append(chapter(3, "The tactical explanation: why it might work, and where it does",
+  root.append(chapter(3, "The biggest discovery: it is a spin story",
+    fig("The scoring edge of a left-right pair", "Runs per 100 balls scored by a left-right pair compared with a same-hand pair.",
+      barChart([{ label: "Overall", sub: "all bowling", v: H.v, cls: "gold" }, { label: "Against spin", sub: "slow bowlers", v: spin.v }, { label: "Against pace", sub: "fast bowlers", v: pace.v }], { label: "Left-right scoring edge: overall, against spin, against pace", unit: " runs", min: -2, max: Math.ceil(spin.v + 2), height: 230 }),
+      `Notice the gap: the edge against spin (${sg(spin.v)}) is several times the overall figure, while against pace (${sg(pace.v)}) it disappears. The overall number is an average of a real spin effect and no pace effect.`),
     p("Picture a bowler defending 45 runs in the last four overs against a left-right pair. Every ball, the angle he has to attack changes. The captain either keeps the field and gives away a side, or moves fielders and reopens the gaps behind them. The yorker that was perfect for the right-hander is a half-volley outside the left-hander's leg stump. Each reset costs a fraction of accuracy."),
     p(`The data cannot see line, length or field placings, so we cannot say that is what happens. It does show footprints the explanation predicts: bowlers send down about ${D.effects.find((e) => e.label.startsWith("Wides")).v.toFixed(2)} more wides and no-balls per 100 deliveries to a mixed pair, and the pair hits more boundaries. The sharper clue is where the edge appears.`),
     fig("Where the edge lives", "Left-right pair minus same-hand pair, in runs per 100 balls, by type of bowling and by stage of the innings.",
@@ -164,6 +177,7 @@ function build(D) {
     table(["Season", "Champion", "Runner-up", "Other playoff teams (average)", "Missed the playoffs (average)"], D.seasons.map(seasonRow)),
     h("p", { class: "fineprint" }, "Mixed % is the share of balls the team's batting spent in left-right pairs in league matches. SR is the team's batting strike rate. * means batting hands were recorded for fewer than 60% of that team's balls; n/a means fewer than 40%, so no figure is shown."));
   root.append(chapter(5, "The playoff question",
+    p("Scoring more and winning more are one thing. Reaching the playoffs, the top four of the league table, is another, and it is what decides whether a team gets a shot at the trophy."),
     p(`Take every team-season since 2008 and rank it against its own season's average for left-right batting. If balance helped teams qualify, the high group should qualify more often than the low group. It does not. ${Q.bands[0].team_seasons} low-usage team-seasons qualified ${f1(Q.bands[0].qualification_rate)}% of the time, medium-usage ${f1(Q.bands[1].qualification_rate)}% and high-usage ${f1(Q.bands[2].qualification_rate)}%. The pattern is not even a steady climb.`),
     fig("Playoff rate by how much of a team's batting was in left-right pairs", "Within each season, team-seasons split into thirds by their left-right share.", barChart(Q.bands.map((b) => ({ label: b.label.replace(" mixed-pair usage", ""), sub: `${b.qualified} of ${b.team_seasons}`, v: b.qualification_rate })), { label: "Playoff rate by left-right usage", ref: 47, min: 0, max: 70 }),
       `Allowing for each team's record over the three previous seasons, 10 more points of left-right batting changes the odds of qualifying by ${Math.round((Q.adjusted.odds_ratio_per_10pts - 1) * 100)}% (range ${Math.round((Q.adjusted.ci[0] - 1) * 100)}% to +${Math.round((Q.adjusted.ci[1] - 1) * 100)}%), which is no reliable effect. Past record is itself a weak guide in the IPL, so the adjustment is rough.`),
@@ -214,6 +228,7 @@ function build(D) {
 
   const rows3 = [["Same-hand-heavy XI", sc30], ["Balanced XI", sc50], ["High left-right XI", sc65]];
   root.append(chapter(8, "The experiment: replaying the season 50,000 times",
+    p("History gives only one season per team, which is too little to see a small effect on titles. So we added an experiment: play out the IPL on a computer 50,000 times with real numbers, and count how often a team makes the playoffs or wins the trophy."),
     p(`To isolate the batting mix, we took an average IPL team and replayed its season 50,000 times, changing only how much of its batting is done in left-right pairs. Every replay includes the full league (14 matches each), the top four, the qualifier, eliminator and final. The scoring edge is the study's own figure; the conversion from runs to wins is the one above; the spread between teams matches real IPL seasons. We ran it at the central edge (${sg(H.v)} runs per 100 balls) and at both ends of its range (${sg(H.lo)} and ${sg(H.hi)}).`),
     fig("Title chance against left-right batting", "Average team. Line: central estimate. Shaded: the range from the smallest to the largest plausible edge.", titleChart(D, "title_pct", "Title chance (%)")),
     table(["Batting mix", "Left-right share", "Expected wins (of 14)", "Playoffs", "Final", "Title"], rows3.map(([n, r]) => [n, `${r.mixed_share}%`, f1(r.central.expected_wins), `${f1(r.central.playoff_pct)}%`, `${f1(r.central.final_pct)}%`, `${f1(r.central.title_pct)}%`])),
@@ -241,6 +256,21 @@ function build(D) {
     h("div", { class: "card verdict-card" },
       h("p", {}, h("b", {}, "A small tactical edge, not a championship strategy. ")),
       p(`Left-right batting is worth about ${sg(H.v)} runs per 100 balls overall, ${sg(spin.v)} against spin and nothing against pace. ${fragile ? "That is small, and only just clear of zero." : "That is real and modest."} It does not protect wickets, it does not show up in win rates, qualification or titles in ${D.seasons.length} seasons of IPL history, and champions open left-right no more often than anyone else (the one pattern worth watching is a left-hander somewhere in the top three), and, replayed 50,000 times, it moves an average team's title chance by ${gain("central") < 1 ? "under one percentage point" : "about " + f1(gain("central")) + " points"} at the central estimate and about ${f1(gain("high"))} points at the top of the plausible range. The belief is not a myth. It is just smaller than the commentary makes it sound.`)),
+    h("div", { class: "three-col" },
+      h("div", { class: "card tc good" }, h("h4", {}, "What the data shows"), h("ul", {}, [
+        `A left-right pair scores ${sg(H.v)} runs per 100 balls more than a same-hand pair, ${sg(spin.v)} against spin and ${sg(pace.v)} against pace.`,
+        `It does not protect wickets.`,
+        `${all.top3.champions_with} of ${all.top3.champions_n} champions across all tournaments (${pc(all.top3.champions_pct)}) had a left-hander in the top three.`].map((t) => h("li", {}, t)))),
+      h("div", { class: "card tc warn" }, h("h4", {}, "What it suggests"), h("ul", {}, [
+        "The edge is earned in the middle overs against spin, so it matters most when the opposition has quality spinners.",
+        `A left-hander in the top three looks close to a requirement for winning a T20 title (${club.top3.champions_with} of ${club.top3.champions_n} club-tournament champions, p = ${club.top3.p}), but ${pc(all.top3.base_pct)} of all teams have one.`,
+        "Balance is a sensible tie-breaker between similar batters."].map((t) => h("li", {}, t)))),
+      h("div", { class: "card tc bad" }, h("h4", {}, "What it does not establish"), h("ul", {}, [
+        "That left-right batting causes wins, playoff places or trophies.",
+        `That a left-hander in the top three causes championships: in the IPL alone the result is not conclusive (p = ${ipl.top3.p}).`,
+        "An ideal percentage of left-right batting.",
+        "Anything about line, length or field placings."].map((t) => h("li", {}, t))))),
+    h("p", {}, h("b", {}, "So do winning teams have it? "), `Mostly a left-hander in the top three, yes: ${ipl.top3.champions_with} of ${ipl.top3.champions_n} IPL champions. A left-right opening pair, only about as often as everyone else: ${ipl.open.champions_with} of ${ipl.open.champions_n} champions against ${Math.round(ipl.open.base_pct)}% of all IPL teams, and ${rrChamps.length} IPL champions (${rrChamps.map((c) => `${c.team} ${c.year}`).join(", ")}) usually opened with two right-handers. "Best" is not what the data says; "common and harmless to have" is.`),
     h("h3", {}, "Five things to take away"),
     h("ol", { class: "takeaways" }, [
       `A left-right pair scores about ${f1(H.v)} more runs per 100 balls than a same-hand pair. Real, but about ${f1(H.per_innings)} runs an innings at the very most.`,
@@ -248,6 +278,31 @@ function build(D) {
       "Left-right batting does not protect wickets. Pairs score faster; they do not get out less.",
       `IPL champions opened left-right ${ipl.open.champions_with} times out of ${ipl.open.champions_n}, against ${Math.round(ipl.open.base_pct)}% of all IPL teams, so it is ${ipl.open.p !== null && ipl.open.p < 0.05 ? "a clear marker of a winner" : "no clear marker of a winner"}; ${ipl.top3.champions_with} of ${ipl.top3.champions_n} had a left-hander in the top three.${OP.ipl_cards.filter((c) => c.usual === "Two right-handers").length ? ` ${OP.ipl_cards.filter((c) => c.usual === "Two right-handers").slice(-2).map((c) => `${c.team} (${c.year})`).join(" and ")} won with right-hand openers.` : ""}`,
       `Replay the season 50,000 times and a team that goes from least to most left-right batting gains about ${f1(sc65.central.title_pct - sc30.central.title_pct)} point of title chance.`].map((t) => h("li", {}, t)))));
+
+  const faq = [
+    ["Why do cricket teams prefer left-right batting combinations?", `Because every change of batter forces the bowler to adjust his angle, line and length, and the captain to reset the field, and spinners lose their easiest plan. The data backs a small version of the belief: a left-right pair scores ${sg(H.v)} runs per 100 balls more than a same-hand pair. It is a small edge, not a guarantee.`],
+    ["Is a left-right combination more effective against spin?", `Yes, and that is the clearest finding. Against spin a left-right pair scores ${sg(spin.v)} runs per 100 balls more (range ${sg(spin.lo)} to ${sg(spin.hi)}). Against pace it is ${sg(pace.v)} (range ${sg(pace.lo)} to ${sg(pace.hi)}), which is no measurable difference.`],
+    ["Are two right-handed openers a disadvantage?", `Not on this evidence. In the IPL, teams opening with two right-handers won ${f1(open[1].win)}% of matches against ${f1(open[0].win)}% for left-right openers, a gap too small to be established. ${rrChamps.length} IPL champions usually opened with two right-handers: ${rrChamps.map((c) => `${c.team} (${c.year})`).join(", ")}.`],
+    ["Do IPL champions usually have left-handed batters?", `In the top three, almost always: ${ipl.top3.champions_with} of ${ipl.top3.champions_n} IPL champions with recorded batting hands. But ${Math.round(ipl.top3.base_pct)}% of all IPL teams do too, and with only ${ipl.top3.champions_n} champions the result is not conclusive (p = ${ipl.top3.p}). It is a pattern worth watching, not a proven rule.`],
+    ["Does a left-right opening partnership increase winning chances?", `The data does not show it. IPL teams that opened left-right won ${f1(open[0].win)}% of matches against ${f1(open[1].win)}% for two right-handers. Across ${OP.pooled.win_points.competitions} tournaments, with each team's own strength held fixed, the difference was ${sg(OP.pooled.win_points.estimate, 1)} points (range ${sg(OP.pooled.win_points.ci[0], 1)} to ${sg(OP.pooled.win_points.ci[1], 1)}).`],
+    ["Should teams select a left-hander just for batting balance?", "No. The whole edge is worth under two runs an innings even if every ball were faced by a mixed pair, and individual differences in batting quality are typically larger. Use balance to separate batters of similar quality, and lean on it when the opposition has strong spinners."],
+    ["What is the ideal percentage of left-right batting in a T20 team?", `The research does not establish one. We compared 30%, 50% and 65% in the season replays, but those were illustrations, and in real innings the runs by left-right share do not follow a clean pattern. Do not read any percentage as a target.`],
+  ];
+  root.append(h("section", { class: "chapter reveal faq", id: "faq" }, h("h2", {}, "Frequently asked questions about left-right batting"),
+    ...faq.map(([q, a], i) => h("details", { class: "faq-item", open: i === 0 }, h("summary", {}, q), h("p", {}, a)))));
+  root.append(h("section", { class: "chapter reveal related" }, h("h2", {}, "Keep exploring"),
+    h("ul", {}, [
+      h("li", {}, h("a", { href: "players.html" }, "Best IPL players by role"), " (including the best finishers and middle-overs batters, ranked for 2026 and projected for 2027)"),
+      h("li", {}, h("a", { href: "index.html#outlook" }, "The 2027 IPL outlook"), ": ten squads, six phases, one season"),
+      h("li", {}, h("a", { href: "index.html#cases" }, "Ten franchise case studies"), ", including how Chennai, Mumbai and Bengaluru built their sides"),
+      h("li", {}, h("a", { href: "index.html#findings" }, "What 19 IPL seasons say"), " about who qualifies and who wins")].map((x) => x))));
+
+  const ld = document.createElement("script");
+  ld.type = "application/ld+json";
+  ld.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": [
+    { "@type": "Article", headline: "Left-Right Batting Combination in Cricket: Does It Really Help You Win the IPL?", author: { "@type": "Person", name: "Mitesh Masurkar" }, publisher: { "@type": "Organization", name: "StatEdge" }, mainEntityOfPage: location.href, about: ["IPL batting strategy", "Left-right batting combination", "T20 cricket analytics"] },
+    { "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) }] });
+  document.head.append(ld);
 
   root.append(h("section", { class: "chapter reveal limits" }, h("h2", {}, "What this does and does not show"),
     h("ul", {}, [
