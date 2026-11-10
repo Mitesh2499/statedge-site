@@ -98,6 +98,7 @@ const chapter = (n, title, ...kids) => h("section", { class: "chapter reveal", i
 
 function build(D) {
   const H = D.headline, T = D.totals;
+  const fragile = H.lo < 0.3;              // the low end of the range is barely above zero: say so instead of calling the edge simply real
   const spin = D.bowlers.find((b) => b.label === "Against spin"), pace = D.bowlers.find((b) => b.label === "Against pace");
   const mid = D.phases.find((x) => x.label === "Middle overs");
   const sc30 = D.scenarios.find((r) => r.mixed_share === 30), sc50 = D.scenarios.find((r) => r.mixed_share === 50), sc65 = D.scenarios.find((r) => r.mixed_share === 65);
@@ -123,7 +124,7 @@ function build(D) {
       h("div", {}, h("b", {}, sg(H.v)), h("span", {}, "runs per 100 balls: what a left-right pair scores over a same-hand pair")),
       h("div", {}, h("b", {}, `≈ ${f1(H.per_innings)}`), h("span", {}, "runs an innings if every ball were faced by mixed pairs")),
       h("div", {}, h("b", {}, `${sg(sc65.central.title_pct - sc30.central.title_pct, 1)} pts`), h("span", {}, "change in an average team's title chance from the least to the most left-right batting we tested"))),
-    h("p", { class: "verdict" }, h("b", {}, "The short answer: "), "a real but small scoring edge, concentrated against spin, that does not show up in qualification or championships. Champions did not open left-right more often than other teams, though almost all had a left-hander in their top three.")));
+    h("p", { class: "verdict" }, h("b", {}, "The short answer: "), (fragile ? "a small scoring edge that only just clears zero, " : "a real but small scoring edge, ") + "concentrated against spin, that does not show up in qualification or championships. Champions did not open left-right more often than other teams, though almost all had a left-hander in their top three.")));
 
   root.append(chapter(1, "The belief",
     p("\"Good, a left-right combination.\" You will hear it within two overs of almost any T20 innings. The logic is easy to picture. A bowler has to move his line and length for each new batter on strike, the captain keeps resetting the field, and the pair, the story goes, feels more comfortable."),
@@ -131,7 +132,7 @@ function build(D) {
 
   root.append(chapter(2, "The evidence: what 2.13 million balls show",
     p(`For every ball a batter faced, we recorded who was on strike, who was at the other end, whether each bats left- or right-handed, who was bowling, and what happened. A pair is mixed (one of each) or same-hand (two right-handers or two left-handers). We then compared each batter with himself, with the bowler and the stage of the innings kept the same, so that stronger batters, particular bowlers or a particular stage of the game could not fake the result.`),
-    p(`The answer: a left-right pair scores ${sg(H.v)} runs per 100 balls more than a same-hand pair, and the range the data allows runs from ${sg(H.lo)} to ${sg(H.hi)}. That is real, since the range stays above zero, but small. ${H.agree} of the ${H.of} competitions point the same way.`),
+    p(`The answer: a left-right pair scores ${sg(H.v)} runs per 100 balls more than a same-hand pair, and the range the data allows runs from ${sg(H.lo)} to ${sg(H.hi)}. ${fragile ? `That clears zero, but only just: the lower end of the range is ${sg(H.lo)}, so treat it as small and fragile.` : "That is real, since the range stays above zero, but small."} ${H.agree} of the ${H.of} competitions point the same way.`),
     fig("The left-right edge, competition by competition", "Runs per 100 balls a left-right pair scores over a same-hand pair. Green: the range stays above zero. Grey: it includes zero. The diamond is all competitions together.",
       rangeChart([...D.competitions.map((c) => ({ label: c.name, v: c.v, lo: c.lo, hi: c.hi, note: `Batting hand known for ${c.coverage}% of balls; ${nf(c.matches)} matches` })), { label: "All competitions", v: H.v, lo: H.lo, hi: H.hi, pooled: true }], { label: "Left-right advantage by competition", zeroNote: ["same-hand better", "left-right better"] }),
       "Competitions where batting hands are recorded for fewer balls (T20 Blast, Syed Mushtaq Ali, internationals) have wider ranges. Big Bash is the clearest single competition; The Hundred and SA20 are too small to call."),
@@ -239,7 +240,7 @@ function build(D) {
   root.append(chapter(12, "The final verdict",
     h("div", { class: "card verdict-card" },
       h("p", {}, h("b", {}, "A small tactical edge, not a championship strategy. ")),
-      p(`Left-right batting is worth about ${sg(H.v)} runs per 100 balls overall, ${sg(spin.v)} against spin and nothing against pace. That is real and modest. It does not protect wickets, it does not show up in win rates, qualification or titles in ${D.seasons.length} seasons of IPL history, and champions open left-right no more often than anyone else (the one pattern worth watching is a left-hander somewhere in the top three), and, replayed 50,000 times, it moves an average team's title chance by ${gain("central") < 1 ? "under one percentage point" : "about " + f1(gain("central")) + " points"} at the central estimate and about ${f1(gain("high"))} points at the top of the plausible range. The belief is not a myth. It is just smaller than the commentary makes it sound.`)),
+      p(`Left-right batting is worth about ${sg(H.v)} runs per 100 balls overall, ${sg(spin.v)} against spin and nothing against pace. ${fragile ? "That is small, and only just clear of zero." : "That is real and modest."} It does not protect wickets, it does not show up in win rates, qualification or titles in ${D.seasons.length} seasons of IPL history, and champions open left-right no more often than anyone else (the one pattern worth watching is a left-hander somewhere in the top three), and, replayed 50,000 times, it moves an average team's title chance by ${gain("central") < 1 ? "under one percentage point" : "about " + f1(gain("central")) + " points"} at the central estimate and about ${f1(gain("high"))} points at the top of the plausible range. The belief is not a myth. It is just smaller than the commentary makes it sound.`)),
     h("h3", {}, "Five things to take away"),
     h("ol", { class: "takeaways" }, [
       `A left-right pair scores about ${f1(H.v)} more runs per 100 balls than a same-hand pair. Real, but about ${f1(H.per_innings)} runs an innings at the very most.`,

@@ -19,16 +19,16 @@
         },
         {
           "title": "Where the 2027 squad is exposed",
-          "body": "The batting looks strong in the powerplay and middle overs, but the outlook rates the bowling in the middle and death overs as the weak side. Five overseas players (Buttler, Rashid Khan, Holder, Phillips and Rabada) compete for four places in the XI. On the last two years of form StatEdge leaves Rashid Khan out: his middle-over economy is 8.2 and his death economy close to 11."
+          "body": "The outlook rates the batting about average in the powerplay and middle overs (5.2 and 5.2 out of 10) and the death overs as the weak side: batting at the death rates 3.5 (second lowest in the league) and bowling at the death 4.6 (seventh in the league). Five overseas players (Buttler, Rashid Khan, Holder, Phillips and Rabada) compete for four places in the XI. StatEdge's XI plays Buttler, Rashid Khan, Holder and Rabada and leaves Phillips out."
         },
         {
           "title": "A top-heavy batting order",
-          "body": "In StatEdge's XI the top three batters score about 62% of the team's runs, the highest share of any team in the league. Qualifying sides do lean on their top three, but 62% means one early wicket changes the innings."
+          "body": "In 2026 the top three batters scored 71% of Gujarat's runs, the highest share in the league (league average 54%). Qualifying sides do lean on their top three, and a heavy share means one early wicket changes the innings."
         }
       ],
-      "insight": "Gujarat are a good example of why a track record and a squad audit answer different questions. The record says 'usually qualifies'. The squad audit says 'four overseas slots, one thin bowling unit and a very top-heavy order'. The outlook lands below the middle of the table, and it is not saying they will miss; it is saying the margin for error is smaller than the record suggests.",
+      "insight": "Gujarat are a good example of why a track record and a squad audit answer different questions. The record says 'usually qualifies'. The squad audit says 'four overseas slots, one thin bowling unit and a very top-heavy order'. The outlook lands sixth of ten, below the middle of the table, and it is not saying they will miss; it is saying the margin for error is smaller than the record suggests.",
       "watch": [
-        "Which four of the five overseas players start, and whether Rashid Khan is one of them",
+        "Which four of the five overseas players start: StatEdge's XI plays Rashid Khan and leaves Phillips out",
         "Who bowls the death overs: the bowling plan relies on very few proven options there",
         "How much the top three carry again; a quiet powerplay is the main way this side falls over"
       ],
@@ -113,7 +113,7 @@
             "lead": "Now look at who scores the runs.",
             "simple": "Top-three run share is the share of the team's runs scored by its three highest run-scorers. A high number means the order is top-heavy.",
             "body": [
-              "In 2026 Gujarat's top three of B Sai Sudharsan, Shubman Gill and JC Buttler scored 71% of the team's runs. The league average that season was 54%. (The 62% quoted in the original finding is the share projected for the 2027 XI; this is what actually happened in 2026.) The fourth-highest scorer, Washington Sundar, made 303.",
+              "In 2026 Gujarat's top three of B Sai Sudharsan, Shubman Gill and JC Buttler scored 71% of the team's runs. The league average that season was 54%. The fourth-highest scorer, Washington Sundar, made 303.",
               "A trio like that is a gift while all three are fit and scoring, and a risk when they are not. In the league's history, playoff teams do lean on their top three more than other teams, so concentration alone is not a flaw."
             ],
             "table": {
@@ -273,15 +273,15 @@
         ],
         "hidden": [
           {
-            "title": "The projection and the record disagree about the powerplay",
+            "title": "The projection is kinder than the record about the powerplay",
             "body": [
-              "The 2027 outlook rates Gujarat's powerplay batting as a strength, but the last three seasons of actual play show below-average scoring there. One possible reason is that the projection is built from the current squad's individual records while the team record reflects how the order was actually used. The data cannot confirm that, so treat it as a question to check."
+              "The 2027 outlook rates Gujarat's powerplay batting about average (5.2 out of 10, fifth in the league), but the last three seasons of actual play show below-average scoring there. One possible reason is that the projection is built from the current squad's individual records while the team record reflects how the order was actually used. The data cannot confirm that, so treat it as a question to check."
             ]
           },
           {
-            "title": "Rashid Khan's 2026 was fine; the worry is the two-year window",
+            "title": "Rashid Khan's 2026 was fine, and the outlook keeps him in",
             "body": [
-              "In 2026 Rashid Khan took 19 wickets at 8.72 an over from 48 overs, which is a respectable season. The outlook leaves him out because it weighs two years of form, not one."
+              "In 2026 Rashid Khan took 19 wickets at 8.72 an over from 48 overs, which is a respectable season. The outlook weighs two years of form, not one, and still includes him in StatEdge's XI."
             ]
           },
           {
@@ -302,7 +302,7 @@
           },
           {
             "q": "Does the 2027 outlook change the story?",
-            "a": "The outlook is a projection for a changed squad. Where it disagrees with the record (the powerplay), treat it as a question to check, not an answer."
+            "a": "The outlook is a projection for a changed squad. Where it differs from the record (the powerplay batting), treat it as a question to check, not an answer."
           }
         ],
         "implications": [
@@ -701,17 +701,17 @@
         },
         {
           "title": "What the outlook sees",
-          "body": "The strongest unit in StatEdge's XI is batting at the death (6.5 out of 10), with the middle-overs batting above the league average too. The weakest phases are bowling at the death (4.2) and in the powerplay (5.0), even with Bumrah in the side."
+          "body": "The strongest unit in StatEdge's XI is batting at the death (6.6 out of 10, second in the league), followed by bowling at the death (6.3). The weakest units are batting in the powerplay (4.6) and bowling in the middle overs (4.7)."
         },
         {
           "title": "How big is the lead, really?",
-          "body": "Mumbai are first with a 57% playoff chance and a 16% title chance, about nine points ahead of second place on the playoffs. Even the favourite misses the playoffs more than four times in ten."
+          "body": "Mumbai are first with a playoff chance of 54% and a title chance of 15%, about 4 points ahead of second place on the playoffs. Even the favourite misses the playoffs about 46% of the time."
         }
       ],
       "insight": "The useful read is not 'Mumbai are favourites'. It is 'Mumbai are the team whose lower-tier years are most likely to be bad luck rather than bad squads'. The outlook is built around the players in the squad, not the franchise's last results, which is why it does not follow the dip. That is a strength when the cause of a dip is noise and a weakness when the cause is something the data cannot see, such as an injury or a dressing-room issue.",
       "watch": [
-        "Death bowling beyond Bumrah: the second and third options decide the last five overs",
-        "Powerplay bowling: a weak phase for a side that depends on early control",
+        "The weakest units, batting in the powerplay and bowling in the middle overs: a side that wants control needs one of them fixed",
+        "Whether the death-bowling strength rests on Bumrah alone",
         "Whether the batting order uses the strong death hitters early enough"
       ],
       "takeaway": "A small edge on a very noisy sport: favourite, not certainty.",
@@ -1242,12 +1242,12 @@
         },
         {
           "title": "What the outlook sees",
-          "body": "The 2027 outlook rates Kolkata fifth: a 40% playoff chance. The standout is bowling at the death (8.4 out of 10, the best of any team), helped by the lowest wide and no-ball rate in the league at the death. The weak spot is the middle overs, in both batting and bowling."
+          "body": "The 2027 outlook rates Kolkata third: a playoff chance of 50%. The standout is bowling in the powerplay (8.9 out of 10, the best in the league), with bowling at the death (6.6, the best in the league) close behind, helped by the lowest wide and no-ball rate in the league at the death. The weak spots are batting in the middle overs (2.5, the lowest in the league) and batting at the death (3.8)."
         }
       ],
       "insight": "Kolkata show why one standout season should not be extrapolated, and also why the death bowling matters: death-over extras were one of the few measures that cost teams beyond what runs and wickets already show. A side that holds its lines in the last five overs gets a real edge, and Kolkata's numbers there are the best in the league.",
       "watch": [
-        "The middle overs: both batting and bowling rate in the bottom half",
+        "Where the outlook is weakest: batting in the middle overs and batting at the death",
         "Narine and Varun's workload; the spin core drives the phase that is weakest",
         "Whether the death-bowling discipline holds when the opposition is aggressive"
       ],
@@ -1394,9 +1394,9 @@
         ],
         "hidden": [
           {
-            "title": "History and outlook disagree about the middle overs",
+            "title": "History and outlook agree about the middle overs",
             "body": [
-              "Kolkata's actual middle-over bowling from 2024 to 2026 saved 4.2 runs a match against the league (8.62 an over against 9.09), while the 2027 outlook rates that unit weak. The two views point in opposite directions, and this data cannot say why; changes to the squad are one possible reason."
+              "Kolkata's actual middle-over bowling from 2024 to 2026 saved 4.2 runs a match against the league (8.62 an over against 9.09), and the 2027 outlook rates that unit above average too (5.5 out of 10, fourth in the league). The record and the outlook point the same way, which makes it one of the more trustworthy parts of the side."
             ]
           },
           {
@@ -1770,13 +1770,13 @@
         },
         {
           "title": "What the outlook sees",
-          "body": "Chennai rate seventh with a 39% playoff chance. They are strongest where the game is slowest: bowling in the middle overs (7.5 out of 10) and batting in the same phase (6.1). They are weakest in the powerplay bowling (3.3) and the death bowling (3.9), the two phases where the ball does the most damage."
+          "body": "Chennai rate seventh with a playoff chance of 37%. They are strongest where the game is slowest: bowling in the middle overs (7.2 out of 10) and batting in the middle overs (6.5). They are weakest in the powerplay on both sides: bowling (2.3, the lowest in the league) and batting (3.8, second lowest in the league), the phase where the ball does the most damage."
         }
       ],
-      "insight": "Chennai's squad is built for control: it is strong when the game is slow and exposed when it is fast. The data points to a specific fix, not a rebuild: a bowler who can take wickets in the powerplay and a second reliable option for the death overs.",
+      "insight": "Chennai's squad is built for control: it is strong when the game is slow and exposed when it is fast. The data points to a specific fix, not a rebuild: a bowler who can take wickets in the powerplay and a top-order batter who can score in it.",
       "watch": [
         "A new-ball option that can take wickets in the powerplay",
-        "The identity of the second death bowler behind the first",
+        "Who opens the batting, since the powerplay batting is also one of the two weakest units",
         "How the top order handles the powerplay"
       ],
       "takeaway": "Middle of the table, with a clear and fixable shape.",
@@ -1932,7 +1932,7 @@
           {
             "title": "The outlook and the record disagree about the middle overs",
             "body": [
-              "The 2027 outlook rates Chennai's middle-over batting above average, but the last three seasons were the league's lowest by runs per over. The outlook is built from current players, and the record is from the order they played. The data cannot say which will prove right, so the middle-over batting is the first thing to check."
+              "The 2027 outlook rates Chennai's middle-over batting above average (6.5 out of 10, the best in the league), but the last three seasons were the league's lowest by runs per over. The outlook is built from current players, and the record is from the order they played. The data cannot say which will prove right, so the middle-over batting is the first thing to check."
             ]
           },
           {
@@ -2307,14 +2307,14 @@
         },
         {
           "title": "What the outlook sees",
-          "body": "Third, with a 44% playoff chance. The outlook credits the powerplay bowling (6.5 out of 10) and the batting at the death (5.9). The middle overs are the weak phase: bowling there rates 3.0, the lowest middle-overs bowling score in the league."
+          "body": "Fourth, with a playoff chance of 49%. The outlook credits bowling in the powerplay (6.1 out of 10, third in the league) and batting in the middle overs (5.7). The middle overs are the weak phase: bowling there rates 4.1, eighth in the league."
         }
       ],
-      "insight": "Because strength rarely repeats, Bengaluru's streak is the most informative thing in the data: holding a high level for four seasons in a league where that almost never happens is worth studying. The outlook's probability (44%) is more modest than the record, which is the honest position: the streak is evidence of quality, not a guarantee.",
+      "insight": "Because strength rarely repeats, Bengaluru's streak is the most informative thing in the data: holding a high level for four seasons in a league where that almost never happens is worth studying. The outlook's probability (49%) is more modest than the record, which is the honest position: the streak is evidence of quality, not a guarantee.",
       "watch": [
         "Middle-over bowling: the lowest-rated unit in the XI",
         "Whether the middle overs can be protected without costing the powerplay edge",
-        "Top-order reliance: the top three score about 54% of runs"
+        "Top-order reliance: the top three scored 55% of runs in 2026"
       ],
       "takeaway": "The benchmark for what a durable squad looks like.",
       "deep": {
@@ -2822,8 +2822,8 @@
       "slug": "lsg",
       "team": "Lucknow Super Giants",
       "kicker": "A long fall",
-      "headline": "Great bowling at the death, nothing at the start",
-      "dek": "From +13 in 2022 to -26 in 2026, with a bowling attack that peaks late.",
+      "headline": "The weakest squad on paper, and weakest where games end",
+      "dek": "From +13 in 2022 to -26 in 2026, and a bowling attack the outlook rates the lowest in the league at the death.",
       "question": "Lucknow began with two playoff seasons and have missed three in a row since. What changed in the shape of the side?",
       "evidence": [
         {
@@ -2831,25 +2831,25 @@
           "body": "Lucknow's season strength reads +13, +6, -20, -10 and -26 across 2022 to 2026, and the win rate fell to 31% in 2026. The two playoff seasons were the first two."
         },
         {
-          "title": "The outlook is not as bleak as the record",
-          "body": "Lucknow rate ninth of ten, with a 28% playoff chance. That is below the middle but well short of a certain miss."
+          "title": "The outlook agrees with the record, but it is not a certainty",
+          "body": "Lucknow rate tenth of ten, with a playoff chance of 18%. That is the lowest in the league, but it still gives them roughly one chance in 6: well short of a certain miss."
         },
         {
-          "title": "A bowling attack that peaks late",
-          "body": "The death overs (7.1 out of 10) and middle overs (6.3) are the best phases by a wide margin. The powerplay is the weakest bowling phase of any team in the league (2.7), and the batting in the middle overs (3.1) is the second weak spot."
+          "title": "A bowling attack that is weakest late",
+          "body": "The death-over bowling rates 2.5 out of 10 (the lowest in the league), and the powerplay (3.7) and middle overs (4.0) are no better. The best unit is batting in the powerplay (5.7, third in the league); the batting in the middle overs (4.4) is the next soft spot."
         },
         {
           "title": "The shape of the problem",
-          "body": "A bowling unit that is strong late and weak early starts every innings behind. Against sides that score heavily in the powerplay, the death bowlers are defending a total that has already got away."
+          "body": "A bowling unit that is weak in every phase, and weakest at the death, has nowhere to hide: the powerplay can be survived, but the last five overs decide the close games. Lucknow took 6.8 wickets per 100 balls at the death against 8.2 for the league."
         }
       ],
-      "insight": "Lucknow are a specific, solvable case: a squad that mainly needs a powerplay option and middle-order batting, not a rebuild. The data points to one signing priority (a powerplay wicket-taker) and one tactical question (whether the order protects the middle overs).",
+      "insight": "Lucknow are a clearer case than the table suggests: the record and the outlook agree that the late overs are the problem. The data points to one signing priority (a wicket-taker for the death overs) and one tactical question (whether the order protects the middle overs).",
       "watch": [
-        "A powerplay bowler who takes wickets, not just contains",
+        "A death-over bowler who takes wickets, not just contains",
         "Who anchors the middle overs",
-        "Whether the death-over strength is carried by one bowler or several"
+        "Whether the powerplay batting edge, the one unit above the middle, is kept"
       ],
-      "takeaway": "A late-overs team that needs to fix the start.",
+      "takeaway": "A weak attack that needs a late-overs fix first.",
       "deep": {
         "short_answer": "Lucknow's slide shows up in the run totals as well as the table: they have conceded more runs than they scored in each of the last three seasons. The bowling gives runs away in all three phases, and takes the fewest wickets at the death.",
         "why": "A franchise needs to know whether its early success was real strength before it decides how much to change.",
@@ -3016,8 +3016,8 @@
             "a": "Possibly. Lucknow's worst 2024 defeat was Lost by 98 runs. But the margin has been negative in three straight seasons."
           },
           {
-            "q": "Does the outlook (ninth, 28%) agree with the record?",
-            "a": "Broadly yes. It rates the bowling late overs highly and the powerplay badly, which differs from the record's weakness at the death. The two views do not agree on where the problem lies."
+            "q": "Does the outlook (tenth, 18%) agree with the record?",
+            "a": "Yes, and on where the problem lies: the outlook rates the death-over bowling the lowest in the league (2.5 out of 10), which is where the record shows the fewest wickets."
           },
           {
             "q": "Is one season of 4 wins in 13 enough to judge?",
@@ -3357,16 +3357,16 @@
       "team": "Rajasthan Royals",
       "kicker": "A discipline flag",
       "headline": "Fast starts, loose finishes",
-      "dek": "The best powerplay batting in the league and the worst death bowling, with the most extras given away at the end.",
-      "question": "Rajasthan top the league in the powerplay and bottom it in the death. Where does the game get lost?",
+      "dek": "The best powerplay batting in the league and one of the weakest death attacks, with the most extras given away at the end.",
+      "question": "Rajasthan top the league in the powerplay batting and sit near the bottom in the death bowling. Where does the game get lost?",
       "evidence": [
         {
           "title": "A powerplay powerhouse",
-          "body": "The outlook rates Rajasthan's powerplay batting 6.9 out of 10, among the highest batting scores in the league."
+          "body": "The outlook rates Rajasthan's powerplay batting 8.0 out of 10, the best in the league."
         },
         {
           "title": "A leaking finish",
-          "body": "Death bowling rates 2.5, the lowest rating of any unit in the league, and the powerplay bowling is also weak (3.9)."
+          "body": "Death bowling rates 3.9 (second lowest in the league), and the middle-overs bowling is the lowest-rated unit in the league (1.8). The powerplay bowling is the one bowling strength (6.2, second in the league)."
         },
         {
           "title": "The extras problem",
@@ -3377,13 +3377,13 @@
           "body": "After -33 in 2025 (a 31% win rate), the side rebounded to +5 and made the playoffs in 2026. A typical team's strength moves about 18 runs a match from the league average, so a swing of 38 is large but not unheard of."
         }
       ],
-      "insight": "Rajasthan show how to read a ranking critically: the lowest overall position hides one elite phase and one serious red flag. The most practical lever is not a new star; it is a bowling plan that moves the weakest death overs onto the most disciplined hands.",
+      "insight": "Rajasthan show how to read a ranking critically: the fifth place overall hides one elite phase and two serious red flags. The most practical lever is not a new star; it is a bowling plan that moves the weakest overs onto the most disciplined hands.",
       "watch": [
         "Which two bowlers take the death overs, and their extras record",
         "The use of spin at the death",
         "Whether the top order keeps the powerplay edge against better new-ball bowling"
       ],
-      "takeaway": "Tenth on paper, with a fixable weakness.",
+      "takeaway": "Fifth on paper, with two fixable weaknesses.",
       "deep": {
         "short_answer": "Rajasthan's powerplay batting is genuinely one of the league's best, and their death-over bowling is genuinely one of its worst, with the most extras given away. Both show in five seasons of ball-by-ball data.",
         "why": "A ranking's overall number hides where a team wins and loses. Rajasthan show how one elite phase and one weak one can cancel.",
@@ -3554,8 +3554,8 @@
             "a": "It helps, but Rajasthan's record does not show it dominating: their run margins have been small."
           },
           {
-            "q": "Is the outlook's 10th place too harsh?",
-            "a": "The record has been mid-table by runs. The outlook rates the death bowling as weakest in the league, which the record supports."
+            "q": "Is the outlook's fifth place about right?",
+            "a": "The record has been mid-table by runs, so a mid-table outlook looks fair. The outlook rates the death bowling (3.9) and the middle-overs bowling (1.8) as weak, and the record supports the death-bowling weakness."
           }
         ],
         "implications": [
@@ -3890,7 +3890,7 @@
       "slug": "srh",
       "team": "Sunrisers Hyderabad",
       "kicker": "A zig-zag record",
-      "headline": "A year up, a year down, a bowling edge in the powerplay",
+      "headline": "A year up, a year down, a strong start with the bat",
       "dek": "Sunrisers' strength has alternated sign in each of the last five seasons.",
       "question": "Does a team that alternates between good and bad years have a predictable shape?",
       "evidence": [
@@ -3899,27 +3899,27 @@
           "body": "Sunrisers' season strength reads -1, -20, +1, -8, +17 since 2022. Two playoff places in five years (2024 and 2026), each in the up seasons."
         },
         {
-          "title": "The strongest powerplay bowling in the league",
-          "body": "The outlook rates the powerplay bowling at 8.3 out of 10, among the highest scores of any unit in any team and the biggest single edge on the Sunrisers' side."
+          "title": "A fast start with the bat",
+          "body": "The outlook rates the powerplay batting 6.0 out of 10, second in the league, the biggest single edge on the Sunrisers' side, with the death bowling (5.6, fourth in the league) next."
         },
         {
           "title": "A hole at the death",
-          "body": "Batting at the death rates 3.0, the lowest in the league, and the bowling in the middle overs (3.9) is also weak."
+          "body": "Batting at the death rates 3.3, the lowest in the league, and the bowling in the middle overs (4.5) and powerplay (4.1) are also below the middle."
         },
         {
           "title": "A second discipline flag",
           "body": "Sunrisers' likely death bowlers concede 0.46 extras per over at the death, the second-worst rate in the league, behind only Rajasthan."
         }
       ],
-      "insight": "Sunrisers are built to win the first six overs of the bowling innings and to coast through the rest. The batting at the death and the bowling in the middle overs are the two phases a rival would target, and the extras at the death are the discipline question behind them.",
+      "insight": "Sunrisers are built to win the first six overs with the bat and to defend with a late-overs attack. The batting at the death and the bowling in the first fifteen overs are the phases a rival would target, and the extras at the death are the discipline question behind them.",
       "watch": [
         "A finisher for overs 16 to 20",
-        "Whether the powerplay bowlers can be rested without losing the edge",
+        "Who takes the new ball, since the powerplay bowling rates below the middle",
         "Extras at the death"
       ],
-      "takeaway": "An elite first six overs and an unfinished back end.",
+      "takeaway": "A strong first six overs with the bat and an unfinished back end.",
       "deep": {
-        "short_answer": "Sunrisers are the league's best-scoring team in the first fifteen overs, and have conceded more than the league average in every phase. The outlook's powerplay bowling strength is not visible in their actual record.",
+        "short_answer": "Sunrisers are the league's best-scoring team in the first fifteen overs, and have conceded more than the league average in every phase. The outlook agrees on the bowling: its powerplay bowling rating (4.1 out of 10) is below the middle, as the record is.",
         "why": "Teams that score big and concede big are some of the hardest to read. The split shows where the margin comes from and what could break it.",
         "analysis": [
           {
@@ -4066,9 +4066,9 @@
         ],
         "hidden": [
           {
-            "title": "The record and the outlook disagree about the powerplay bowling",
+            "title": "The record and the outlook agree about the powerplay bowling",
             "body": [
-              "The outlook rates Sunrisers' powerplay bowling at the top of the league, but the last three seasons show it conceding 3.6 runs a match more than the league average. The outlook is built from individual records of the current squad and the team record reflects the attack as it actually played, so the two do not match. Treat the powerplay bowling as unproven."
+              "The outlook rates Sunrisers' powerplay bowling seventh in the league (4.1 out of 10), and the last three seasons show it conceding 3.6 runs a match more than the league average. One view is built from the current squad's individual records and the other from how the attack actually played, and they point the same way, so the powerplay bowling is a confirmed soft spot."
             ]
           },
           {
@@ -4094,7 +4094,7 @@
         ],
         "implications": [
           "Find a finisher: the batting is 6.7 runs a match ahead in the powerplay and level at the death.",
-          "Address the powerplay bowling gap instead of trusting the outlook's rating until it shows in results.",
+          "Address the powerplay bowling gap: both the record and the outlook point to it.",
           "Watch the extras at the death."
         ],
         "verdict": "Sunrisers are a high-scoring side with a leaky attack, and the margin between the two is small. Mid-table to good, with the bowling holding the key.",
@@ -4438,16 +4438,16 @@
         },
         {
           "title": "What the outlook sees",
-          "body": "Second overall, 47% to make the playoffs and 12% to win the title. The standout is batting at the death (7.3 out of 10), and the powerplay bowling is also a plus (5.6). The batting in the powerplay and middle overs (4.6 each) is the soft spot."
+          "body": "Second overall, 50% to make the playoffs and 13% to win the title. The standout is bowling in the middle overs (7.3 out of 10, the best in the league), with batting at the death (5.7) and in the powerplay (5.5) above average too. The soft spots are batting in the middle overs (4.4, eighth in the league) and the bowling in the powerplay and at the death (4.6 and 4.6)."
         },
         {
           "title": "Why the history does not enter",
           "body": "The outlook looks at the players, not the franchise name. That is exactly right when the squad has really changed, and a risk when the dressing-room context matters more than the numbers show."
         }
       ],
-      "insight": "Punjab is the case that most tests how a ranking should be read: the squad is rated far better than the franchise's record. A reasonable analyst reads the 47% as 'a good squad with a thin track record', not as a prediction that the history is over.",
+      "insight": "Punjab is the case that most tests how a ranking should be read: the squad is rated far better than the franchise's record. A reasonable analyst reads the 50% as 'a good squad with a thin track record', not as a prediction that the history is over.",
       "watch": [
-        "The powerplay and middle-over batting, where the numbers are weakest",
+        "The middle-over batting and the bowling at the death, where the outlook is weakest",
         "Whether the death-batting strength comes from one or two players",
         "How the side handles pressure games, which the data cannot measure"
       ],
@@ -4959,8 +4959,8 @@
       "slug": "dc",
       "team": "Delhi Capitals",
       "kicker": "Always middling",
-      "headline": "A strong middle-over attack and nothing at the edges",
-      "dek": "Six playoffs in nineteen seasons, no titles, and a squad built for one phase of the game.",
+      "headline": "A strong finish on paper, and no powerplay on either side",
+      "dek": "Six playoffs in nineteen seasons, no titles, and a squad the outlook rates strongest late and weakest at the start.",
       "question": "What does a team that is neither good nor bad actually look like in the data?",
       "evidence": [
         {
@@ -4968,25 +4968,25 @@
           "body": "Delhi's season strength reads +6, -31, -11, -1, -11 over the last five years, with a win rate of exactly 50% in four of them. They have not reached the playoffs in that time."
         },
         {
-          "title": "One elite phase",
-          "body": "Bowling in the middle overs rates 7.7 out of 10, the third-highest unit rating in the league. Axar Patel, Starc and Chameera are in StatEdge's XI."
+          "title": "Strong late",
+          "body": "Batting at the death rates 7.0 out of 10 (the best in the league), bowling in the middle overs rates 6.1 (third in the league) and bowling at the death 5.9 (third in the league). Axar Patel and Starc are in StatEdge's XI."
         },
         {
           "title": "Weak where games are decided early",
-          "body": "Powerplay bowling (3.6) and powerplay batting (3.9) are both in the bottom three of the league."
+          "body": "Powerplay bowling (2.9) and powerplay batting (1.4) are the two lowest-rated units, ninth and tenth in the league."
         },
         {
-          "title": "Top-heavy again",
-          "body": "The top three batters score about 56% of the team's runs, the second-highest share in the league, behind only Gujarat."
+          "title": "How much rides on the top three",
+          "body": "In 2026 the top three batters scored 47% of Delhi's runs, a lower share than most teams (league average 54%)."
         }
       ],
-      "insight": "Delhi's problem is that its strength is concentrated in the phase where the game is least often won. A middle-over specialist attack is valuable, but if the powerplay on both sides goes against them, the middle overs are played from behind. The data suggests the best use of resources is a powerplay bowler, not more depth in the phase that already works.",
+      "insight": "Delhi's problem is that its strength sits late in the innings while the start goes against them on both sides. A strong middle and death attack is valuable, but if the powerplay on both sides goes against them, the later overs are played from behind. The data suggests the best use of resources is a powerplay bowler, not more depth in the phases that already work.",
       "watch": [
         "The identity of the powerplay bowling pair",
         "Whether the top three keep carrying the batting",
         "The impact player: a powerplay bowler on the bench could change the plan"
       ],
-      "takeaway": "A well-built middle with nothing on either side.",
+      "takeaway": "A strong back half with nothing at the start.",
       "deep": {
         "short_answer": "Delhi have finished above their run totals in all five seasons. Their .500 records flatter them. Their bowling is average, not elite, in the middle overs, and weak in the powerplay.",
         "why": "A team that is always middling is easy to dismiss. Looking at the margin shows how much of the middle was luck.",
@@ -5017,7 +5017,7 @@
             "title": "Middle-over bowling is average in the record",
             "simple": "Runs per over in the middle overs, 7 to 15.",
             "body": [
-              "Delhi conceded 9.08 an over in the middle overs against 9.09, almost exactly the league average. The 2027 outlook rates this unit as the third strongest in the league, which the last three seasons do not show."
+              "Delhi conceded 9.08 an over in the middle overs against 9.09, almost exactly the league average. The 2027 outlook rates this unit third in the league, which the last three seasons do not show."
             ]
           },
           {
@@ -5139,7 +5139,7 @@
           {
             "title": "The outlook and the record disagree about the middle-over bowling",
             "body": [
-              "The outlook credits Delhi's middle-over bowling as a strength, and the last three seasons show it at the league average. It may reflect the current squad (Axar Patel, Starc and Chameera), but the data cannot confirm it."
+              "The outlook credits Delhi's middle-over bowling as a strength, and the last three seasons show it at the league average. It may reflect the current squad (Axar Patel and Starc), but the data cannot confirm it."
             ]
           },
           {
@@ -5159,7 +5159,7 @@
             "a": "The data cannot say. The batting and bowling powerplay problems come from different squads and different seasons."
           },
           {
-            "q": "Does the outlook's sixth place make sense?",
+            "q": "Does the outlook's ninth place make sense?",
             "a": "The record says Delhi are weaker than their wins. The outlook is generous to the middle-over bowling."
           }
         ],

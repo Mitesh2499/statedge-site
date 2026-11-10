@@ -8,102 +8,102 @@
  "runs_per_win_point": 0.92,
  "win_points_per_run": 1.091,
  "headline": {
-  "v": 1.61,
-  "lo": 0.21,
-  "hi": 3.0,
-  "per_innings": 1.85,
-  "win_points_per_innings": 2.02,
+  "v": 1.55,
+  "lo": 0.07,
+  "hi": 3.03,
+  "per_innings": 1.78,
+  "win_points_per_innings": 1.94,
   "agree": 7,
   "of": 10
  },
  "competitions": [
   {
    "name": "Big Bash",
-   "v": 5.95,
-   "lo": 1.86,
-   "hi": 10.04,
-   "coverage": 49,
+   "v": 6.08,
+   "lo": 2.18,
+   "hi": 9.98,
+   "coverage": 51,
    "matches": 662,
    "mixed_share": 41
   },
   {
+   "name": "PSL",
+   "v": 3.27,
+   "lo": -0.71,
+   "hi": 7.25,
+   "coverage": 73,
+   "matches": 357,
+   "mixed_share": 50
+  },
+  {
    "name": "BPL",
-   "v": 3.51,
-   "lo": -0.12,
-   "hi": 7.14,
-   "coverage": 53,
+   "v": 3.17,
+   "lo": -0.42,
+   "hi": 6.76,
+   "coverage": 54,
    "matches": 469,
    "mixed_share": 57
   },
   {
-   "name": "PSL",
-   "v": 3.05,
-   "lo": -0.98,
-   "hi": 7.07,
-   "coverage": 71,
-   "matches": 357,
-   "mixed_share": 51
-  },
-  {
    "name": "Syed Mushtaq Ali",
-   "v": 2.05,
-   "lo": -3.72,
-   "hi": 7.82,
-   "coverage": 33,
+   "v": 2.73,
+   "lo": -2.47,
+   "hi": 7.94,
+   "coverage": 39,
    "matches": 695,
-   "mixed_share": 45
+   "mixed_share": 46
   },
   {
    "name": "IPL",
-   "v": 1.71,
-   "lo": -0.37,
-   "hi": 3.79,
-   "coverage": 65,
+   "v": 1.42,
+   "lo": -0.5,
+   "hi": 3.33,
+   "coverage": 83,
    "matches": 1243,
    "mixed_share": 52
   },
   {
    "name": "International",
-   "v": 0.81,
-   "lo": -1.56,
-   "hi": 3.19,
-   "coverage": 43,
+   "v": 0.83,
+   "lo": -1.44,
+   "hi": 3.1,
+   "coverage": 45,
    "matches": 3889,
    "mixed_share": 41
   },
   {
    "name": "T20 Blast",
-   "v": 0.41,
-   "lo": -3.49,
-   "hi": 4.3,
+   "v": 0.36,
+   "lo": -3.53,
+   "hi": 4.25,
    "coverage": 22,
    "matches": 1570,
    "mixed_share": 46
   },
   {
    "name": "CPL",
-   "v": -1.3,
-   "lo": -5.38,
-   "hi": 2.77,
-   "coverage": 63,
+   "v": -1.12,
+   "lo": -5.18,
+   "hi": 2.95,
+   "coverage": 68,
    "matches": 445,
-   "mixed_share": 52
+   "mixed_share": 51
   },
   {
    "name": "SA20",
-   "v": -1.75,
-   "lo": -10.06,
-   "hi": 6.56,
-   "coverage": 57,
+   "v": -2.7,
+   "lo": -10.81,
+   "hi": 5.42,
+   "coverage": 60,
    "matches": 130,
-   "mixed_share": 47
+   "mixed_share": 48
   },
   {
    "name": "The Hundred",
-   "v": -6.38,
-   "lo": -16.04,
-   "hi": 3.29,
-   "coverage": 51,
+   "v": -7.21,
+   "lo": -16.28,
+   "hi": 1.87,
+   "coverage": 53,
    "matches": 201,
    "mixed_share": 51
   }
@@ -112,134 +112,139 @@
   {
    "label": "Runs",
    "unit": "per 100 balls",
-   "v": 1.61,
-   "lo": 0.21,
-   "hi": 3.0
+   "v": 1.55,
+   "lo": 0.07,
+   "hi": 3.03
   },
   {
    "label": "Boundary balls",
    "unit": "per 100 balls",
-   "v": 0.26,
-   "lo": -0.14,
-   "hi": 0.66
+   "v": 0.23,
+   "lo": -0.19,
+   "hi": 0.65
   },
   {
    "label": "Dot balls",
    "unit": "per 100 balls",
-   "v": -0.47,
-   "lo": -1.03,
-   "hi": 0.09
+   "v": -0.4,
+   "lo": -0.97,
+   "hi": 0.17
   },
   {
    "label": "Dismissals",
    "unit": "per 100 balls",
-   "v": 0.07,
-   "lo": -0.12,
-   "hi": 0.26
+   "v": 0.1,
+   "lo": -0.09,
+   "hi": 0.3
   },
   {
    "label": "Wides and no-balls",
    "unit": "per 100 deliveries",
-   "v": 0.13,
-   "lo": 0.01,
-   "hi": 0.26
+   "v": 0.15,
+   "lo": 0.04,
+   "hi": 0.27
   }
  ],
  "phases": [
   {
    "label": "Powerplay",
-   "v": 0.59,
-   "lo": -3.38,
-   "hi": 4.55
+   "v": 0.68,
+   "lo": -3.24,
+   "hi": 4.61
   },
   {
    "label": "Middle overs",
-   "v": 1.5,
-   "lo": -0.81,
-   "hi": 3.81
+   "v": 1.91,
+   "lo": -0.26,
+   "hi": 4.08
   },
   {
    "label": "Death overs",
-   "v": -1.72,
-   "lo": -6.55,
-   "hi": 3.11
+   "v": -2.33,
+   "lo": -6.91,
+   "hi": 2.26
   }
  ],
  "bowlers": [
   {
    "label": "Against spin",
-   "v": 7.44,
-   "lo": 3.68,
-   "hi": 11.21
+   "v": 5.61,
+   "lo": 3.4,
+   "hi": 7.82
   },
   {
    "label": "Against pace",
-   "v": -0.34,
-   "lo": -2.45,
-   "hi": 1.77
+   "v": -0.54,
+   "lo": -2.31,
+   "hi": 1.24
   },
   {
    "label": "Against left-arm bowlers",
-   "v": 0.13,
-   "lo": -2.86,
-   "hi": 3.12
+   "v": 0.17,
+   "lo": -2.58,
+   "hi": 2.92
   },
   {
    "label": "Against right-arm bowlers",
-   "v": 0.91,
-   "lo": -0.99,
-   "hi": 2.81
+   "v": 0.41,
+   "lo": -1.64,
+   "hi": 2.46
   }
  ],
  "team_level": {
   "win_points_per_10": {
-   "estimate": 0.245,
-   "se": 0.771,
+   "estimate": 0.408,
+   "se": 0.78,
    "ci": [
-    -1.267,
-    1.757
+    -1.121,
+    1.937
    ],
-   "i2": 70.0,
+   "i2": 77.0,
    "competitions": 8
   },
   "ipl_split": {
    "all": {
-    "innings": 616,
-    "win_pts_per_10pts": 0.647,
-    "se": 0.751
+    "innings": 1482,
+    "win_pts_per_10pts": 0.651,
+    "se": 0.518
    },
    "batting_first": {
-    "innings": 308,
-    "win_pts_per_10pts": -0.484,
-    "se": 1.169
+    "innings": 741,
+    "win_pts_per_10pts": 0.346,
+    "se": 0.782
    },
    "chasing": {
-    "innings": 308,
-    "win_pts_per_10pts": 1.97,
-    "se": 1.18
+    "innings": 741,
+    "win_pts_per_10pts": 1.357,
+    "se": 0.71
+   },
+   "close_matches": {
+    "innings": 244,
+    "win_pts_per_10pts": 1.124,
+    "se": 1.67
    }
   },
   "ipl_opening": [
    {
     "label": "Left + right openers",
-    "innings": 281,
-    "win": 52.31
+    "innings": 840,
+    "win": 50.83
    },
    {
     "label": "Two right-handers",
-    "innings": 174,
-    "win": 48.85
+    "innings": 446,
+    "win": 49.78
    },
    {
     "label": "Two left-handers",
-    "innings": 67,
-    "win": 53.73
+    "innings": 149,
+    "win": 47.65
    }
   ],
   "ipl_opening_gap": {
-   "points": 6.517,
-   "lo": -8.154,
-   "hi": 21.187
+   "points": 2.676,
+   "lo": -5.493,
+   "hi": 10.846
   }
  },
  "seasons": [
@@ -253,9 +258,9 @@
     "sr": 134,
     "boundary": 19.1,
     "dot": 39.4,
-    "mixed": 67,
-    "mixed_note": "thin",
-    "rel": 15.0,
+    "mixed": 64,
+    "mixed_note": null,
+    "rel": 12.6,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -268,7 +273,7 @@
     "dot": 40.5,
     "mixed": 34,
     "mixed_note": null,
-    "rel": -17.6,
+    "rel": -17.5,
     "opening": "Two left-handers"
    },
    "other_qualifiers": {
@@ -288,7 +293,7 @@
     "boundary": 16.9,
     "dot": 42.9,
     "mixed": 52,
-    "mixed_teams": 3,
+    "mixed_teams": 4,
     "open_mixed": 4
    },
    "other_qualifier_teams": [
@@ -306,9 +311,9 @@
     "sr": 124,
     "boundary": 14.8,
     "dot": 40.5,
-    "mixed": null,
-    "mixed_note": null,
-    "rel": null,
+    "mixed": 50,
+    "mixed_note": "thin",
+    "rel": -2.0,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -321,7 +326,7 @@
     "dot": 42.0,
     "mixed": 18,
     "mixed_note": null,
-    "rel": -34.0,
+    "rel": -33.8,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -361,7 +366,7 @@
     "dot": 36.9,
     "mixed": 65,
     "mixed_note": null,
-    "rel": 21.2,
+    "rel": 21.0,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -374,7 +379,7 @@
     "dot": 35.4,
     "mixed": 70,
     "mixed_note": null,
-    "rel": 26.1,
+    "rel": 25.9,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -393,8 +398,8 @@
     "sr": 126,
     "boundary": 16.4,
     "dot": 38.3,
-    "mixed": 41,
-    "mixed_teams": 3,
+    "mixed": 42,
+    "mixed_teams": 4,
     "open_mixed": 2
    },
    "other_qualifier_teams": [
@@ -414,7 +419,7 @@
     "dot": 35.4,
     "mixed": 56,
     "mixed_note": null,
-    "rel": 2.1,
+    "rel": 3.1,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -427,7 +432,7 @@
     "dot": 40.5,
     "mixed": 53,
     "mixed_note": null,
-    "rel": -0.9,
+    "rel": 0.0,
     "opening": "Two left-handers"
    },
    "other_qualifiers": {
@@ -436,7 +441,7 @@
     "sr": 116,
     "boundary": 14.7,
     "dot": 40.0,
-    "mixed": 38,
+    "mixed": 34,
     "mixed_teams": 2,
     "open_mixed": 2
    },
@@ -465,9 +470,9 @@
     "sr": 117,
     "boundary": 13.7,
     "dot": 37.7,
-    "mixed": 61,
+    "mixed": 60,
     "mixed_note": null,
-    "rel": 7.0,
+    "rel": 8.0,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -480,7 +485,7 @@
     "dot": 38.5,
     "mixed": 61,
     "mixed_note": null,
-    "rel": 6.9,
+    "rel": 9.7,
     "opening": "Two right-handers"
    },
    "other_qualifiers": {
@@ -489,8 +494,8 @@
     "sr": 125,
     "boundary": 16.2,
     "dot": 39.6,
-    "mixed": 49,
-    "mixed_teams": 1,
+    "mixed": 40,
+    "mixed_teams": 2,
     "open_mixed": 1
    },
    "missed": {
@@ -518,9 +523,9 @@
     "sr": 126,
     "boundary": 16.4,
     "dot": 39.5,
-    "mixed": null,
+    "mixed": 3,
     "mixed_note": null,
-    "rel": null,
+    "rel": -37.7,
     "opening": "Two right-handers"
    },
    "runner_up": {
@@ -533,7 +538,7 @@
     "dot": 35.0,
     "mixed": 72,
     "mixed_note": null,
-    "rel": 26.2,
+    "rel": 31.1,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -552,7 +557,7 @@
     "sr": 120,
     "boundary": 15.6,
     "dot": 41.6,
-    "mixed": 48,
+    "mixed": 49,
     "mixed_teams": 5,
     "open_mixed": 3
    },
@@ -571,9 +576,9 @@
     "sr": 128,
     "boundary": 15.8,
     "dot": 36.0,
-    "mixed": 54,
+    "mixed": 55,
     "mixed_note": null,
-    "rel": 1.9,
+    "rel": 5.5,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -586,7 +591,7 @@
     "dot": 38.2,
     "mixed": 53,
     "mixed_note": null,
-    "rel": 1.3,
+    "rel": 4.1,
     "opening": "Two right-handers"
    },
    "other_qualifiers": {
@@ -595,7 +600,7 @@
     "sr": 129,
     "boundary": 16.1,
     "dot": 37.7,
-    "mixed": 52,
+    "mixed": 43,
     "mixed_teams": 2,
     "open_mixed": 1
    },
@@ -605,7 +610,7 @@
     "sr": 123,
     "boundary": 15.3,
     "dot": 40.1,
-    "mixed": 51,
+    "mixed": 50,
     "mixed_teams": 4,
     "open_mixed": 2
    },
@@ -624,9 +629,9 @@
     "sr": 136,
     "boundary": 18.9,
     "dot": 39.3,
-    "mixed": 61,
+    "mixed": 45,
     "mixed_note": null,
-    "rel": 12.0,
+    "rel": 0.2,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -637,10 +642,10 @@
     "sr": 129,
     "boundary": 17.8,
     "dot": 41.5,
-    "mixed": 66,
-    "mixed_note": "thin",
-    "rel": 17.1,
-    "opening": "Left + right"
+    "mixed": 54,
+    "mixed_note": null,
+    "rel": 10.0,
+    "opening": "Two right-handers"
    },
    "other_qualifiers": {
     "n": 2,
@@ -648,7 +653,7 @@
     "sr": 141,
     "boundary": 19.0,
     "dot": 35.7,
-    "mixed": 32,
+    "mixed": 31,
     "mixed_teams": 2,
     "open_mixed": 1
    },
@@ -658,7 +663,7 @@
     "sr": 129,
     "boundary": 16.6,
     "dot": 38.0,
-    "mixed": 50,
+    "mixed": 49,
     "mixed_teams": 4,
     "open_mixed": 1
    },
@@ -679,7 +684,7 @@
     "dot": 37.6,
     "mixed": 50,
     "mixed_note": null,
-    "rel": -0.9,
+    "rel": 3.1,
     "opening": "Two left-handers"
    },
    "runner_up": {
@@ -690,9 +695,9 @@
     "sr": 154,
     "boundary": 20.6,
     "dot": 30.4,
-    "mixed": 31,
+    "mixed": 24,
     "mixed_note": null,
-    "rel": -20.7,
+    "rel": -23.3,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -701,7 +706,7 @@
     "sr": 130,
     "boundary": 16.4,
     "dot": 34.7,
-    "mixed": 68,
+    "mixed": 59,
     "mixed_teams": 2,
     "open_mixed": 1
    },
@@ -711,7 +716,7 @@
     "sr": 127,
     "boundary": 15.8,
     "dot": 37.2,
-    "mixed": 48,
+    "mixed": 47,
     "mixed_teams": 4,
     "open_mixed": 3
    },
@@ -730,9 +735,9 @@
     "sr": 139,
     "boundary": 18.3,
     "dot": 36.3,
-    "mixed": 72,
+    "mixed": 64,
     "mixed_note": null,
-    "rel": 18.8,
+    "rel": 12.0,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -745,7 +750,7 @@
     "dot": 34.5,
     "mixed": 38,
     "mixed_note": "thin",
-    "rel": -15.7,
+    "rel": -14.2,
     "opening": "Two right-handers"
    },
    "other_qualifiers": {
@@ -754,7 +759,7 @@
     "sr": 141,
     "boundary": 18.6,
     "dot": 32.5,
-    "mixed": 53,
+    "mixed": 50,
     "mixed_teams": 2,
     "open_mixed": 0
    },
@@ -785,7 +790,7 @@
     "dot": 34.0,
     "mixed": 48,
     "mixed_note": null,
-    "rel": -5.2,
+    "rel": -6.4,
     "opening": "Two right-handers"
    },
    "runner_up": {
@@ -796,9 +801,9 @@
     "sr": 130,
     "boundary": 16.3,
     "dot": 34.8,
-    "mixed": 56,
+    "mixed": 54,
     "mixed_note": null,
-    "rel": 2.0,
+    "rel": -0.4,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -817,9 +822,9 @@
     "sr": 139,
     "boundary": 18.6,
     "dot": 36.6,
-    "mixed": 64,
-    "mixed_teams": 2,
-    "open_mixed": 2
+    "mixed": 61,
+    "mixed_teams": 4,
+    "open_mixed": 4
    },
    "other_qualifier_teams": [
     "Kolkata Knight Riders",
@@ -836,9 +841,9 @@
     "sr": 138,
     "boundary": 18.8,
     "dot": 37.0,
-    "mixed": null,
+    "mixed": 71,
     "mixed_note": null,
-    "rel": null,
+    "rel": 16.2,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -851,7 +856,7 @@
     "dot": 41.2,
     "mixed": 44,
     "mixed_note": null,
-    "rel": -5.0,
+    "rel": -10.3,
     "opening": "Two right-handers"
    },
    "other_qualifiers": {
@@ -860,9 +865,9 @@
     "sr": 134,
     "boundary": 16.9,
     "dot": 34.3,
-    "mixed": 63,
+    "mixed": 65,
     "mixed_teams": 2,
-    "open_mixed": 1
+    "open_mixed": 2
    },
    "missed": {
     "n": 4,
@@ -870,9 +875,9 @@
     "sr": 138,
     "boundary": 18.6,
     "dot": 36.9,
-    "mixed": 41,
-    "mixed_teams": 3,
-    "open_mixed": 2
+    "mixed": 48,
+    "mixed_teams": 4,
+    "open_mixed": 3
    },
    "other_qualifier_teams": [
     "Delhi Capitals",
@@ -889,10 +894,10 @@
     "sr": 145,
     "boundary": 19.7,
     "dot": 35.4,
-    "mixed": null,
+    "mixed": 62,
     "mixed_note": null,
-    "rel": null,
-    "opening": "Two left-handers"
+    "rel": 2.6,
+    "opening": "Left + right"
    },
    "runner_up": {
     "team": "Delhi Capitals",
@@ -904,7 +909,7 @@
     "dot": 34.0,
     "mixed": 78,
     "mixed_note": null,
-    "rel": 17.1,
+    "rel": 19.5,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -913,7 +918,7 @@
     "sr": 128,
     "boundary": 15.1,
     "dot": 35.4,
-    "mixed": 63,
+    "mixed": 62,
     "mixed_teams": 2,
     "open_mixed": 2
    },
@@ -923,8 +928,8 @@
     "sr": 131,
     "boundary": 16.6,
     "dot": 37.4,
-    "mixed": 55,
-    "mixed_teams": 3,
+    "mixed": 52,
+    "mixed_teams": 4,
     "open_mixed": 2
    },
    "other_qualifier_teams": [
@@ -944,7 +949,7 @@
     "dot": 36.9,
     "mixed": 46,
     "mixed_note": null,
-    "rel": -9.8,
+    "rel": -10.2,
     "opening": "Two right-handers"
    },
    "runner_up": {
@@ -955,9 +960,9 @@
     "sr": 129,
     "boundary": 17.6,
     "dot": 39.9,
-    "mixed": 72,
-    "mixed_note": "thin",
-    "rel": 16.2,
+    "mixed": 79,
+    "mixed_note": null,
+    "rel": 22.8,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -966,9 +971,9 @@
     "sr": 127,
     "boundary": 16.1,
     "dot": 36.6,
-    "mixed": 61,
+    "mixed": 66,
     "mixed_teams": 2,
-    "open_mixed": 1
+    "open_mixed": 2
    },
    "missed": {
     "n": 4,
@@ -976,8 +981,8 @@
     "sr": 124,
     "boundary": 15.4,
     "dot": 38.5,
-    "mixed": 47,
-    "mixed_teams": 2,
+    "mixed": 48,
+    "mixed_teams": 4,
     "open_mixed": 3
    },
    "other_qualifier_teams": [
@@ -995,9 +1000,9 @@
     "sr": 132,
     "boundary": 17.3,
     "dot": 34.3,
-    "mixed": 41,
+    "mixed": 46,
     "mixed_note": null,
-    "rel": -19.3,
+    "rel": -15.3,
     "opening": "Two right-handers"
    },
    "runner_up": {
@@ -1010,7 +1015,7 @@
     "dot": 38.8,
     "mixed": 66,
     "mixed_note": null,
-    "rel": 6.2,
+    "rel": 5.2,
     "opening": "Left + right"
    },
    "other_qualifiers": {
@@ -1019,9 +1024,9 @@
     "sr": 133,
     "boundary": 17.1,
     "dot": 37.6,
-    "mixed": 39,
-    "mixed_teams": 1,
-    "open_mixed": 1
+    "mixed": 49,
+    "mixed_teams": 2,
+    "open_mixed": 2
    },
    "missed": {
     "n": 6,
@@ -1029,9 +1034,9 @@
     "sr": 134,
     "boundary": 18.0,
     "dot": 40.0,
-    "mixed": 66,
+    "mixed": 67,
     "mixed_teams": 6,
-    "open_mixed": 4
+    "open_mixed": 6
    },
    "other_qualifier_teams": [
     "Lucknow Super Giants",
@@ -1050,7 +1055,7 @@
     "dot": 31.9,
     "mixed": 68,
     "mixed_note": null,
-    "rel": 14.4,
+    "rel": 10.8,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -1061,9 +1066,9 @@
     "sr": 144,
     "boundary": 18.8,
     "dot": 32.3,
-    "mixed": 28,
+    "mixed": 42,
     "mixed_note": null,
-    "rel": -26.1,
+    "rel": -15.3,
     "opening": "Two right-handers"
    },
    "other_qualifiers": {
@@ -1072,9 +1077,9 @@
     "sr": 144,
     "boundary": 19.6,
     "dot": 36.6,
-    "mixed": 65,
-    "mixed_teams": 1,
-    "open_mixed": 1
+    "mixed": 68,
+    "mixed_teams": 2,
+    "open_mixed": 2
    },
    "missed": {
     "n": 6,
@@ -1082,9 +1087,9 @@
     "sr": 139,
     "boundary": 19.1,
     "dot": 36.7,
-    "mixed": 54,
-    "mixed_teams": 5,
-    "open_mixed": 3
+    "mixed": 55,
+    "mixed_teams": 6,
+    "open_mixed": 4
    },
    "other_qualifier_teams": [
     "Lucknow Super Giants",
@@ -1101,9 +1106,9 @@
     "sr": 163,
     "boundary": 24.7,
     "dot": 35.5,
-    "mixed": 63,
-    "mixed_note": "thin",
-    "rel": 12.4,
+    "mixed": 76,
+    "mixed_note": null,
+    "rel": 21.5,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -1116,7 +1121,7 @@
     "dot": 31.2,
     "mixed": 48,
     "mixed_note": null,
-    "rel": -2.4,
+    "rel": -6.5,
     "opening": "Two left-handers"
    },
    "other_qualifiers": {
@@ -1125,7 +1130,7 @@
     "sr": 155,
     "boundary": 21.6,
     "dot": 33.6,
-    "mixed": 23,
+    "mixed": 25,
     "mixed_teams": 2,
     "open_mixed": 1
    },
@@ -1136,8 +1141,8 @@
     "boundary": 20.1,
     "dot": 35.0,
     "mixed": 62,
-    "mixed_teams": 4,
-    "open_mixed": 3
+    "mixed_teams": 6,
+    "open_mixed": 5
    },
    "other_qualifier_teams": [
     "Rajasthan Royals",
@@ -1154,9 +1159,9 @@
     "sr": 153,
     "boundary": 22.3,
     "dot": 34.4,
-    "mixed": 31,
+    "mixed": 38,
     "mixed_note": null,
-    "rel": -18.4,
+    "rel": -17.2,
     "opening": "Two right-handers"
    },
    "runner_up": {
@@ -1167,10 +1172,10 @@
     "sr": 162,
     "boundary": 23.4,
     "dot": 32.4,
-    "mixed": 43,
-    "mixed_note": "thin",
-    "rel": -6.4,
-    "opening": "unknown"
+    "mixed": 52,
+    "mixed_note": null,
+    "rel": -3.1,
+    "opening": "Left + right"
    },
    "other_qualifiers": {
     "n": 2,
@@ -1178,9 +1183,9 @@
     "sr": 155,
     "boundary": 21.7,
     "dot": 31.9,
-    "mixed": null,
-    "mixed_teams": 0,
-    "open_mixed": 1
+    "mixed": 71,
+    "mixed_teams": 2,
+    "open_mixed": 2
    },
    "missed": {
     "n": 6,
@@ -1188,9 +1193,9 @@
     "sr": 150,
     "boundary": 21.0,
     "dot": 34.9,
-    "mixed": 56,
-    "mixed_teams": 4,
-    "open_mixed": 3
+    "mixed": 54,
+    "mixed_teams": 6,
+    "open_mixed": 2
    },
    "other_qualifier_teams": [
     "Gujarat Titans",
@@ -1207,9 +1212,9 @@
     "sr": 164,
     "boundary": 23.7,
     "dot": 31.3,
-    "mixed": 55,
+    "mixed": 64,
     "mixed_note": null,
-    "rel": 7.2,
+    "rel": 14.8,
     "opening": "Left + right"
    },
    "runner_up": {
@@ -1220,10 +1225,10 @@
     "sr": 151,
     "boundary": 21.0,
     "dot": 32.3,
-    "mixed": null,
+    "mixed": 70,
     "mixed_note": null,
-    "rel": null,
-    "opening": "unknown"
+    "rel": 21.1,
+    "opening": "Left + right"
    },
    "other_qualifiers": {
     "n": 2,
@@ -1231,7 +1236,7 @@
     "sr": 166,
     "boundary": 24.4,
     "dot": 34.0,
-    "mixed": 50,
+    "mixed": 43,
     "mixed_teams": 2,
     "open_mixed": 0
    },
@@ -1241,9 +1246,9 @@
     "sr": 152,
     "boundary": 21.6,
     "dot": 34.9,
-    "mixed": 44,
-    "mixed_teams": 3,
-    "open_mixed": 1
+    "mixed": 45,
+    "mixed_teams": 6,
+    "open_mixed": 2
    },
    "other_qualifier_teams": [
     "Sunrisers Hyderabad",
@@ -1253,85 +1258,85 @@
  ],
  "groups": {
   "champions": {
-   "n": 15,
-   "mean": 3.9,
-   "sd": 12.24
+   "n": 19,
+   "mean": 2.26,
+   "sd": 14.38
   },
   "runners_up": {
-   "n": 18,
-   "mean": -0.54,
-   "sd": 16.98
+   "n": 19,
+   "mean": 1.31,
+   "sd": 17.43
   },
   "other_qualifiers": {
-   "n": 30,
-   "mean": -4.36,
-   "sd": 20.76
+   "n": 35,
+   "mean": -4.26,
+   "sd": 19.93
   },
   "missed_out": {
-   "n": 72,
-   "mean": 1.14,
-   "sd": 16.91
+   "n": 88,
+   "mean": 0.93,
+   "sd": 15.88
   },
   "champions_vs_missed": {
-   "n_a": 15,
-   "n_b": 72,
-   "mean_a": 3.9,
-   "mean_b": 1.14,
-   "diff": 2.76,
+   "n_a": 19,
+   "n_b": 88,
+   "mean_a": 2.26,
+   "mean_b": 0.93,
+   "diff": 1.33,
    "ci": [
-    -4.77,
-    10.28
+    -6.1,
+    8.77
    ],
-   "p": 0.479
+   "p": 0.728
   },
   "qualifiers_vs_missed": {
-   "n_a": 63,
-   "n_b": 72,
-   "mean_a": -1.31,
-   "mean_b": 1.14,
-   "diff": -2.45,
+   "n_a": 73,
+   "n_b": 88,
+   "mean_a": -1.12,
+   "mean_b": 0.93,
+   "diff": -2.04,
    "ci": [
-    -8.46,
-    3.57
+    -7.42,
+    3.33
    ],
-   "p": 0.427
+   "p": 0.458
   },
   "eras": {
    "2008-2015": {
-    "n_a": 26,
-    "n_b": 32,
-    "mean_a": -1.61,
-    "mean_b": 1.31,
-    "diff": -2.91,
+    "n_a": 29,
+    "n_b": 34,
+    "mean_a": -3.84,
+    "mean_b": 3.28,
+    "diff": -7.12,
     "ci": [
-     -13.63,
-     7.8
+     -17.04,
+     2.8
     ],
-    "p": 0.597
+    "p": 0.165
    },
    "2016-2020": {
-    "n_a": 18,
-    "n_b": 16,
-    "mean_a": 1.94,
-    "mean_b": -2.19,
-    "diff": 4.13,
+    "n_a": 20,
+    "n_b": 20,
+    "mean_a": 1.32,
+    "mean_b": -1.32,
+    "diff": 2.63,
     "ci": [
-     -5.74,
-     14.01
+     -6.16,
+     11.43
     ],
-    "p": 0.418
+    "p": 0.561
    },
    "2021-2026": {
-    "n_a": 19,
-    "n_b": 24,
-    "mean_a": -3.97,
-    "mean_b": 3.14,
-    "diff": -7.11,
+    "n_a": 24,
+    "n_b": 34,
+    "mean_a": 0.15,
+    "mean_b": -0.11,
+    "diff": 0.26,
     "ci": [
-     -16.99,
-     2.77
+     -8.38,
+     8.91
     ],
-    "p": 0.166
+    "p": 0.953
    }
   }
  },
@@ -1339,82 +1344,82 @@
   "bands": [
    {
     "label": "Low mixed-pair usage",
-    "team_seasons": 49,
-    "qualified": 26,
-    "qualification_rate": 53.1,
-    "mean_relative_share": -19.0
+    "team_seasons": 61,
+    "qualified": 31,
+    "qualification_rate": 50.8,
+    "mean_relative_share": -17.3
    },
    {
     "label": "Medium mixed-pair usage",
-    "team_seasons": 47,
-    "qualified": 19,
-    "qualification_rate": 40.4,
-    "mean_relative_share": 6.0
+    "team_seasons": 55,
+    "qualified": 23,
+    "qualification_rate": 41.8,
+    "mean_relative_share": 5.5
    },
    {
     "label": "High mixed-pair usage",
-    "team_seasons": 39,
-    "qualified": 18,
-    "qualification_rate": 46.2,
-    "mean_relative_share": 16.6
+    "team_seasons": 45,
+    "qualified": 19,
+    "qualification_rate": 42.2,
+    "mean_relative_share": 16.7
    }
   ],
   "adjusted": {
-   "team_seasons": 120,
-   "odds_ratio_per_10pts": 0.94,
+   "team_seasons": 143,
+   "odds_ratio_per_10pts": 0.95,
    "ci": [
-    0.76,
+    0.78,
     1.16
    ],
-   "strength_odds_ratio_per_10pts_prior_winrate": 1.35,
-   "low_adjusted_qualification": 45.6,
-   "medium_adjusted_qualification": 44.2,
-   "high_adjusted_qualification": 42.8,
-   "average_team": 44.2
+   "strength_odds_ratio_per_10pts_prior_winrate": 1.25,
+   "low_adjusted_qualification": 44.5,
+   "medium_adjusted_qualification": 43.4,
+   "high_adjusted_qualification": 42.3,
+   "average_team": 43.4
   }
  },
  "exposure": [
   {
    "band": "0-30%",
-   "innings": 2049,
-   "runs_vs_reference": 0.02,
-   "se": 1.55
+   "innings": 2333,
+   "runs_vs_reference": -0.76,
+   "se": 1.42
   },
   {
    "band": "30-40%",
-   "innings": 520,
-   "runs_vs_reference": -1.62,
-   "se": 1.8
+   "innings": 612,
+   "runs_vs_reference": -0.52,
+   "se": 1.7
   },
   {
    "band": "40-50%",
-   "innings": 558,
-   "runs_vs_reference": -5.86,
-   "se": 1.8
+   "innings": 683,
+   "runs_vs_reference": -6.18,
+   "se": 1.62
   },
   {
    "band": "50-60%",
-   "innings": 522,
+   "innings": 630,
    "runs_vs_reference": 0.0,
    "se": 0.0
   },
   {
    "band": "60-70%",
-   "innings": 508,
-   "runs_vs_reference": -1.53,
-   "se": 1.89
+   "innings": 621,
+   "runs_vs_reference": -1.34,
+   "se": 1.72
   },
   {
    "band": "70-80%",
-   "innings": 504,
-   "runs_vs_reference": 0.31,
-   "se": 1.8
+   "innings": 608,
+   "runs_vs_reference": 1.48,
+   "se": 1.63
   },
   {
    "band": "80-100%",
-   "innings": 1078,
-   "runs_vs_reference": 5.56,
-   "se": 1.63
+   "innings": 1274,
+   "runs_vs_reference": 5.23,
+   "se": 1.49
   }
  ],
  "scenarios": [
@@ -1422,54 +1427,54 @@
    "mixed_share": 30,
    "central": {
     "expected_wins": 6.94,
-    "playoff_pct": 38.68,
+    "playoff_pct": 38.69,
     "final_pct": 19.2,
     "title_pct": 9.57,
     "runs_per_innings": -0.4,
-    "win_points": -0.44
+    "win_points": -0.43
    },
    "low": {
-    "expected_wins": 6.99,
-    "playoff_pct": 39.81,
-    "final_pct": 19.97,
-    "title_pct": 10.01,
-    "runs_per_innings": -0.05,
-    "win_points": -0.06
+    "expected_wins": 7.0,
+    "playoff_pct": 39.92,
+    "final_pct": 20.07,
+    "title_pct": 10.06,
+    "runs_per_innings": -0.02,
+    "win_points": -0.02
    },
    "high": {
     "expected_wins": 6.88,
-    "playoff_pct": 37.68,
-    "final_pct": 18.49,
-    "title_pct": 9.16,
-    "runs_per_innings": -0.75,
-    "win_points": -0.82
+    "playoff_pct": 37.63,
+    "final_pct": 18.45,
+    "title_pct": 9.14,
+    "runs_per_innings": -0.77,
+    "win_points": -0.85
    }
   },
   {
    "mixed_share": 35,
    "central": {
     "expected_wins": 6.95,
-    "playoff_pct": 38.96,
-    "final_pct": 19.39,
+    "playoff_pct": 38.97,
+    "final_pct": 19.4,
     "title_pct": 9.67,
     "runs_per_innings": -0.31,
     "win_points": -0.34
    },
    "low": {
-    "expected_wins": 6.99,
-    "playoff_pct": 39.86,
-    "final_pct": 20.0,
-    "title_pct": 10.02,
-    "runs_per_innings": -0.04,
-    "win_points": -0.04
+    "expected_wins": 7.0,
+    "playoff_pct": 39.93,
+    "final_pct": 20.08,
+    "title_pct": 10.07,
+    "runs_per_innings": -0.01,
+    "win_points": -0.02
    },
    "high": {
     "expected_wins": 6.91,
-    "playoff_pct": 38.19,
-    "final_pct": 18.86,
-    "title_pct": 9.34,
-    "runs_per_innings": -0.58,
-    "win_points": -0.63
+    "playoff_pct": 38.13,
+    "final_pct": 18.81,
+    "title_pct": 9.31,
+    "runs_per_innings": -0.6,
+    "win_points": -0.66
    }
   },
   {
@@ -1484,56 +1489,56 @@
    },
    "low": {
     "expected_wins": 7.0,
-    "playoff_pct": 39.89,
-    "final_pct": 20.04,
-    "title_pct": 10.05,
-    "runs_per_innings": -0.03,
-    "win_points": -0.03
+    "playoff_pct": 39.94,
+    "final_pct": 20.08,
+    "title_pct": 10.08,
+    "runs_per_innings": -0.01,
+    "win_points": -0.01
    },
    "high": {
-    "expected_wins": 6.94,
-    "playoff_pct": 38.65,
-    "final_pct": 19.19,
-    "title_pct": 9.56,
-    "runs_per_innings": -0.41,
-    "win_points": -0.45
+    "expected_wins": 6.93,
+    "playoff_pct": 38.6,
+    "final_pct": 19.15,
+    "title_pct": 9.53,
+    "runs_per_innings": -0.43,
+    "win_points": -0.47
    }
   },
   {
    "mixed_share": 45,
    "central": {
     "expected_wins": 6.98,
-    "playoff_pct": 39.56,
-    "final_pct": 19.82,
-    "title_pct": 9.91,
+    "playoff_pct": 39.55,
+    "final_pct": 19.81,
+    "title_pct": 9.9,
     "runs_per_innings": -0.13,
     "win_points": -0.14
    },
    "low": {
     "expected_wins": 7.0,
-    "playoff_pct": 39.93,
-    "final_pct": 20.08,
-    "title_pct": 10.07,
-    "runs_per_innings": -0.02,
-    "win_points": -0.02
+    "playoff_pct": 39.96,
+    "final_pct": 20.09,
+    "title_pct": 10.08,
+    "runs_per_innings": -0.01,
+    "win_points": -0.01
    },
    "high": {
     "expected_wins": 6.96,
-    "playoff_pct": 39.19,
-    "final_pct": 19.59,
-    "title_pct": 9.79,
-    "runs_per_innings": -0.24,
-    "win_points": -0.26
+    "playoff_pct": 39.13,
+    "final_pct": 19.53,
+    "title_pct": 9.77,
+    "runs_per_innings": -0.25,
+    "win_points": -0.28
    }
   },
   {
    "mixed_share": 50,
    "central": {
-    "expected_wins": 7.0,
-    "playoff_pct": 39.87,
-    "final_pct": 20.02,
-    "title_pct": 10.04,
-    "runs_per_innings": -0.03,
+    "expected_wins": 6.99,
+    "playoff_pct": 39.86,
+    "final_pct": 20.0,
+    "title_pct": 10.02,
+    "runs_per_innings": -0.04,
     "win_points": -0.04
    },
    "low": {
@@ -1546,22 +1551,49 @@
    },
    "high": {
     "expected_wins": 6.99,
-    "playoff_pct": 39.77,
-    "final_pct": 19.93,
-    "title_pct": 9.98,
-    "runs_per_innings": -0.06,
-    "win_points": -0.07
+    "playoff_pct": 39.73,
+    "final_pct": 19.91,
+    "title_pct": 9.97,
+    "runs_per_innings": -0.08,
+    "win_points": -0.09
    }
   },
   {
    "mixed_share": 55,
    "central": {
     "expected_wins": 7.01,
-    "playoff_pct": 40.14,
-    "final_pct": 20.25,
-    "title_pct": 10.16,
-    "runs_per_innings": 0.06,
-    "win_points": 0.06
+    "playoff_pct": 40.12,
+    "final_pct": 20.22,
+    "title_pct": 10.15,
+    "runs_per_innings": 0.05,
+    "win_points": 0.05
+   },
+   "low": {
+    "expected_wins": 7.0,
+    "playoff_pct": 39.98,
+    "final_pct": 20.1,
+    "title_pct": 10.09,
+    "runs_per_innings": 0.0,
+    "win_points": 0.0
+   },
+   "high": {
+    "expected_wins": 7.01,
+    "playoff_pct": 40.23,
+    "final_pct": 20.34,
+    "title_pct": 10.22,
+    "runs_per_innings": 0.1,
+    "win_points": 0.1
+   }
+  },
+  {
+   "mixed_share": 60,
+   "central": {
+    "expected_wins": 7.02,
+    "playoff_pct": 40.37,
+    "final_pct": 20.41,
+    "title_pct": 10.25,
+    "runs_per_innings": 0.14,
+    "win_points": 0.15
    },
    "low": {
     "expected_wins": 7.0,
@@ -1572,208 +1604,181 @@
     "win_points": 0.01
    },
    "high": {
-    "expected_wins": 7.02,
-    "playoff_pct": 40.26,
-    "final_pct": 20.35,
-    "title_pct": 10.22,
-    "runs_per_innings": 0.11,
-    "win_points": 0.12
-   }
-  },
-  {
-   "mixed_share": 60,
-   "central": {
-    "expected_wins": 7.02,
-    "playoff_pct": 40.4,
-    "final_pct": 20.45,
-    "title_pct": 10.26,
-    "runs_per_innings": 0.15,
-    "win_points": 0.16
-   },
-   "low": {
-    "expected_wins": 7.0,
-    "playoff_pct": 40.03,
-    "final_pct": 20.17,
-    "title_pct": 10.12,
-    "runs_per_innings": 0.02,
-    "win_points": 0.02
-   },
-   "high": {
     "expected_wins": 7.04,
-    "playoff_pct": 40.77,
-    "final_pct": 20.72,
-    "title_pct": 10.43,
-    "runs_per_innings": 0.28,
-    "win_points": 0.31
+    "playoff_pct": 40.71,
+    "final_pct": 20.68,
+    "title_pct": 10.42,
+    "runs_per_innings": 0.27,
+    "win_points": 0.29
    }
   },
   {
    "mixed_share": 65,
    "central": {
-    "expected_wins": 7.04,
-    "playoff_pct": 40.65,
-    "final_pct": 20.61,
-    "title_pct": 10.37,
-    "runs_per_innings": 0.24,
-    "win_points": 0.27
+    "expected_wins": 7.03,
+    "playoff_pct": 40.61,
+    "final_pct": 20.59,
+    "title_pct": 10.35,
+    "runs_per_innings": 0.23,
+    "win_points": 0.25
    },
    "low": {
     "expected_wins": 7.0,
-    "playoff_pct": 40.07,
-    "final_pct": 20.19,
-    "title_pct": 10.14,
-    "runs_per_innings": 0.03,
-    "win_points": 0.03
+    "playoff_pct": 40.0,
+    "final_pct": 20.13,
+    "title_pct": 10.09,
+    "runs_per_innings": 0.01,
+    "win_points": 0.01
    },
    "high": {
     "expected_wins": 7.07,
-    "playoff_pct": 41.33,
-    "final_pct": 21.08,
-    "title_pct": 10.64,
-    "runs_per_innings": 0.45,
-    "win_points": 0.5
+    "playoff_pct": 41.29,
+    "final_pct": 21.04,
+    "title_pct": 10.62,
+    "runs_per_innings": 0.44,
+    "win_points": 0.48
    }
   }
  ],
  "scenario_notes": {
   "runs": 50000,
-  "baseline_share": 51.8,
+  "baseline_share": 52.3,
   "team_spread": 5.0
  },
  "openers": {
   "overall": {
    "name": "All tournaments",
-   "team_seasons": 597,
-   "champions": 78,
+   "team_seasons": 669,
+   "champions": 85,
    "open": {
-    "champions_with": 50,
-    "champions_n": 78,
-    "champions_pct": 64.1,
+    "champions_with": 56,
+    "champions_n": 85,
+    "champions_pct": 65.9,
     "ci": [
-     53.0,
-     73.9
+     55.3,
+     75.1
     ],
-    "base_pct": 58.8,
-    "p": 0.326,
-    "qualified_with": 52.7,
-    "qualified_without": 54.9,
-    "n_with": 351,
-    "n_without": 246,
-    "qual_p": 0.618,
-    "qualifiers_pct": 57.8,
-    "missed_pct": 59.9,
-    "finalists_pct": 57.8
+    "base_pct": 59.3,
+    "p": 0.196,
+    "qualified_with": 53.4,
+    "qualified_without": 52.6,
+    "n_with": 397,
+    "n_without": 272,
+    "qual_p": 0.875,
+    "qualifiers_pct": 59.7,
+    "missed_pct": 58.9,
+    "finalists_pct": 59.5
    },
    "top3": {
-    "champions_with": 68,
-    "champions_n": 74,
-    "champions_pct": 91.9,
+    "champions_with": 74,
+    "champions_n": 81,
+    "champions_pct": 91.4,
     "ci": [
-     83.4,
-     96.2
+     83.2,
+     95.8
     ],
-    "base_pct": 84.8,
-    "p": 0.081,
-    "qualified_with": 53.4,
-    "qualified_without": 54.8,
-    "n_with": 470,
-    "n_without": 84,
-    "qual_p": 0.906,
-    "qualifiers_pct": 84.5,
-    "missed_pct": 85.2,
-    "finalists_pct": 84.5
+    "base_pct": 84.5,
+    "p": 0.071,
+    "qualified_with": 53.1,
+    "qualified_without": 51.5,
+    "n_with": 527,
+    "n_without": 97,
+    "qual_p": 0.825,
+    "qualifiers_pct": 84.8,
+    "missed_pct": 84.0,
+    "finalists_pct": 84.6
    }
   },
   "club": {
    "name": "Club tournaments only",
-   "team_seasons": 504,
-   "champions": 70,
+   "team_seasons": 569,
+   "champions": 75,
    "open": {
-    "champions_with": 48,
-    "champions_n": 70,
-    "champions_pct": 68.6,
+    "champions_with": 53,
+    "champions_n": 75,
+    "champions_pct": 70.7,
     "ci": [
-     57.0,
-     78.2
+     59.6,
+     79.8
     ],
-    "base_pct": 60.9,
-    "p": 0.187,
-    "qualified_with": 54.7,
-    "qualified_without": 55.3,
-    "n_with": 307,
-    "n_without": 197,
-    "qual_p": 0.927,
-    "qualifiers_pct": 60.6,
-    "missed_pct": 61.2,
-    "finalists_pct": 60.4
+    "base_pct": 61.3,
+    "p": 0.077,
+    "qualified_with": 55.0,
+    "qualified_without": 52.3,
+    "n_with": 349,
+    "n_without": 220,
+    "qual_p": 0.546,
+    "qualifiers_pct": 62.5,
+    "missed_pct": 59.9,
+    "finalists_pct": 62.0
    },
    "top3": {
-    "champions_with": 64,
-    "champions_n": 67,
-    "champions_pct": 95.5,
+    "champions_with": 68,
+    "champions_n": 72,
+    "champions_pct": 94.4,
     "ci": [
-     87.6,
-     98.5
+     86.6,
+     97.8
     ],
-    "base_pct": 87.1,
-    "p": 0.029,
-    "qualified_with": 55.1,
-    "qualified_without": 55.0,
-    "n_with": 405,
-    "n_without": 60,
-    "qual_p": 1.0,
-    "qualifiers_pct": 87.1,
-    "missed_pct": 87.1,
-    "finalists_pct": 86.7
+    "base_pct": 86.6,
+    "p": 0.039,
+    "qualified_with": 54.3,
+    "qualified_without": 50.7,
+    "n_with": 457,
+    "n_without": 71,
+    "qual_p": 0.61,
+    "qualifiers_pct": 87.3,
+    "missed_pct": 85.7,
+    "finalists_pct": 86.3
    }
   },
   "tournaments": [
    {
     "name": "IPL",
-    "team_seasons": 129,
-    "champions": 18,
+    "team_seasons": 160,
+    "champions": 19,
     "open": {
-     "champions_with": 11,
-     "champions_n": 18,
-     "champions_pct": 61.1,
+     "champions_with": 13,
+     "champions_n": 19,
+     "champions_pct": 68.4,
      "ci": [
-      38.6,
-      79.7
+      46.0,
+      84.6
      ],
-     "base_pct": 60.5,
-     "p": 1.0,
-     "qualified_with": 44.9,
-     "qualified_without": 49.0,
-     "n_with": 78,
-     "n_without": 51,
-     "qual_p": 0.719,
-     "qualifiers_pct": 58.3,
-     "missed_pct": 62.3,
-     "finalists_pct": 56.2
+     "base_pct": 63.8,
+     "p": 0.801,
+     "qualified_with": 45.1,
+     "qualified_without": 46.6,
+     "n_with": 102,
+     "n_without": 58,
+     "qual_p": 0.87,
+     "qualifiers_pct": 63.0,
+     "missed_pct": 64.4,
+     "finalists_pct": 62.2
     },
     "top3": {
-     "champions_with": 17,
-     "champions_n": 17,
+     "champions_with": 18,
+     "champions_n": 18,
      "champions_pct": 100.0,
      "ci": [
-      81.6,
+      82.4,
       100.0
      ],
-     "base_pct": 87.1,
-     "p": 0.125,
-     "qualified_with": 47.2,
-     "qualified_without": 37.5,
-     "n_with": 108,
-     "n_without": 16,
-     "qual_p": 0.594,
-     "qualifiers_pct": 89.5,
-     "missed_pct": 85.1,
-     "finalists_pct": 93.3
+     "base_pct": 89.2,
+     "p": 0.222,
+     "qualified_with": 45.7,
+     "qualified_without": 35.3,
+     "n_with": 140,
+     "n_without": 17,
+     "qual_p": 0.451,
+     "qualifiers_pct": 91.4,
+     "missed_pct": 87.4,
+     "finalists_pct": 94.3
     }
    },
    {
     "name": "SA20",
-    "team_seasons": 16,
+    "team_seasons": 19,
     "champions": 2,
     "open": {
      "champions_with": 2,
@@ -1783,15 +1788,15 @@
       34.2,
       100.0
      ],
-     "base_pct": 50.0,
-     "p": 0.467,
-     "qualified_with": 50.0,
-     "qualified_without": 87.5,
-     "n_with": 8,
-     "n_without": 8,
-     "qual_p": 0.282,
-     "qualifiers_pct": 36.4,
-     "missed_pct": 80.0,
+     "base_pct": 52.6,
+     "p": 0.474,
+     "qualified_with": 60.0,
+     "qualified_without": 77.8,
+     "n_with": 10,
+     "n_without": 9,
+     "qual_p": 0.628,
+     "qualifiers_pct": 46.2,
+     "missed_pct": 66.7,
      "finalists_pct": 50.0
     },
     "top3": {
@@ -1802,21 +1807,21 @@
       34.2,
       100.0
      ],
-     "base_pct": 78.6,
+     "base_pct": 76.5,
      "p": 1.0,
-     "qualified_with": 63.6,
-     "qualified_without": 66.7,
-     "n_with": 11,
-     "n_without": 3,
-     "qual_p": 1.0,
-     "qualifiers_pct": 77.8,
-     "missed_pct": 80.0,
+     "qualified_with": 69.2,
+     "qualified_without": 50.0,
+     "n_with": 13,
+     "n_without": 4,
+     "qual_p": 0.584,
+     "qualifiers_pct": 81.8,
+     "missed_pct": 66.7,
      "finalists_pct": 80.0
     }
    },
    {
     "name": "The Hundred",
-    "team_seasons": 22,
+    "team_seasons": 25,
     "champions": 5,
     "open": {
      "champions_with": 3,
@@ -1826,15 +1831,15 @@
       23.1,
       88.2
      ],
-     "base_pct": 63.6,
+     "base_pct": 60.0,
      "p": 1.0,
-     "qualified_with": 57.1,
-     "qualified_without": 62.5,
-     "n_with": 14,
-     "n_without": 8,
+     "qualified_with": 53.3,
+     "qualified_without": 50.0,
+     "n_with": 15,
+     "n_without": 10,
      "qual_p": 1.0,
      "qualifiers_pct": 61.5,
-     "missed_pct": 66.7,
+     "missed_pct": 58.3,
      "finalists_pct": 44.4
     },
     "top3": {
@@ -1845,64 +1850,64 @@
       23.1,
       88.2
      ],
-     "base_pct": 85.0,
-     "p": 0.14,
-     "qualified_with": 47.1,
-     "qualified_without": 100.0,
-     "n_with": 17,
-     "n_without": 3,
-     "qual_p": 0.218,
+     "base_pct": 78.3,
+     "p": 0.291,
+     "qualified_with": 44.4,
+     "qualified_without": 60.0,
+     "n_with": 18,
+     "n_without": 5,
+     "qual_p": 0.64,
      "qualifiers_pct": 72.7,
-     "missed_pct": 100.0,
+     "missed_pct": 83.3,
      "finalists_pct": 57.1
     }
    },
    {
     "name": "Big Bash",
-    "team_seasons": 66,
-    "champions": 10,
+    "team_seasons": 71,
+    "champions": 11,
     "open": {
-     "champions_with": 6,
-     "champions_n": 10,
-     "champions_pct": 60.0,
+     "champions_with": 7,
+     "champions_n": 11,
+     "champions_pct": 63.6,
      "ci": [
-      31.3,
-      83.2
+      35.4,
+      84.8
      ],
-     "base_pct": 63.6,
+     "base_pct": 64.8,
      "p": 1.0,
-     "qualified_with": 61.9,
-     "qualified_without": 50.0,
-     "n_with": 42,
-     "n_without": 24,
-     "qual_p": 0.439,
-     "qualifiers_pct": 68.4,
-     "missed_pct": 57.1,
-     "finalists_pct": 60.0
+     "qualified_with": 60.9,
+     "qualified_without": 48.0,
+     "n_with": 46,
+     "n_without": 25,
+     "qual_p": 0.326,
+     "qualifiers_pct": 70.0,
+     "missed_pct": 58.1,
+     "finalists_pct": 61.9
     },
     "top3": {
-     "champions_with": 9,
-     "champions_n": 10,
-     "champions_pct": 90.0,
+     "champions_with": 10,
+     "champions_n": 11,
+     "champions_pct": 90.9,
      "ci": [
-      59.6,
-      98.2
+      62.3,
+      98.4
      ],
-     "base_pct": 87.1,
+     "base_pct": 87.9,
      "p": 1.0,
-     "qualified_with": 59.3,
+     "qualified_with": 58.6,
      "qualified_without": 50.0,
-     "n_with": 54,
+     "n_with": 58,
      "n_without": 8,
-     "qual_p": 0.71,
-     "qualifiers_pct": 88.9,
-     "missed_pct": 84.6,
-     "finalists_pct": 84.2
+     "qual_p": 0.714,
+     "qualifiers_pct": 89.5,
+     "missed_pct": 85.7,
+     "finalists_pct": 85.0
     }
    },
    {
     "name": "PSL",
-    "team_seasons": 49,
+    "team_seasons": 50,
     "champions": 10,
     "open": {
      "champions_with": 8,
@@ -1912,14 +1917,14 @@
       49.0,
       94.3
      ],
-     "base_pct": 65.3,
-     "p": 0.459,
+     "base_pct": 64.0,
+     "p": 0.295,
      "qualified_with": 71.9,
-     "qualified_without": 76.5,
+     "qualified_without": 77.8,
      "n_with": 32,
-     "n_without": 17,
-     "qual_p": 1.0,
-     "qualifiers_pct": 63.9,
+     "n_without": 18,
+     "qual_p": 0.746,
+     "qualifiers_pct": 62.2,
      "missed_pct": 69.2,
      "finalists_pct": 73.7
     },
@@ -1931,64 +1936,64 @@
       70.1,
       100.0
      ],
-     "base_pct": 87.2,
-     "p": 0.579,
+     "base_pct": 85.4,
+     "p": 0.32,
      "qualified_with": 73.2,
-     "qualified_without": 83.3,
+     "qualified_without": 85.7,
      "n_with": 41,
-     "n_without": 6,
-     "qual_p": 1.0,
-     "qualifiers_pct": 85.7,
+     "n_without": 7,
+     "qual_p": 0.662,
+     "qualifiers_pct": 83.3,
      "missed_pct": 91.7,
      "finalists_pct": 88.9
     }
    },
    {
     "name": "CPL",
-    "team_seasons": 63,
-    "champions": 11,
+    "team_seasons": 72,
+    "champions": 12,
     "open": {
      "champions_with": 8,
-     "champions_n": 11,
-     "champions_pct": 72.7,
+     "champions_n": 12,
+     "champions_pct": 66.7,
      "ci": [
-      43.4,
-      90.3
+      39.1,
+      86.2
      ],
-     "base_pct": 63.5,
-     "p": 0.732,
-     "qualified_with": 60.0,
-     "qualified_without": 69.6,
-     "n_with": 40,
-     "n_without": 23,
-     "qual_p": 0.588,
-     "qualifiers_pct": 60.0,
-     "missed_pct": 69.6,
-     "finalists_pct": 54.5
+     "base_pct": 56.9,
+     "p": 0.536,
+     "qualified_with": 61.0,
+     "qualified_without": 67.7,
+     "n_with": 41,
+     "n_without": 31,
+     "qual_p": 0.625,
+     "qualifiers_pct": 54.3,
+     "missed_pct": 61.5,
+     "finalists_pct": 50.0
     },
     "top3": {
      "champions_with": 11,
-     "champions_n": 11,
-     "champions_pct": 100.0,
+     "champions_n": 12,
+     "champions_pct": 91.7,
      "ci": [
-      74.1,
-      100.0
+      64.6,
+      98.5
      ],
-     "base_pct": 85.5,
-     "p": 0.341,
-     "qualified_with": 62.3,
+     "base_pct": 82.6,
+     "p": 0.677,
+     "qualified_with": 61.4,
      "qualified_without": 66.7,
-     "n_with": 53,
-     "n_without": 9,
+     "n_with": 57,
+     "n_without": 12,
      "qual_p": 1.0,
-     "qualifiers_pct": 84.6,
-     "missed_pct": 87.0,
-     "finalists_pct": 81.0
+     "qualifiers_pct": 81.4,
+     "missed_pct": 84.6,
+     "finalists_pct": 73.9
     }
    },
    {
     "name": "T20 Blast",
-    "team_seasons": 72,
+    "team_seasons": 73,
     "champions": 2,
     "open": {
      "champions_with": 1,
@@ -1998,16 +2003,16 @@
       9.5,
       90.5
      ],
-     "base_pct": 51.4,
+     "base_pct": 52.1,
      "p": 1.0,
-     "qualified_with": 48.6,
+     "qualified_with": 50.0,
      "qualified_without": 57.1,
-     "n_with": 37,
+     "n_with": 38,
      "n_without": 35,
-     "qual_p": 0.49,
-     "qualifiers_pct": 47.4,
+     "qual_p": 0.64,
+     "qualifiers_pct": 48.7,
      "missed_pct": 55.9,
-     "finalists_pct": 44.4
+     "finalists_pct": 50.0
     },
     "top3": {
      "champions_with": 1,
@@ -2017,59 +2022,59 @@
       20.7,
       100.0
      ],
-     "base_pct": 96.4,
+     "base_pct": 96.5,
      "p": 1.0,
-     "qualified_with": 48.1,
+     "qualified_with": 49.1,
      "qualified_without": 100.0,
-     "n_with": 54,
+     "n_with": 55,
      "n_without": 2,
      "qual_p": 0.491,
-     "qualifiers_pct": 92.9,
+     "qualifiers_pct": 93.1,
      "missed_pct": 100.0,
      "finalists_pct": 100.0
     }
    },
    {
     "name": "Syed Mushtaq Ali",
-    "team_seasons": 38,
-    "champions": 3,
+    "team_seasons": 50,
+    "champions": 5,
     "open": {
-     "champions_with": 3,
-     "champions_n": 3,
+     "champions_with": 5,
+     "champions_n": 5,
      "champions_pct": 100.0,
      "ci": [
-      43.8,
+      56.6,
       100.0
      ],
-     "base_pct": 44.7,
-     "p": 0.081,
-     "qualified_with": 41.2,
-     "qualified_without": 19.0,
-     "n_with": 17,
-     "n_without": 21,
-     "qual_p": 0.167,
-     "qualifiers_pct": 63.6,
-     "missed_pct": 37.0,
-     "finalists_pct": 83.3
+     "base_pct": 48.0,
+     "p": 0.02,
+     "qualified_with": 50.0,
+     "qualified_without": 15.4,
+     "n_with": 24,
+     "n_without": 26,
+     "qual_p": 0.015,
+     "qualifiers_pct": 75.0,
+     "missed_pct": 35.3,
+     "finalists_pct": 87.5
     },
     "top3": {
-     "champions_with": 3,
-     "champions_n": 3,
+     "champions_with": 5,
+     "champions_n": 5,
      "champions_pct": 100.0,
      "ci": [
-      43.8,
+      56.6,
       100.0
      ],
-     "base_pct": 64.5,
-     "p": 0.535,
-     "qualified_with": 35.0,
-     "qualified_without": 36.4,
-     "n_with": 20,
-     "n_without": 11,
-     "qual_p": 1.0,
-     "qualifiers_pct": 63.6,
-     "missed_pct": 65.0,
-     "finalists_pct": 83.3
+     "base_pct": 66.7,
+     "p": 0.151,
+     "qualified_with": 42.9,
+     "qualified_without": 28.6,
+     "n_with": 28,
+     "n_without": 14,
+     "qual_p": 0.505,
+     "qualifiers_pct": 75.0,
+     "missed_pct": 61.5,
+     "finalists_pct": 87.5
     }
    },
    {
@@ -2084,14 +2089,14 @@
       35.4,
       87.9
      ],
-     "base_pct": 79.6,
-     "p": 0.364,
-     "qualified_with": 59.0,
-     "qualified_without": 70.0,
-     "n_with": 39,
-     "n_without": 10,
-     "qual_p": 0.72,
-     "qualifiers_pct": 76.7,
+     "base_pct": 83.7,
+     "p": 0.151,
+     "qualified_with": 61.0,
+     "qualified_without": 62.5,
+     "n_with": 41,
+     "n_without": 8,
+     "qual_p": 1.0,
+     "qualifiers_pct": 83.3,
      "missed_pct": 84.2,
      "finalists_pct": 75.0
     },
@@ -2117,164 +2122,164 @@
    },
    {
     "name": "International",
-    "team_seasons": 93,
-    "champions": 8,
+    "team_seasons": 100,
+    "champions": 10,
     "open": {
-     "champions_with": 2,
-     "champions_n": 8,
-     "champions_pct": 25.0,
+     "champions_with": 3,
+     "champions_n": 10,
+     "champions_pct": 30.0,
      "ci": [
-      7.1,
-      59.1
+      10.8,
+      60.3
      ],
-     "base_pct": 47.3,
-     "p": 0.273,
-     "qualified_with": 38.6,
-     "qualified_without": 53.1,
-     "n_with": 44,
-     "n_without": 49,
-     "qual_p": 0.212,
-     "qualifiers_pct": 39.5,
-     "missed_pct": 54.0,
-     "finalists_pct": 33.3
+     "base_pct": 48.0,
+     "p": 0.322,
+     "qualified_with": 41.7,
+     "qualified_without": 53.8,
+     "n_with": 48,
+     "n_without": 52,
+     "qual_p": 0.237,
+     "qualifiers_pct": 41.7,
+     "missed_pct": 53.8,
+     "finalists_pct": 38.9
     },
     "top3": {
-     "champions_with": 4,
-     "champions_n": 7,
-     "champions_pct": 57.1,
+     "champions_with": 6,
+     "champions_n": 9,
+     "champions_pct": 66.7,
      "ci": [
-      25.0,
-      84.2
+      35.4,
+      87.9
      ],
-     "base_pct": 73.0,
-     "p": 0.381,
-     "qualified_with": 43.1,
-     "qualified_without": 54.2,
-     "n_with": 65,
-     "n_without": 24,
-     "qual_p": 0.473,
-     "qualifiers_pct": 68.3,
-     "missed_pct": 77.1,
-     "finalists_pct": 64.3
+     "base_pct": 72.9,
+     "p": 0.7,
+     "qualified_with": 45.7,
+     "qualified_without": 53.8,
+     "n_with": 70,
+     "n_without": 26,
+     "qual_p": 0.5,
+     "qualifiers_pct": 69.6,
+     "missed_pct": 76.0,
+     "finalists_pct": 70.6
     }
    }
   ],
   "setups": {
    "raw_overall": {
     "left_right_opening": {
-     "innings": 4115,
-     "win_pts": 51.81,
-     "runs": 153.1,
-     "powerplay_runs": 47.11,
-     "first_stand_runs": 29.49
+     "innings": 4782,
+     "win_pts": 52.45,
+     "runs": 154.77,
+     "powerplay_runs": 47.53,
+     "first_stand_runs": 30.17
     },
     "left_hander_in_top3": {
-     "innings": 1627,
-     "win_pts": 51.63,
-     "runs": 155.86,
-     "powerplay_runs": 47.89,
-     "first_stand_runs": 31.13
+     "innings": 1830,
+     "win_pts": 52.13,
+     "runs": 157.24,
+     "powerplay_runs": 48.41,
+     "first_stand_runs": 31.54
     },
     "no_left_hander": {
-     "innings": 1634,
-     "win_pts": 51.96,
-     "runs": 149.37,
-     "powerplay_runs": 46.03,
-     "first_stand_runs": 28.88
+     "innings": 1824,
+     "win_pts": 52.14,
+     "runs": 150.62,
+     "powerplay_runs": 46.26,
+     "first_stand_runs": 29.2
     }
    },
    "raw_ipl": {
     "left_right_opening": {
-     "innings": 852,
-     "win_pts": 50.59,
-     "runs": 159.58,
-     "powerplay_runs": 47.89,
-     "first_stand_runs": 32.86
+     "innings": 1261,
+     "win_pts": 50.99,
+     "runs": 163.38,
+     "powerplay_runs": 49.01,
+     "first_stand_runs": 33.86
     },
     "left_hander_in_top3": {
-     "innings": 410,
-     "win_pts": 50.49,
-     "runs": 163.84,
-     "powerplay_runs": 49.23,
-     "first_stand_runs": 34.09
+     "innings": 550,
+     "win_pts": 50.91,
+     "runs": 165.84,
+     "powerplay_runs": 50.34,
+     "first_stand_runs": 34.59
     },
     "no_left_hander": {
-     "innings": 257,
-     "win_pts": 45.91,
-     "runs": 159.47,
-     "powerplay_runs": 47.22,
-     "first_stand_runs": 32.24
+     "innings": 310,
+     "win_pts": 44.84,
+     "runs": 160.82,
+     "powerplay_runs": 47.65,
+     "first_stand_runs": 32.41
     }
    },
-   "innings": 7376,
+   "innings": 8436,
    "tournaments": 8,
    "adjusted": {
     "win_pts": {
      "left_right_opening": {
-      "v": -3.58,
-      "lo": -12.39,
-      "hi": 5.22
+      "v": -0.96,
+      "lo": -9.48,
+      "hi": 7.56
      },
      "left_hander_in_top3": {
-      "v": -4.18,
-      "lo": -13.01,
-      "hi": 4.66
+      "v": -1.43,
+      "lo": -9.84,
+      "hi": 6.99
      },
      "any_left_hander": {
-      "v": -3.88,
-      "lo": -12.19,
-      "hi": 4.43
+      "v": -1.25,
+      "lo": -9.2,
+      "hi": 6.69
      }
     },
     "runs": {
      "left_right_opening": {
-      "v": -1.22,
-      "lo": -5.24,
-      "hi": 2.8
+      "v": -0.82,
+      "lo": -5.28,
+      "hi": 3.63
      },
      "left_hander_in_top3": {
-      "v": -0.67,
-      "lo": -5.65,
-      "hi": 4.31
+      "v": -0.61,
+      "lo": -4.42,
+      "hi": 3.21
      },
      "any_left_hander": {
-      "v": -1.16,
-      "lo": -4.69,
-      "hi": 2.38
+      "v": -0.76,
+      "lo": -4.37,
+      "hi": 2.85
      }
     },
     "powerplay_runs": {
      "left_right_opening": {
-      "v": 0.51,
-      "lo": -0.79,
-      "hi": 1.82
+      "v": 0.45,
+      "lo": -0.89,
+      "hi": 1.79
      },
      "left_hander_in_top3": {
-      "v": 0.1,
-      "lo": -1.22,
-      "hi": 1.43
+      "v": 0.14,
+      "lo": -1.08,
+      "hi": 1.36
      },
      "any_left_hander": {
-      "v": 0.31,
-      "lo": -0.88,
-      "hi": 1.5
+      "v": 0.37,
+      "lo": -0.71,
+      "hi": 1.45
      }
     },
     "first_stand_runs": {
      "left_right_opening": {
-      "v": 1.17,
-      "lo": -3.83,
-      "hi": 6.16
+      "v": 0.4,
+      "lo": -3.96,
+      "hi": 4.76
      },
      "left_hander_in_top3": {
-      "v": 0.29,
-      "lo": -4.83,
-      "hi": 5.41
+      "v": -1.01,
+      "lo": -4.28,
+      "hi": 2.26
      },
      "any_left_hander": {
-      "v": 0.87,
-      "lo": -3.8,
-      "hi": 5.54
+      "v": 0.15,
+      "lo": -3.57,
+      "hi": 3.87
      }
     }
    }
@@ -2283,10 +2288,10 @@
    {
     "year": 2008,
     "team": "Rajasthan Royals",
-    "final": "NK Patel (hand not recorded) + SA Asnodkar (hand not recorded)",
+    "final": "NK Patel (L) + SA Asnodkar (R)",
     "usual": "Left + right",
-    "lr_share": 80.0,
-    "top3_left": 90.9
+    "lr_share": 84.6,
+    "top3_left": 84.6
    },
    {
     "year": 2009,
@@ -2315,15 +2320,15 @@
    {
     "year": 2012,
     "team": "Kolkata Knight Riders",
-    "final": "MS Bisla (hand not recorded) + G Gambhir (L)",
+    "final": "MS Bisla (R) + G Gambhir (L)",
     "usual": "Left + right",
-    "lr_share": 85.7,
+    "lr_share": 86.7,
     "top3_left": 100.0
    },
    {
     "year": 2013,
     "team": "Mumbai Indians",
-    "final": "DR Smith (hand not recorded) + AP Tare (R)",
+    "final": "DR Smith (R) + AP Tare (R)",
     "usual": "Two right-handers",
     "lr_share": 0.0,
     "top3_left": null
@@ -2333,7 +2338,7 @@
     "team": "Kolkata Knight Riders",
     "final": "RV Uthappa (R) + G Gambhir (L)",
     "usual": "Left + right",
-    "lr_share": 92.3,
+    "lr_share": 92.9,
     "top3_left": 100.0
    },
    {
@@ -2341,8 +2346,8 @@
     "team": "Mumbai Indians",
     "final": "LMP Simmons (R) + PA Patel (L)",
     "usual": "Left + right",
-    "lr_share": 100.0,
-    "top3_left": 100.0
+    "lr_share": 85.7,
+    "top3_left": 85.7
    },
    {
     "year": 2016,
@@ -2369,11 +2374,19 @@
     "top3_left": 92.9
    },
    {
+    "year": 2019,
+    "team": "Mumbai Indians",
+    "final": "Q de Kock (L) + RG Sharma (R)",
+    "usual": "Left + right",
+    "lr_share": 100.0,
+    "top3_left": 100.0
+   },
+   {
     "year": 2020,
     "team": "Mumbai Indians",
-    "final": "RG Sharma (hand not recorded) + Q de Kock (L)",
-    "usual": "Two left-handers",
-    "lr_share": 0.0,
+    "final": "RG Sharma (R) + Q de Kock (L)",
+    "usual": "Left + right",
+    "lr_share": 71.4,
     "top3_left": 100.0
    },
    {
@@ -2390,7 +2403,7 @@
     "final": "WP Saha (R) + Shubman Gill (R)",
     "usual": "Two right-handers",
     "lr_share": 35.7,
-    "top3_left": 66.7
+    "top3_left": 71.4
    },
    {
     "year": 2023,
@@ -2403,7 +2416,7 @@
    {
     "year": 2024,
     "team": "Kolkata Knight Riders",
-    "final": "Rahmanullah Gurbaz (hand not recorded) + SP Narine (L)",
+    "final": "Rahmanullah Gurbaz (R) + SP Narine (L)",
     "usual": "Left + right",
     "lr_share": 100.0,
     "top3_left": 100.0
@@ -2419,9 +2432,9 @@
    {
     "year": 2026,
     "team": "Royal Challengers Bengaluru",
-    "final": "VR Iyer (hand not recorded) + V Kohli (R)",
+    "final": "VR Iyer (L) + V Kohli (R)",
     "usual": "Left + right",
-    "lr_share": 53.8,
+    "lr_share": 57.1,
     "top3_left": 92.9
    }
   ],
@@ -2448,11 +2461,25 @@
     "usual": "Two right-handers"
    },
    {
+    "year": 2012,
+    "event": "ICC World Twenty20 2012/13",
+    "team": "West Indies",
+    "final": "J Charles (R) + CH Gayle (L)",
+    "usual": "Left + right"
+   },
+   {
     "year": 2021,
     "event": "ICC Men's T20 World Cup 2021/22",
     "team": "Australia",
     "final": "DA Warner (L) + AJ Finch (R)",
     "usual": "Left + right"
+   },
+   {
+    "year": 2024,
+    "event": "ICC Men's T20 World Cup 2024",
+    "team": "India",
+    "final": "RG Sharma (R) + V Kohli (R)",
+    "usual": "Two right-handers"
    },
    {
     "year": 2026,
@@ -2464,67 +2491,67 @@
   ],
   "ipl_match": {
    "left_right": {
-    "innings": 852,
-    "win_pct": 50.6,
-    "pp_runs": 47.9,
-    "first_stand": 32.9,
-    "runs": 159.6
+    "innings": 1261,
+    "win_pct": 51.0,
+    "pp_runs": 49.0,
+    "first_stand": 33.9,
+    "runs": 163.4
    },
    "right_right": {
-    "innings": 561,
-    "win_pct": 48.3,
-    "pp_runs": 47.5,
-    "first_stand": 32.4,
-    "runs": 160.8
+    "innings": 711,
+    "win_pct": 48.7,
+    "pp_runs": 47.8,
+    "first_stand": 33.2,
+    "runs": 161.9
    },
    "left_left": {
-    "innings": 215,
-    "win_pct": 51.6,
-    "pp_runs": 50.4,
-    "first_stand": 36.0,
-    "runs": 163.6
+    "innings": 238,
+    "win_pct": 51.3,
+    "pp_runs": 52.3,
+    "first_stand": 37.4,
+    "runs": 166.1
    }
   },
   "pooled": {
    "win_points": {
-    "estimate": -1.254,
-    "se": 2.774,
+    "estimate": 0.039,
+    "se": 2.143,
     "ci": [
-     -6.691,
-     4.183
+     -4.162,
+     4.24
     ],
-    "i2": 41.0,
-    "competitions": 8
+    "i2": 18.0,
+    "competitions": 9
    },
    "powerplay_runs": {
-    "estimate": 0.361,
-    "se": 0.491,
+    "estimate": 0.374,
+    "se": 0.451,
     "ci": [
-     -0.601,
-     1.323
+     -0.511,
+     1.258
     ],
     "i2": 0.0,
-    "competitions": 8
+    "competitions": 9
    },
    "first_stand": {
-    "estimate": 1.352,
-    "se": 1.205,
+    "estimate": 0.424,
+    "se": 1.241,
     "ci": [
-     -1.009,
-     3.713
+     -2.008,
+     2.857
     ],
-    "i2": 0.0,
-    "competitions": 8
+    "i2": 11.0,
+    "competitions": 9
    },
    "runs": {
-    "estimate": 0.051,
-    "se": 1.269,
+    "estimate": 0.564,
+    "se": 1.206,
     "ci": [
-     -2.435,
-     2.538
+     -1.8,
+     2.929
     ],
-    "i2": 0.0,
-    "competitions": 8
+    "i2": 3.0,
+    "competitions": 9
    }
   }
  },
@@ -2556,9 +2583,9 @@
    {
     "label": "Team record plus batting hands",
     "matches": 341,
-    "brier": 0.2485,
-    "log_loss": 0.6902,
-    "accuracy": 0.51
+    "brier": 0.2492,
+    "log_loss": 0.6914,
+    "accuracy": 0.496
    }
   ]
  }
